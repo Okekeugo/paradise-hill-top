@@ -8,7 +8,7 @@
  ******************************** -->
 
 <!-- Scroll To Top -->
-@include('visitors.guest.welcomePage.partials.services_section')
+@include('visitors.guest.welcomePage.partials.scroll_to_top_section')
 <!--==============================
     All Js File
     ============================== -->

@@ -27,3 +27,8 @@ Route::get('/ugo', function () {
     return view('layouts.guest');
 });
 
+
+Route::get('/about', function () {
+    return view('about');
+});
+
