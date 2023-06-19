@@ -43,3 +43,7 @@ Route::get('/event', function () {
 Route::get('/contact', function () {
     return view('contact');
 });
+
+Route::get('/404', function () {
+    return view('error');
+});
