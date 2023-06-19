@@ -36,3 +36,7 @@ Route::get('/gallery', function () {
     return view('gallery');
 });
 
+Route::get('/event', function () {
+    return view('event');
+});
+
