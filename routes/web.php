@@ -16,3 +16,14 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::get('/guest', function () {
+    return view('layouts.guest');
+});
+
+
+Route::get('/ugo', function () {
+    return view('layouts.guest');
+});
+
