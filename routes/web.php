@@ -40,3 +40,6 @@ Route::get('/event', function () {
     return view('event');
 });
 
+Route::get('/contact', function () {
+    return view('contact');
+});
