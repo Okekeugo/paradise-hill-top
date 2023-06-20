@@ -21,7 +21,7 @@ Todo:
    - This page guides customers through the enrollment process, providing clear instructions and necessary forms.
    - Content examples: Step-by-step enrollment guide, required forms and documents, enrollment deadlines, tuition fees and payment options, information on financial assistance or scholarships.
 
-5. Facilities: pending (videos for tourism, use gallery as template)
+5. Facilities: pending (videos for tourism, use gallery as template) done
    - This page educates customers about the physical environment of your crèche, emphasizing safety and quality.
    - Content examples: Description of indoor and outdoor play areas, classrooms, nap areas, dining facilities, security measures, hygiene protocols, certifications or accreditations related to safety standards.
 

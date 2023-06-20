@@ -55,6 +55,10 @@ Route::get('/team', function () {
     return view('pages.team');
 });
 
+Route::get('/facility', function () {
+    return view('pages.facilities');
+});
+
 // ==================================
 
 Route::get('/guest', function () {
