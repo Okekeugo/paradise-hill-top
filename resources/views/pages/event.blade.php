@@ -1,18 +1,17 @@
 <!doctype html>
 <html class="no-js" lang="zxx">
+@include('visitors.guest.general_partials.head')
 
-@include('visitors.guest.contactPage.partials.head_select')
 
 <body>
 
-
     <!--[if lte IE 9]>
-    	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
     <![endif]-->
 
     <!--********************************
-   		Code Start From Here 
-	******************************** -->
+   Code Start From Here
+ ******************************** -->
 
     <!--==============================
      Preloader
@@ -22,42 +21,39 @@
     Mobile Menu
     ============================== -->
     @include('visitors.guest.general_partials.mobile_menu')
-    
     <!--==============================
     Sidemenu
     ============================== -->
     @include('visitors.guest.general_partials.cart_sidemenu')
     <!--==============================
-	Header Area
+ Header Area
     ==============================-->
     @include('visitors.guest.general_partials.navigation_header')
 
     <!--==============================
         Breadcumb
     ============================== -->
-    @include('visitors.guest.contactPage.partials.breadcumb_section')
-
+    @include('visitors.guest.event.partials.breadcumb_section')
     <!--==============================
-    Contact Area  
+    Event Area
     ==============================-->
-    @include('visitors.guest.contactPage.partials.contact_sction')
-
+    @include('visitors.guest.event.partials.event_section')
     <!--==============================
         Footer Area
     ==============================-->
-    @include('visitors.guest.welcomePage.partials.footer_section')
+    @include('visitors.guest.general_partials.footer_section')
 
     <!--********************************
-			Code End  Here 
-	******************************** -->
+   Code End  Here
+ ******************************** -->
 
     <!-- Scroll To Top -->
-    @include('visitors.guest.welcomePage.partials.scroll_to_top_section')
+    @include('visitors.guest.general_partials.scroll_to_top_section')
     <!--==============================
     All Js File
     ============================== -->
-    <!-- Jquery -->
-    @include('visitors.guest.contactPage.partials.all_js_section')
+    @include('visitors.guest.general_partials.scroll_to_top_section')
+
 
 </body>
 

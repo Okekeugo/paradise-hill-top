@@ -17,7 +17,6 @@
     <script src="assets/js/counter.js"></script>
     <!-- Tweenmax File -->    
     <script src="assets/js/tweenmax.min.js"></script>
-    <!-- Nice Select File -->    
-    <script src="assets/js/nice-select.min.js"></script>
+   
     <!-- Main Js File -->
     <script src="assets/js/main.js"></script>

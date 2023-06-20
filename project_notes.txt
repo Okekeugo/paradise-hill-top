@@ -9,6 +9,9 @@ cart.blade.php
 present:
 contact.blade.php
 
+sections to include
+custom_page_css
+custom_page_js
 
     unique attribute :
   <!-- Nice Select -->
@@ -18,3 +21,4 @@ contact.blade.php
 
     <!-- Nice Select File -->    
     <script src="assets/js/nice-select.min.js"></script>
+

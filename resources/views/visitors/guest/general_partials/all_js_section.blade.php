@@ -20,3 +20,4 @@
     <script src="assets/js/tweenmax.min.js"></script>
     <!-- Main Js File -->
     <script src="assets/js/main.js"></script>
+    @yield('custom_page_js')

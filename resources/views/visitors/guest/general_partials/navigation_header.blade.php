@@ -101,7 +101,7 @@
                                                     <li><a href="course-details.html">Class Details</a></li>
                                                 </ul>
                                             </li>
-                                            <li class="menu-item-has-children">
+                                            {{-- <li class="menu-item-has-children">
                                                 <a href="home-child-care.html#">Pages</a>
                                                 <ul class="sub-menu">
                                                     <li><a href="about.html">About Us</a></li>
@@ -116,7 +116,7 @@
                                                     <li><a href="signup.html">Sign Up Page</a></li>
                                                     <li><a href="error.html">Error Page</a></li>
                                                 </ul>
-                                            </li>
+                                            </li> --}}
                                             <li class="menu-item-has-children">
                                                 <a href="home-child-care.html#">Shop</a>
                                                 <ul class="sub-menu">

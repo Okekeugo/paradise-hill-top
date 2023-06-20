@@ -1,10 +1,7 @@
 @extends('layouts.guest')
-@section('custom_page_css')
-     <!-- Nice Select -->
-    <link rel="stylesheet" href="assets/css/nice-select.min.css">
 
-@endsection
 @section('main_content')
+
     <!--==============================
         ==============================
         Main Content

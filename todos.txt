@@ -1,0 +1,46 @@
+
+Todo:
+    create a services page
+
+
+
+
+1. Home Page: done
+   - This page is essential for making a positive first impression and enticing visitors to explore further.
+   - Content examples: A welcoming message, key features and benefits of your crèche, compelling visuals, a call-to-action button for enrollment or inquiry.
+
+2. About Us: done
+   - This page educates customers about your crèche's background, mission, and values, building credibility and trust.
+   - Content examples: Overview of your crèche's history, founders' story, mission statement, core values, notable achievements, testimonials from satisfied parents.
+
+3. Programs/Services: pending (Event)
+   - This page provides detailed information about the various programs and services your crèche offers, highlighting the benefits and learning opportunities.
+   - Content examples: Description of each program, age groups accepted, curriculum highlights, special activities, daily schedules, testimonials from parents whose children have benefited from the programs.
+
+4. Admission/Enrollment: pending (using sign up page as template)
+   - This page guides customers through the enrollment process, providing clear instructions and necessary forms.
+   - Content examples: Step-by-step enrollment guide, required forms and documents, enrollment deadlines, tuition fees and payment options, information on financial assistance or scholarships.
+
+5. Facilities: pending (videos for tourism, use gallery as template)
+   - This page educates customers about the physical environment of your crèche, emphasizing safety and quality.
+   - Content examples: Description of indoor and outdoor play areas, classrooms, nap areas, dining facilities, security measures, hygiene protocols, certifications or accreditations related to safety standards.
+
+6. Gallery: done
+   - This page visually showcases the vibrant atmosphere and quality of care provided at your crèche.
+   - Content examples: Photos and videos of children engaged in activities, classroom setups, play areas, special events, captions or descriptions highlighting the learning experiences and social interactions.
+
+7. Parent Resources: pending (Blog)
+   - This page provides valuable resources and information for parents, positioning your crèche as a trusted source of knowledge.
+   - Content examples: Articles or blog posts on child development, parenting tips, recommended reading lists, calendar of events, communication channels (newsletters, social media links), relevant community resources or support networks.
+
+8. Teacher Profiles: (Team Members)
+This page introduces the creche's teaching staff, highlighting their qualifications, experience, and dedication to early childhood education.
+   - Staff-Child Ratio: Provide information on the staff-to-child ratio to assure parents of individual attention and care.
+
+Assingment:
+the remaining two pages
+
+Facilties (using gallery)
+parent resources
+teacher profiles
+duplicate the Event page for program and services.

@@ -14,9 +14,34 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('pages.welcome');
 });
 
+
+
+Route::get('/about', function () {
+    return view('pages.about');
+});
+
+Route::get('/gallery', function () {
+    return view('pages.gallery');
+});
+
+Route::get('/event', function () {
+    return view('pages.event');
+});
+
+Route::get('/contact', function () {
+    return view('pages.contact');
+});
+
+Route::get('/404', function () {
+    return view('pages.error');
+});
+
+
+
+// ==================================
 
 Route::get('/guest', function () {
     return view('layouts.guest');
@@ -25,25 +50,4 @@ Route::get('/guest', function () {
 
 Route::get('/ugo', function () {
     return view('layouts.guest');
-});
-
-
-Route::get('/about', function () {
-    return view('about');
-});
-
-Route::get('/gallery', function () {
-    return view('gallery');
-});
-
-Route::get('/event', function () {
-    return view('event');
-});
-
-Route::get('/contact', function () {
-    return view('contact');
-});
-
-Route::get('/404', function () {
-    return view('error');
 });
