@@ -43,8 +43,8 @@ Route::get('/404', function () {
     return view('pages.error');
 });
 
-Route::get('/signup', function () {
-    return view('pages.signup');
+Route::get('/enroll', function () {
+    return view('pages.enroll');
 });
 
 Route::get('/blog', function () {

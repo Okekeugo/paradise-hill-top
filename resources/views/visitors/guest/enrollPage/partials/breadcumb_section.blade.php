@@ -1,10 +1,10 @@
 <div class="breadcumb-wrapper " data-bg-src="assets/img/breadcumb/breadcumb-bg.png">
         <div class="container">
             <div class="breadcumb-content">
-                <h1 class="breadcumb-title">Sign Up</h1>
+                <h1 class="breadcumb-title">Enroll</h1>
                 <ul class="breadcumb-menu">
                     <li><a href="home-child-care.html">Home</a></li>
-                    <li>Signup</li>
+                    <li>Enroll</li>
                 </ul>
             </div>
         </div>

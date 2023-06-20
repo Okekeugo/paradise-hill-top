@@ -3,10 +3,10 @@
     <!--==============================
         Breadcumb
     ============================== -->
-    @include('visitors.guest.signupPage.partials.breadcumb_section')
+    @include('visitors.guest.enrollPage.partials.breadcumb_section')
 
     <!--==============================
     Login Area  
     ==============================-->
-    @include('visitors.guest.signupPage.partials.login_section')
+    @include('visitors.guest.enrollPage.partials.login_section')
 @endsection

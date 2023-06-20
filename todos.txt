@@ -33,7 +33,7 @@ Todo:
    - This page provides valuable resources and information for parents, positioning your crèche as a trusted source of knowledge.
    - Content examples: Articles or blog posts on child development, parenting tips, recommended reading lists, calendar of events, communication channels (newsletters, social media links), relevant community resources or support networks.
 
-8. Teacher Profiles: (Team Members)
+8. Teacher Profiles: (Team Members) done
 This page introduces the creche's teaching staff, highlighting their qualifications, experience, and dedication to early childhood education.
    - Staff-Child Ratio: Provide information on the staff-to-child ratio to assure parents of individual attention and care.
 
