@@ -51,6 +51,10 @@ Route::get('/blog', function () {
     return view('pages.blog');
 });
 
+Route::get('/team', function () {
+    return view('pages.team');
+});
+
 // ==================================
 
 Route::get('/guest', function () {
