@@ -59,6 +59,10 @@ Route::get('/facility', function () {
     return view('pages.facilities');
 });
 
+Route::get('/program', function () {
+    return view('pages.program');
+});
+
 // ==================================
 
 Route::get('/guest', function () {

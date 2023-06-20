@@ -13,7 +13,7 @@ Todo:
    - This page educates customers about your crèche's background, mission, and values, building credibility and trust.
    - Content examples: Overview of your crèche's history, founders' story, mission statement, core values, notable achievements, testimonials from satisfied parents.
 
-3. Programs/Services: pending (Event)
+3. Programs/Services: pending (Event)done
    - This page provides detailed information about the various programs and services your crèche offers, highlighting the benefits and learning opportunities.
    - Content examples: Description of each program, age groups accepted, curriculum highlights, special activities, daily schedules, testimonials from parents whose children have benefited from the programs.
 
