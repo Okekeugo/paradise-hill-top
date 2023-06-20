@@ -47,7 +47,9 @@ Route::get('/signup', function () {
     return view('pages.signup');
 });
 
-
+Route::get('/blog', function () {
+    return view('pages.blog');
+});
 
 // ==================================
 
