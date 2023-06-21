@@ -28,4 +28,21 @@
     Header Area (Navigation)
     ==============================-->
     @include('visitors.guest.general_partials.navigation_header')
-    
+
+    @if (Route::currentRouteName() == 'welcome')
+        <!--==============================
+        Hero Area
+        ==============================-->
+        @include('visitors.guest.welcomePage.partials.hero_section')
+
+        <!--==============================
+        count-down Area
+        ==============================-->
+        @include('visitors.guest.welcomePage.partials.countdown_section')
+    @else
+        <!--==============================
+                Breadcumb
+            ============================== -->
+
+        @include('visitors.guest.general_partials.breadcumb_section')
+    @endif

@@ -15,11 +15,11 @@
                     </div>
                     <div class="col-lg-4 align-self-center text-lg-end text-center">
                         <ul class="navbar-top-right header-links">
-                            <li>
+                            {{-- <li>
                                 <i class="fa-regular fa-user"></i>
                                     <a href="login.html">Login</a> <span>/</span>
                                     <a href="signup.html">Register</a>
-                            </li>
+                            </li> --}}
                             <li>
                                 <div class="header-social">
                                     <a href="home-child-care.html#"><i class="fab fa-facebook-f"></i></a>
@@ -41,7 +41,10 @@
                         <div class="row align-items-center justify-content-between">
                             <div class="col-auto">
                                 <div class="header-logo">
-                                    <a href="home-child-care.html"><img src="assets/img/logo.svg" alt="Tayde"></a>
+                                    {{-- <a href="home-child-care.html"><img src="assets/logo/logo_white_no_bg.png" alt="Paradise Hilltop"></a> --}}
+                                    <a href="home-child-care.html">
+                                        <img src="assets/logo/logo_white.jpeg" alt="Paradise Hilltop" width="100">
+                                    </a>
                                 </div>
                             </div>
                             <div class="col-auto">
@@ -143,7 +146,7 @@
                                         <i class="fa-regular fa-basket-shopping-simple"></i>
                                         <span class="badge">5</span>
                                     </button>
-                                    <a href="signup.html" class="as-btn d-none d-xl-block">Apply Now</a>
+                                    <a href="signup.html" class="as-btn d-none d-xl-block">Enroll</a>
                                 </div>
                             </div>
                         </div>

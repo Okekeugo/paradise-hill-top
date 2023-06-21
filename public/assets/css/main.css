@@ -1,0 +1,16 @@
+  @charset "UTF-8";
+  /*
+Theme Name: Custom Css Code for Paradise Hilltop Academy
+Version: 1.0.0
+*/
+
+  /* change website main theme color */
+  :root {
+      /* shade of green */
+      --theme-color: #739d5d;
+      /* --theme-color2: #786acf; */
+  }
+
+  .remi {
+      background-color: #293621;
+  }

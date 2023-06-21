@@ -15,37 +15,37 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('pages.welcome');
-});
-
+})->name('welcome');
+// done
 
 
 Route::get('/about', function () {
     return view('pages.about');
-});
+})->name('about us');
+// done
 
 Route::get('/gallery', function () {
     return view('pages.gallery');
-});
+})->name('gallery');
+// done
+
 
 Route::get('/event', function () {
     return view('pages.event');
 });
+// done
 
 Route::get('/contact', function () {
     return view('pages.contact');
 });
 
-Route::get('/404', function () {
-    return view('pages.error');
-});
-
-Route::get('/404', function () {
-    return view('pages.error');
+Route::get('/error', function () {
+    return view('errors.404');
 });
 
 Route::get('/enroll', function () {
     return view('pages.enroll');
-});
+})->name('enroll');
 
 Route::get('/blog', function () {
     return view('pages.blog');

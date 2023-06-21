@@ -1,7 +1,9 @@
 <head>
+    <title>
+      {{ env('SCHOOL_NAME') }} | {{ strtoupper(Route::currentRouteName()) }}
+    </title>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Tayde - Modern Kindergarten & Baby Care HTML Template</title>
     <meta name="author" content="Tayde">
     <meta name="description" content="Tayde - Modern Kindergarten & Baby Care HTML Template">
     <meta name="keywords" content="Tayde - Modern Kindergarten & Baby Care HTML Template">
@@ -51,5 +53,8 @@
 
     <!-- Theme Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="stylesheet" href="assets/css/main.css">
+    
     
 </head>

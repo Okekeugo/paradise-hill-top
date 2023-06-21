@@ -1,4 +1,4 @@
-<footer class="footer-wrapper footer-layout1" data-bg-src="assets/img/bg/footer_bg_1.png">
+<footer class="footer-wrapper footer-layout1 remi" data-bg-src="assets/img/bg/footer_bg_1.png">
     <div class="bg-shape-top">
         <img src="assets/img/bg/header_bg_1.png" alt="img">
     </div>

@@ -8,16 +8,6 @@
         ==============================
         ==============================-->
 
-    <!--==============================
-        Hero Area
-        ==============================-->
-    @include('visitors.guest.welcomePage.partials.hero_section')
-    <!--======== / Hero Section ========-->
-
-    <!--==============================
-        count-down Area
-        ==============================-->
-    @include('visitors.guest.welcomePage.partials.countdown_section')
 
     <!--==============================
         About Area

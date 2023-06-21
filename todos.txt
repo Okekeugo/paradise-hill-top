@@ -4,7 +4,6 @@ Todo:
 
 
 
-
 1. Home Page: done
    - This page is essential for making a positive first impression and enticing visitors to explore further.
    - Content examples: A welcoming message, key features and benefits of your crèche, compelling visuals, a call-to-action button for enrollment or inquiry.
@@ -44,3 +43,6 @@ Facilties (using gallery)
 parent resources
 teacher profiles
 duplicate the Event page for program and services.
+
+
+739d5d

@@ -2,19 +2,14 @@
 
 @section('main_content')
     <!--==============================
-        Breadcumb
-    ============================== -->
+                Breadcumb
+            ============================== -->
     @include('visitors.guest.event.partials.breadcumb_section')
     <!--==============================
-    Event Area
-    ==============================-->
+            Event Area
+            ==============================-->
     @include('visitors.guest.event.partials.event_section')
-    <!--==============================
-        Footer Area
-    ==============================-->
-    @include('visitors.guest.general_partials.footer_section')
-
     <!--********************************
-   Code End  Here
- ******************************** -->
+           Code End  Here
+         ******************************** -->
 @endsection

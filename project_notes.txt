@@ -17,8 +17,10 @@ custom_page_js
   <!-- Nice Select -->
     <link rel="stylesheet" href="assets/css/nice-select.min.css">
 
-
-
     <!-- Nice Select File -->    
     <script src="assets/js/nice-select.min.js"></script>
 
+
+Assingment
+Generate names for all the routes and remove the breadcrumbs from all individual pages
+modify the navigation menu
