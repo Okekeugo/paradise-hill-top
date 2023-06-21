@@ -4,7 +4,7 @@
     <!--==============================
         Breadcumb
     ============================== -->
-    @include('visitors.guest.galleryPage.partials.breadcumb_section')
+    {{-- @include('visitors.guest.galleryPage.partials.breadcumb_section') --}}
 
     <!--==============================
     Gallery Area  

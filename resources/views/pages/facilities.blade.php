@@ -4,7 +4,7 @@
     <!--==============================
         Breadcumb
     ============================== -->
-    @include('visitors.guest.facilitiesPage.partials.breadcumb_section')
+    {{-- @include('visitors.guest.facilitiesPage.partials.breadcumb_section') --}}
 
     <!--==============================
     facilities Area  

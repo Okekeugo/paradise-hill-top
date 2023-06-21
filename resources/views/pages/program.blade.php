@@ -4,7 +4,7 @@
     <!--==============================
         Breadcumb
     ============================== -->
-    @include('visitors.guest.programPage.partials.breadcumb_section')
+    {{-- @include('visitors.guest.programPage.partials.breadcumb_section') --}}
     <!--==============================
     Event Area
     ==============================-->

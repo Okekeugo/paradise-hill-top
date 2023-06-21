@@ -3,7 +3,7 @@
     <!--==============================
         Breadcumb
     ============================== -->
-    @include('visitors.guest.blogPage.partials.breadcumb_section')
+    {{-- @include('visitors.guest.blogPage.partials.breadcumb_section') --}}
     <!--==============================
     Blog Area
     ==============================-->

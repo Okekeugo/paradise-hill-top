@@ -1,11 +1,6 @@
 @extends('layouts.guest')
 @section('main_content')
     <!--==============================
-        Breadcumb
-    ============================== -->
-    @include('visitors.guest.teamPage.partials.breadcumb')
-
-    <!--==============================
     Team Area 02 
     ==============================-->
     @include('visitors.guest.teamPage.partials.team_section')

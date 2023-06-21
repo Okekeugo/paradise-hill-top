@@ -32,16 +32,16 @@ Route::get('/gallery', function () {
 
 Route::get('/event', function () {
     return view('pages.event');
-});
+})->name('event');
 // done
 
 Route::get('/contact', function () {
     return view('pages.contact');
-});
+})->name('contact us');
 
 Route::get('/error', function () {
     return view('errors.404');
-});
+})->name('error');
 
 Route::get('/enroll', function () {
     return view('pages.enroll');
@@ -49,19 +49,19 @@ Route::get('/enroll', function () {
 
 Route::get('/blog', function () {
     return view('pages.blog');
-});
+})->name('blog');
 
 Route::get('/team', function () {
     return view('pages.team');
-});
+})->name('staff');
 
 Route::get('/facility', function () {
     return view('pages.facilities');
-});
+})->name('facilities');
 
 Route::get('/program', function () {
     return view('pages.program');
-});
+})->name('program');
 
 // ==================================
 

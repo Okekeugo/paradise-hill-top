@@ -5,8 +5,8 @@
                     <div class="col-lg-8 d-none d-lg-block">
                         <div class="header-links">
                             <ul>
-                                <li><i class="fa-solid fa-phone"></i><a href="tel:+25625921589">+246 214 203 215</a></li>
-                                <li><i class="fa-solid fa-location-dot"></i>258 Helano Street, New York</li>
+                                <li><i class="fa-solid fa-phone"></i><a href="tel:+25625921589">+234 706 556 944</a></li>
+                                <li><i class="fa-solid fa-location-dot"></i>St. Peter's Church, Guzape</li>
                                 <li><i class="fa-regular fa-clock"></i><span>Mon - Sat: 8:30 am - 6:00 pm</span>
                                 </li>
                             </ul>
@@ -51,9 +51,10 @@
                                 <div class="menu-area">
                                     <nav class="main-menu d-none d-lg-inline-block">
                                         <ul>
-                                            <li class="menu-item-has-children">
-                                                <a href="home-child-care.html#">Home</a>
-                                                <ul class="sub-menu">
+                                            {{-- <li class="menu-item-has-children"> --}}
+                                            <li>
+                                                <a href="{{ url('/') }}">Home</a>
+                                                {{-- <ul class="sub-menu">
                                                     <li class="menu-item-has-children">
                                                         <a href="home-child-care.html#">Multipage</a>
                                                         <ul class="sub-menu">
@@ -85,24 +86,26 @@
                                     <li><a href="home-kindergarten-rtl-onepage.html">New Kindergarten Onepage Rtl</a></li>
                                 </ul>
                                                     </li>
-                                                </ul>
+                                                </ul> --}}
                                             </li>
-                                            <li class="menu-item-has-children">
-                                                <a href="home-child-care.html#">Services</a>
-                                                <ul class="sub-menu">
+                                            {{-- <li class="menu-item-has-children"> --}}
+                                            <li>    
+                                                <a href="{{ url('/program') }}">Program</a>
+                                                {{-- <ul class="sub-menu">
                                                     <li><a href="event.html">Event</a></li>
                                                     <li><a href="event-details.html">Event Details</a></li>
                                                     <li><a href="gallery.html">Gallery</a></li>
                                                     <li><a href="course.html">Courses</a></li>
-                                                </ul>
+                                                </ul> --}}
                                             </li>
                                             
-                                            <li class="menu-item-has-children">
-                                                <a href="home-child-care.html#">Classes</a>
-                                                <ul class="sub-menu">
+                                            {{-- <li class="menu-item-has-children"> --}}
+                                            <li> 
+                                                <a href="{{ url('/team') }}">Team</a>
+                                                {{-- <ul class="sub-menu">
                                                     <li><a href="course.html">Classes</a></li>
                                                     <li><a href="course-details.html">Class Details</a></li>
-                                                </ul>
+                                                </ul> --}}
                                             </li>
                                             {{-- <li class="menu-item-has-children">
                                                 <a href="home-child-care.html#">Pages</a>
@@ -120,18 +123,31 @@
                                                     <li><a href="error.html">Error Page</a></li>
                                                 </ul>
                                             </li> --}}
-                                            <li class="menu-item-has-children">
-                                                <a href="home-child-care.html#">Shop</a>
-                                                <ul class="sub-menu">
+                                            {{-- <li class="menu-item-has-children"> --}}
+                                            <li>    
+                                                <a href="{{ url('/event') }}">event</a>
+                                                {{-- <ul class="sub-menu">
                                                     <li><a href="shop.html">Shop</a></li>
                                                     <li><a href="shop-details.html">Shop Details</a></li>
                                                     <li><a href="cart.html">Cart Page</a></li>
                                                     <li><a href="checkout.html">Checkout</a></li>
                                                     <li><a href="wishlist.html">Wishlist</a></li>
-                                                </ul>
+                                                </ul> --}}
+                                            </li>
+                                            <li>    
+                                                <a href="{{ url('/facility') }}">Facilities</a>
+                                            </li>
+                                            <li>    
+                                                <a href="{{ url('/gallery') }}">Gallery</a>
+                                            </li>
+                                            <li>    
+                                                <a href="{{ url('/blog') }}">blog</a>
+                                            </li>
+                                            <li>    
+                                                <a href="{{ url('/about') }}">About Us</a>
                                             </li>
                                             <li>
-                                                <a href="contact.html">Contact Us</a>
+                                                <a href="{{ url('/contact') }}">Contact Us</a>
                                             </li>
                                         </ul>
                                     </nav>
@@ -141,11 +157,11 @@
                             <div class="col-auto d-none d-lg-block">
                                 <div class="header-button">
                                     
-                                    <button type="button" class="icon-btn searchBoxToggler"><i class="fa-regular fa-magnifying-glass"></i></button>
-                                    <button type="button" class="icon-btn bar-btn  sideMenuToggler">
+                                    {{-- <button type="button" class="icon-btn searchBoxToggler"><i class="fa-regular fa-magnifying-glass"></i></button> --}}
+                                    {{-- <button type="button" class="icon-btn bar-btn  sideMenuToggler">
                                         <i class="fa-regular fa-basket-shopping-simple"></i>
                                         <span class="badge">5</span>
-                                    </button>
+                                    </button> --}}
                                     <a href="signup.html" class="as-btn d-none d-xl-block">Enroll</a>
                                 </div>
                             </div>
