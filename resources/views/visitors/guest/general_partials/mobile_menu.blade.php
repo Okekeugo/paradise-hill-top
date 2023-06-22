@@ -6,7 +6,7 @@
             </div>
             <div class="as-mobile-menu">
                 <ul>
-                    <li class="menu-item-has-children">
+                    {{-- <li class="menu-item-has-children">
                         <a href="home-child-care.html#">Home</a>
                         <ul class="sub-menu">
                             <li class="menu-item-has-children">
@@ -84,10 +84,38 @@
                             <li><a href="checkout.html">Checkout</a></li>
                             <li><a href="wishlist.html">Wishlist</a></li>
                         </ul>
+                    </li> --}}
+                    <li>
+                        <a href="contact.html">Contact Us</a>
                     </li>
                     <li>
                         <a href="contact.html">Contact Us</a>
                     </li>
+                    <li>
+                        <a href="contact.html">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact Us</a>
+                    </li>
+
                 </ul>
             </div>
         </div>
