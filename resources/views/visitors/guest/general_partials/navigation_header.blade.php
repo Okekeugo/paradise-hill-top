@@ -15,11 +15,12 @@
                     </div>
                     <div class="col-lg-4 align-self-center text-lg-end text-center">
                         <ul class="navbar-top-right header-links">
-                            {{-- <li>
-                                <i class="fa-regular fa-user"></i>
+                            <li>
+                                {{-- <i class="fa-regular fa-user"></i>
                                     <a href="login.html">Login</a> <span>/</span>
-                                    <a href="signup.html">Register</a>
-                            </li> --}}
+                                    <a href="signup.html">Register</a> --}}
+                                    <a href="signup.html">Follow us</a>
+                            </li>
                             <li>
                                 <div class="header-social">
                                     <a href="home-child-care.html#"><i class="fab fa-facebook-f"></i></a>
