@@ -177,7 +177,7 @@
                                         <i class="fa-regular fa-basket-shopping-simple"></i>
                                         <span class="badge">5</span>
                                     </button> --}}
-                                <a href="signup.html" class="as-btn d-none d-xl-block">Enroll</a>
+                                <a href="{{ route('contact us') }}" class="as-btn d-none d-xl-block">Enroll</a>
                             </div>
                         </div>
                     </div>
