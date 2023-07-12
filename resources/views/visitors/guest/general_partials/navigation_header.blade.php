@@ -44,7 +44,7 @@
                             <div class="header-logo">
                                 {{-- <a href="home-child-care.html"><img src="assets/logo/logo_white_no_bg.png" alt="Paradise Hilltop"></a> --}}
                                 <a href="home-child-care.html">
-                                    <img src="assets/logo/logo_white.jpeg" alt="Paradise Hilltop" width="100">
+                                    <img src="assets/logo/logo_white.jpeg" alt="Paradise Hilltop" width="125">
                                 </a>
                             </div>
                         </div>

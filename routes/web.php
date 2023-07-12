@@ -57,9 +57,6 @@ Route::get('/error', function () {
 |
 */
 
-
-
-
 // Route::get('/blog', function () {
 //     return view('pages.blog');
 // })->name('blog');

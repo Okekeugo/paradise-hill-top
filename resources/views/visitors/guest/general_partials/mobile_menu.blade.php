@@ -1,12 +1,12 @@
 <div class="as-menu-wrapper">
-        <div class="as-menu-area text-center">
-            <button class="as-menu-toggle"><i class="fal fa-times"></i></button>
-            <div class="mobile-logo">
-                <a href="home-child-care.html"><img src="assets/img/logo.svg" alt="Tayde"></a>
-            </div>
-            <div class="as-mobile-menu">
-                <ul>
-                    {{-- <li class="menu-item-has-children">
+    <div class="as-menu-area text-center">
+        <button class="as-menu-toggle"><i class="fal fa-times"></i></button>
+        <div class="mobile-logo">
+            <a href="home-child-care.html"><img src="assets/logo/logo_white.jpeg" alt="paradise" width="100"></a>
+        </div>
+        <div class="as-mobile-menu">
+            <ul>
+                {{-- <li class="menu-item-has-children">
                         <a href="home-child-care.html#">Home</a>
                         <ul class="sub-menu">
                             <li class="menu-item-has-children">
@@ -85,38 +85,24 @@
                             <li><a href="wishlist.html">Wishlist</a></li>
                         </ul>
                     </li> --}}
-                    <li>
-                        <a href="contact.html">Contact Us</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contact Us</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contact Us</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contact Us</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contact Us</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contact Us</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contact Us</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contact Us</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contact Us</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contact Us</a>
-                    </li>
+                <li>
+                    <a href="{{ route('welcome') }}" class="uppercase">home</a>
+                </li>
+                <li>
+                    <a href="{{ route('gallery') }}">Gallery</a>
+                </li>
+                <li>
+                    <a href="{{ route('contact us') }}">Contact Us</a>
+                </li>
+                <li>
+                    <a href="{{ route('about us') }}">About Us</a>
+                </li>
 
-                </ul>
-            </div>
+                <li>
+                    <a href="{{ route('program') }}">Programs</a>
+                </li>
+
+            </ul>
         </div>
     </div>
+</div>

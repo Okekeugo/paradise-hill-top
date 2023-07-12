@@ -17,7 +17,7 @@
     <!--==============================
         Service Area
         ==============================-->
-    @include('visitors.guest.welcomePage.partials.services_section')
+    {{-- @include('visitors.guest.welcomePage.partials.services_section') --}}
 
     <!--==============================
         Why-choose-us Area
