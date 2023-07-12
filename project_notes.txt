@@ -21,6 +21,31 @@ custom_page_js
     <script src="assets/js/nice-select.min.js"></script>
 
 
-Assingment
+Assignment
 Generate names for all the routes and remove the breadcrumbs from all individual pages
 modify the navigation menu
+
+
+for user experience, 
+for school
+backend for admin (admin panel)
+
+admin actions
+1. admin email for all notifications (no dB)
+
+Authentication and Authorization: Social Media Manager (She)
+
+1. blog creation forms : db controlled
+2. testimonial creation forms : db controlled
+
+
+for parents
+1. enroll form =>email processed
+2. contact form =>email processed
+
+
+
+1. adeh => admin : testimonial and create blog
+2. sunny => editor : blog creation
+3. mary => editor 
+4. gloria => super admin : all and more

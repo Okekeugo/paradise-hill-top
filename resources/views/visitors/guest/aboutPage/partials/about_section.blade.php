@@ -13,7 +13,7 @@
                         <h2 class="sec-title">Learn About Our Work and
                             Cultural Activities.</h2>
                         <p class="sec-text">Our standard creche provides a safe and secure environment for your children
-                            to play, learn, grow and interact with other children. We offer ({full-time or part-time})
+                            to play, learn, grow and interact with other children. We offer full-time or part-time
                             daycare services for infants, toddlers, and preschool-aged children. Giving our working
                             class parents the peace of mind and satisfaction they need, so as to not wory about their
                             kids during working hours. </p>

@@ -148,9 +148,11 @@
                                         {{-- <li>    
                                                 <a href="{{ url('/facility') }}">Facilities</a>
                                             </li> --}}
-                                        <li>
+
+                                            {{-- unavailable --}}
+                                        {{-- <li>
                                             <a href="{{ url('/gallery') }}">Gallery</a>
-                                        </li>
+                                        </li> --}}
                                         {{-- not yet available --}}
                                         {{-- <li>    
                                                 <a href="{{ url('/blog') }}">blog</a>

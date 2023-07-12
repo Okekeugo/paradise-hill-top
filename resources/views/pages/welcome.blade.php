@@ -24,6 +24,13 @@
         ==============================-->
     @include('visitors.guest.welcomePage.partials.why_choose_us_section')
 
+
+     <!--==============================
+        Security Area
+        ==============================-->
+    @include('visitors.guest.welcomePage.partials.why_choose_us_section')
+
+
     <!--==============================
         Course Area (dynamic page creation for every course)
         ==============================-->

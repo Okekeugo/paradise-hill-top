@@ -1,3 +1,8 @@
+Courses will collapse with the "what we are Offering" section
+
+pending
+cctv features
+
 
 Compulsory data
 ABOUT PAGE
@@ -24,19 +29,6 @@ Classes Section : what classes or what are you gonna be teaching my kid at least
 
 
 
-
-Welcome to Paradise Hilltop Creche, where we provide a safe and nurturing environment for your child's growth and development. Our experienced and dedicated staff understands the importance of early childhood education and is committed to helping your child reach their full potential.
-
-At Paradise Hilltop, we believe that every child is unique and deserves individualized attention and care. Our curriculum is designed to foster creativity, independence, and a love for learning through a variety of age-appropriate activities and play-based learning.
-
-We prioritize the safety and security of our children and maintain a low child-to-caregiver ratio to ensure that each child receives the attention they need. Our facility is equipped with state-of-the-art security systems and procedures to ensure your child's safety at all times.
-
-We understand that leaving your child in the care of others can be a difficult decision. That's why we strive to create a welcoming and inclusive environment for both children and parents. We encourage parental involvement and offer regular updates on your child's progress.
-
-At Paradise Hilltop, we believe that every child deserves the best possible start in life. We are committed to providing high-quality childcare and early education services that support your child's physical, cognitive, social, and emotional development. Thank you for considering Paradise Hilltop Creche as your child's home away from home.
-
-
-
 v2
 
 
@@ -51,3 +43,14 @@ We place a high priority on the safety and security of our children, and we main
 We understand that as a parent, you want to be involved in your child's development and progress. That's why we encourage open communication and regular updates on your child's activities and milestones. We're always available to answer any questions or concerns you may have and would love to discuss your child's unique needs and interests.
 
 We're passionate about providing high-quality childcare and early education services that support your child's physical, cognitive, social, and emotional development. Thank you for considering Paradise Hilltop Creche as your child's home away from home. We can't wait to meet you and your little one!
+
+=======IMPORTANT TODO=============
+
+facility page sections
+entrance
+sleeping room 
+playground
+cctv
+
+
+replicate cctv section at the bottom of home page and about page
