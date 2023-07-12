@@ -28,7 +28,7 @@
      <!--==============================
         Security Area
         ==============================-->
-    @include('visitors.guest.welcomePage.partials.why_choose_us_section')
+    @include('visitors.guest.welcomePage.partials.cctv_security_section')
 
 
     <!--==============================
