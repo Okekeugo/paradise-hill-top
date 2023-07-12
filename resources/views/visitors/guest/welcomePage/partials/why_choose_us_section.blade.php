@@ -1,4 +1,4 @@
-<div class="wcu-area pt-105">
+<div class="wcu-area pt-40 pb-105">
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
@@ -16,11 +16,13 @@
             <div class="col-lg-6">
                 <div class="wcu-wrap mt-lg-0 mt-4">
                     <div class="title-area">
-                        <h3 class="sub-title">PROFESSIONAL SKILLS</h3>
-                        <h2 class="sec-title">Child Care For Good Way</h2>
-                        <p class="sec-text">Kids care dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                            incididunt ut labore et dolore magna aliqua. Quis care suspendisse ultrices gravida. Risus
-                            commodo viverra maecenas...</p>
+                        <h3 class="sub-title">WHY CHOOSE US</h3>
+                        <h4 class="sec-title">The Proper Child Care</h4>
+                        <p class="sec-text"> <small>At Paradise Hilltop Creche, we provide a comprehensive kindergarten
+                                program that supports children's academic and social-emotional development through
+                                creative exploration and play-based learning. Our experienced caregivers and teachers
+                                work closely with each child to ensure individualized attention and foster a sense of
+                                community and belonging.</small> </p>
                     </div>
                     <div class="skills-area">
                         <div class="single-skill single-skill-1">

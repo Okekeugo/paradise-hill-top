@@ -10,8 +10,8 @@
                     <div class="hero-style1">
                         <h1 class="hero-title">We Are Childcare
                             Professionals</h1>
-                        <p class="hero-text">Objectively administrate progressive bandwidth via 24/7 resources.</p>
-                        <a href="login.html" class="as-btn">Learn More</a>                        
+                        <p class="hero-text">Caring for your little ones, while you're away.</p>
+                        <a href="{{ route('about us') }}" class="as-btn">Learn More</a>                        
                     </div>
                 </div>
             </div>                

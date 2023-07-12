@@ -9,13 +9,17 @@
             <div class="col-lg-6 order-lg-1 align-self-center">
                 <div class="about-content-wrap">
                     <div class="title-area mb-0">
-                        <span class="sub-title">ABOUT CUTIE CARE</span>
+                        <span class="sub-title">ABOUT {{ env('CRECHE_COY') }}</span>
                         <h2 class="sec-title">Learn About Our Work and
                             Cultural Activities.</h2>
-                        <p class="sec-text">Kids care dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis care suspendisse ultrices gravida. Risus commodo viverra maecenas...</p>
+                        <p class="sec-text">Our standard creche provides a safe and secure environment for your children
+                            to play, learn, grow and interact with other children. We offer ({full-time or part-time})
+                            daycare services for infants, toddlers, and preschool-aged children. Giving our working
+                            class parents the peace of mind and satisfaction they need, so as to not wory about their
+                            kids during working hours. </p>
                     </div>
-                    <a class="as-btn mt-3" href="blog.html">Learn More</a>
-                </div>                    
+                    {{-- <a class="as-btn mt-3" href="blog.html">Learn More</a> --}}
+                </div>
             </div>
         </div>
     </div>

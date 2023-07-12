@@ -103,7 +103,7 @@
             
         </div>
         <div class="btn-group justify-content-center mt-50">
-            <a class="as-btn" href="#" id="loadMoreBtn">Load More</a>
+            {{-- <a class="as-btn" href="#" id="loadMoreBtn">Load More</a> --}}
         </div>
 
         {{-- futures --}}

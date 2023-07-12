@@ -25,9 +25,9 @@
     @include('visitors.guest.welcomePage.partials.why_choose_us_section')
 
     <!--==============================
-        Course Area
+        Course Area (dynamic page creation for every course)
         ==============================-->
-    @include('visitors.guest.welcomePage.partials.course_area_section')
+    {{-- @include('visitors.guest.welcomePage.partials.course_area_section') --}}
 
     <!--==============================
         Call to Action Area
@@ -37,7 +37,7 @@
     <!--==============================
         Team Area
         ==============================-->
-    @include('visitors.guest.welcomePage.partials.team_section')
+    {{-- @include('visitors.guest.welcomePage.partials.team_section') --}}
     <!--==============================
         Testimonial Area
         ==============================-->
@@ -45,12 +45,12 @@
     <!--==============================
         Blog Area
         ==============================-->
-    @include('visitors.guest.welcomePage.partials.blog_section')
+    {{-- @include('visitors.guest.welcomePage.partials.blog_section') --}}
 
     <!--==============================
         Brand Area
         ==============================-->
-    @include('visitors.guest.welcomePage.partials.brand_section')
+    {{-- @include('visitors.guest.welcomePage.partials.brand_section') --}}
 
 
     <!--==============================

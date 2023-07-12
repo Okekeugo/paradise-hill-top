@@ -4,14 +4,14 @@
             <div class="col-xl-5 col-lg-4 order-lg-2">
                 <div class="contact-info-wrap mb-50 mb-lg-0">
                     <h2 class="fw-extrabold h3">Stay Connected</h2>
-                    <p>Kids care dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore...</p>
+                    <p>Easily reach us via our address and available platforms both online and offline</p>
                     <div class="contact-info mt-30">
                         <div class="contact-info_icon">
                             <i class="fa-solid fa-location-dot"></i>
                         </div>
                         <div class="media-body">
                             <h4 class="contact-info_title h5">Our Address</h4>
-                            <span class="contact-info_text">259 Dancing Street St, NY 15621, USA</span>
+                            <span class="contact-info_text">St. Peter's Church, Guzape, Abuja, NG</span>
                         </div>
                     </div>
                     <div class="contact-info">
@@ -21,7 +21,7 @@
                         <div class="media-body">
                             <h4 class="contact-info_title h5">Our Email</h4>
                             <span class="contact-info_text">
-                                <a href="mailto:info.example@gmail.com">cutie-care@gmail.com</a>
+                                <a href="mailto:info.example@gmail.com">info@paradisehilltop.com</a>
                             </span>
                         </div>
                     </div>
@@ -32,7 +32,7 @@
                         <div class="media-body">
                             <h4 class="contact-info_title h5">Our Phone</h4>
                             <span class="contact-info_text">
-                                <a href="tel:+65485965789">+2569 2156 2159 256</a>
+                                <a href="tel:+65485965789">+234 706 556 944</a>
                             </span>
                         </div>
                     </div>
@@ -41,7 +41,9 @@
             <div class="col-xl-7 col-lg-8 order-lg-1">
                 <form action="https://angfuzsoft.com/html/tayde/demo/mail.php" method="POST" class="contact-form ajax-contact">
                     <h2 class="fw-extrabold h3">How Can We Help?</h2>
-                    <p>To locate contacts in the Unicoach office closest to you, explore our worldwide offices.</p>
+                    <p>For enquiries, kindly fill the form below and send us a message.
+                         Our team is available 24/7 to respond to your requests
+                        </p>
                     <div class="row mt-35">
                         <div class="col-md-6">
                             <div class="form-group">
@@ -59,6 +61,8 @@
                         <div class="form-group col-12">
                             <select name="classes" id="classselect" class="single-select nice-select style2">
                                 <option value="" disabled="disabled" selected="selected" hidden>Select Subject</option>
+                                <option value="enquiries">Enquiries</option>
+                                <option value="complaints">Complaints</option>
                                 <option value="languageclass">Language Class</option>
                                 <option value="mathematicsclass">Mathematics Class</option>
                                 <option value="kidsonlineclass">Kids Online Class</option>

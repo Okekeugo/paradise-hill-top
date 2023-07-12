@@ -6,11 +6,51 @@ Version: 1.0.0
 
   /* change website main theme color */
   :root {
-      /* shade of green */
-      --theme-color: #739d5d;
-      /* --theme-color2: #786acf; */
+    /* shade of green */
+    --theme-color: #739d5d;
+    /* --theme-color2: #786acf; */
   }
 
   .remi {
-      background-color: #293621;
+    background-color: #293621;
+  }
+
+
+
+  /* utilities */
+
+
+  /* Typography */
+
+
+  /* text sizes */
+  .text-lg {
+    font-size: large;
+  }
+
+  .text-xl {
+    font-size: x-large;
+  }
+
+
+  /* font style */
+  .uppercase {
+    text-transform: uppercase;
+  }
+
+  .capitalize {
+    text-transform: capitalize;
+  }
+
+  /* font color */
+  .text-black {
+    color: black;
+  }
+
+  .text-white {
+    color: white;
+  }
+
+  .fw-300{
+    font-weight: 300;
   }

@@ -33,14 +33,16 @@
     <meta name="theme-color" content="#ffffff">
 
     <!--==============================
-	  Google Fonts
-	============================== -->
+ Google Fonts
+ ============================== -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
 
     <!--==============================
-	    All CSS File
-	============================== -->
+ All CSS File
+ ============================== -->
     <!-- Bootstrap -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <!-- Fontawesome Icon -->
@@ -49,7 +51,7 @@
     <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
     <!-- Slick Slider -->
     <link rel="stylesheet" href="assets/css/slick.min.css">
-    
+
     <!-- Theme Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
 
@@ -59,14 +61,14 @@
 
 
     <!--[if lte IE 9]>
-    	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
     <![endif]-->
 
 
 
     <!--********************************
-   		Code Start From Here 
-	******************************** -->
+   Code Start From Here
+ ******************************** -->
 
 
 
@@ -127,9 +129,12 @@
                                     <li><a href="home-modern-kindergarten-rtl.html">Modern Kindergarten Rtl</a></li>
                                     <li><a href="home-kindergarten-rtl.html">New Kindergarten Rtl</a></li>
                                     <li><a href="home-child-care-onepage-rtl.html">Home Child Care Onepage Rtl</a></li>
-                                    <li><a href="home-child-care-center-onepage-rtl.html">Child Care Center Onepage Rtl</a></li>
-                                    <li><a href="home-modern-kindergarten-onepage-rtl.html">Modern Kindergarten Onepage Rtl</a></li>
-                                    <li><a href="home-kindergarten-rtl-onepage.html">New Kindergarten Onepage Rtl</a></li>
+                                    <li><a href="home-child-care-center-onepage-rtl.html">Child Care Center Onepage
+                                            Rtl</a></li>
+                                    <li><a href="home-modern-kindergarten-onepage-rtl.html">Modern Kindergarten Onepage
+                                            Rtl</a></li>
+                                    <li><a href="home-kindergarten-rtl-onepage.html">New Kindergarten Onepage Rtl</a>
+                                    </li>
                                 </ul>
                             </li>
                         </ul>
@@ -143,7 +148,7 @@
                             <li><a href="course.html">Courses</a></li>
                         </ul>
                     </li>
-                    
+
                     <li class="menu-item-has-children">
                         <a href="about.html#">Classes</a>
                         <ul class="sub-menu">
@@ -195,40 +200,50 @@
                 <div class="widget_shopping_cart_content">
                     <ul class="woocommerce-mini-cart cart_list product_list_widget ">
                         <li class="woocommerce-mini-cart-item mini_cart_item">
-                            <a href="about.html#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
-                            <a href="about.html#"><img src="assets/img/product/product_thumb_1_1.png" alt="Cart Image">Wooden Bunny</a>
+                            <a href="about.html#" class="remove remove_from_cart_button"><i
+                                    class="far fa-times"></i></a>
+                            <a href="about.html#"><img src="assets/img/product/product_thumb_1_1.png"
+                                    alt="Cart Image">Wooden Bunny</a>
                             <span class="quantity">1 ×
                                 <span class="woocommerce-Price-amount amount">
                                     <span class="woocommerce-Price-currencySymbol">$</span>940.00</span>
                             </span>
                         </li>
                         <li class="woocommerce-mini-cart-item mini_cart_item">
-                            <a href="about.html#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
-                            <a href="about.html#"><img src="assets/img/product/product_thumb_1_2.png" alt="Cart Image">Kids Dinosour</a>
+                            <a href="about.html#" class="remove remove_from_cart_button"><i
+                                    class="far fa-times"></i></a>
+                            <a href="about.html#"><img src="assets/img/product/product_thumb_1_2.png"
+                                    alt="Cart Image">Kids Dinosour</a>
                             <span class="quantity">1 ×
                                 <span class="woocommerce-Price-amount amount">
                                     <span class="woocommerce-Price-currencySymbol">$</span>899.00</span>
                             </span>
                         </li>
                         <li class="woocommerce-mini-cart-item mini_cart_item">
-                            <a href="about.html#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
-                            <a href="about.html#"><img src="assets/img/product/product_thumb_1_3.png" alt="Cart Image">Small Truck</a>
+                            <a href="about.html#" class="remove remove_from_cart_button"><i
+                                    class="far fa-times"></i></a>
+                            <a href="about.html#"><img src="assets/img/product/product_thumb_1_3.png"
+                                    alt="Cart Image">Small Truck</a>
                             <span class="quantity">1 ×
                                 <span class="woocommerce-Price-amount amount">
                                     <span class="woocommerce-Price-currencySymbol">$</span>756.00</span>
                             </span>
                         </li>
                         <li class="woocommerce-mini-cart-item mini_cart_item">
-                            <a href="about.html#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
-                            <a href="about.html#"><img src="assets/img/product/product_thumb_1_4.png" alt="Cart Image">Color Kid Truck</a>
+                            <a href="about.html#" class="remove remove_from_cart_button"><i
+                                    class="far fa-times"></i></a>
+                            <a href="about.html#"><img src="assets/img/product/product_thumb_1_4.png"
+                                    alt="Cart Image">Color Kid Truck</a>
                             <span class="quantity">1 ×
                                 <span class="woocommerce-Price-amount amount">
                                     <span class="woocommerce-Price-currencySymbol">$</span>723.00</span>
                             </span>
                         </li>
                         <li class="woocommerce-mini-cart-item mini_cart_item">
-                            <a href="about.html#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
-                            <a href="about.html#"><img src="assets/img/product/product_thumb_1_5.png" alt="Cart Image">Dog Pupet</a>
+                            <a href="about.html#" class="remove remove_from_cart_button"><i
+                                    class="far fa-times"></i></a>
+                            <a href="about.html#"><img src="assets/img/product/product_thumb_1_5.png"
+                                    alt="Cart Image">Dog Pupet</a>
                             <span class="quantity">1 ×
                                 <span class="woocommerce-Price-amount amount">
                                     <span class="woocommerce-Price-currencySymbol">$</span>1080.00</span>
@@ -249,7 +264,7 @@
         </div>
     </div>
     <!--==============================
-	Header Area
+ Header Area
     ==============================-->
     <header class="as-header header-layout1">
         <div class="navbar-top">
@@ -258,20 +273,21 @@
                     <div class="col-lg-8 d-none d-lg-block">
                         <div class="header-links">
                             <ul>
-                                <li><i class="fa-solid fa-phone"></i><a href="tel:+25625921589">+246 214 203 215</a></li>
+                                <li><i class="fa-solid fa-phone"></i><a href="tel:+25625921589">+246 214 203 215</a>
+                                </li>
                                 <li><i class="fa-solid fa-location-dot"></i>258 Helano Street, New York</li>
                                 <li><i class="fa-regular fa-clock"></i><span>Mon - Sat: 8:30 am - 6:00 pm</span>
                                 </li>
                             </ul>
                         </div>
-                        
+
                     </div>
                     <div class="col-lg-4 align-self-center text-lg-end text-center">
                         <ul class="navbar-top-right header-links">
                             <li>
                                 <i class="fa-regular fa-user"></i>
-                                    <a href="login.html">Login</a> <span>/</span>
-                                    <a href="signup.html">Register</a>
+                                <a href="login.html">Login</a> <span>/</span>
+                                <a href="signup.html">Register</a>
                             </li>
                             <li>
                                 <div class="header-social">
@@ -308,32 +324,47 @@
                                                         <a href="about.html#">Multipage</a>
                                                         <ul class="sub-menu">
                                                             <li><a href="home-child-care.html">Home Child Care</a></li>
-                                                            <li><a href="home-child-care-center.html">Child Care Center</a></li>
-                                                            <li><a href="home-modern-kindergarten.html">Modern Kindergarten</a></li>
-                                                            <li><a href="home-kindergarten.html">New Kindergarten</a></li>
+                                                            <li><a href="home-child-care-center.html">Child Care
+                                                                    Center</a></li>
+                                                            <li><a href="home-modern-kindergarten.html">Modern
+                                                                    Kindergarten</a></li>
+                                                            <li><a href="home-kindergarten.html">New Kindergarten</a>
+                                                            </li>
                                                         </ul>
                                                     </li>
                                                     <li class="menu-item-has-children">
                                                         <a href="about.html#">Onepage</a>
                                                         <ul class="sub-menu">
-                                    <li><a href="home-child-care-onepage.html">Home Child Care</a></li>
-                                    <li><a href="home-child-care-center-onepage.html">Child Care Center</a></li>
-                                    <li><a href="home-modern-kindergarten-onepage.html">Modern Kindergarten</a></li>
-                                    <li><a href="home-kindergarten-onepage.html">New Kindergarten</a></li>
-                                </ul>
+                                                            <li><a href="home-child-care-onepage.html">Home Child
+                                                                    Care</a></li>
+                                                            <li><a href="home-child-care-center-onepage.html">Child
+                                                                    Care Center</a></li>
+                                                            <li><a href="home-modern-kindergarten-onepage.html">Modern
+                                                                    Kindergarten</a></li>
+                                                            <li><a href="home-kindergarten-onepage.html">New
+                                                                    Kindergarten</a></li>
+                                                        </ul>
                                                     </li>
                                                     <li class="menu-item-has-children">
                                                         <a href="about.html#">RTL</a>
                                                         <ul class="sub-menu">
-                                    <li><a href="home-child-care-rtl.html">Home Child Care Rtl</a></li>
-                                    <li><a href="home-child-care-center-rtl.html">Child Care Center Rtl</a></li>
-                                    <li><a href="home-modern-kindergarten-rtl.html">Modern Kindergarten Rtl</a></li>
-                                    <li><a href="home-kindergarten-rtl.html">New Kindergarten Rtl</a></li>
-                                    <li><a href="home-child-care-onepage-rtl.html">Home Child Care Onepage Rtl</a></li>
-                                    <li><a href="home-child-care-center-onepage-rtl.html">Child Care Center Onepage Rtl</a></li>
-                                    <li><a href="home-modern-kindergarten-onepage-rtl.html">Modern Kindergarten Onepage Rtl</a></li>
-                                    <li><a href="home-kindergarten-rtl-onepage.html">New Kindergarten Onepage Rtl</a></li>
-                                </ul>
+                                                            <li><a href="home-child-care-rtl.html">Home Child Care
+                                                                    Rtl</a></li>
+                                                            <li><a href="home-child-care-center-rtl.html">Child Care
+                                                                    Center Rtl</a></li>
+                                                            <li><a href="home-modern-kindergarten-rtl.html">Modern
+                                                                    Kindergarten Rtl</a></li>
+                                                            <li><a href="home-kindergarten-rtl.html">New Kindergarten
+                                                                    Rtl</a></li>
+                                                            <li><a href="home-child-care-onepage-rtl.html">Home Child
+                                                                    Care Onepage Rtl</a></li>
+                                                            <li><a href="home-child-care-center-onepage-rtl.html">Child
+                                                                    Care Center Onepage Rtl</a></li>
+                                                            <li><a href="home-modern-kindergarten-onepage-rtl.html">Modern
+                                                                    Kindergarten Onepage Rtl</a></li>
+                                                            <li><a href="home-kindergarten-rtl-onepage.html">New
+                                                                    Kindergarten Onepage Rtl</a></li>
+                                                        </ul>
                                                     </li>
                                                 </ul>
                                             </li>
@@ -346,7 +377,7 @@
                                                     <li><a href="course.html">Courses</a></li>
                                                 </ul>
                                             </li>
-                                            
+
                                             <li class="menu-item-has-children">
                                                 <a href="about.html#">Classes</a>
                                                 <ul class="sub-menu">
@@ -385,13 +416,15 @@
                                             </li>
                                         </ul>
                                     </nav>
-                                    <button type="button" class="as-menu-toggle d-inline-block d-lg-none"><i class="far fa-bars"></i></button>
+                                    <button type="button" class="as-menu-toggle d-inline-block d-lg-none"><i
+                                            class="far fa-bars"></i></button>
                                 </div>
                             </div>
                             <div class="col-auto d-none d-lg-block">
                                 <div class="header-button">
-                                    
-                                    <button type="button" class="icon-btn searchBoxToggler"><i class="fa-regular fa-magnifying-glass"></i></button>
+
+                                    <button type="button" class="icon-btn searchBoxToggler"><i
+                                            class="fa-regular fa-magnifying-glass"></i></button>
                                     <button type="button" class="icon-btn bar-btn  sideMenuToggler">
                                         <i class="fa-regular fa-basket-shopping-simple"></i>
                                         <span class="badge">5</span>
@@ -405,7 +438,7 @@
                 <div class="menu-shape" data-bg-src="assets/img/bg/header_bg_1.png">
                 </div>
             </div>
-        </div> 
+        </div>
     </header>
 
     <!--==============================
@@ -422,12 +455,12 @@
             </div>
         </div>
         <div class="bottom-shape">
-            <img  src="assets/img/breadcumb/breadcumb-bg-bottom.png" alt="img">
+            <img src="assets/img/breadcumb/breadcumb-bg-bottom.png" alt="img">
         </div>
     </div>
 
     <!--==============================
-    About Area  
+    About Area
     ==============================-->
     <section class="space-extra2-top space-bottom" id="about-sec">
         <div class="container">
@@ -440,81 +473,96 @@
                 <div class="col-lg-6 order-lg-1 align-self-center">
                     <div class="about-content-wrap">
                         <div class="title-area mb-0">
-                            <span class="sub-title">ABOUT CUTIE CARE</span>
+                            <span class="sub-title">ABOUT {{ env('CRECHE_COY') }}</span>
                             <h2 class="sec-title">Learn About Our Work and
                                 Cultural Activities.</h2>
-                            <p class="sec-text">Kids care dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis care suspendisse ultrices gravida. Risus commodo viverra maecenas...</p>
+                            <p class="sec-text">Kids care dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Quis care suspendisse ultrices
+                                gravida. Risus commodo viverra maecenas...</p>
                         </div>
                         <a class="as-btn mt-3" href="blog.html">Learn More</a>
-                    </div>                    
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!--==============================
-    Service Area  
+    Service Area
     ==============================-->
     <section class="service-area-4 space" id="service-sec" data-bg-src="assets/img/bg/team_bg_2.png">
         <!-- bg animated image -->
-        <div class="service-4-anime-img-1 shape-mockup d-none d-lg-block" data-top="17px" data-left="0%"><img class="img-1" src="assets/img/activites/shape_2_1.png" alt="img"></div>        
-        <div class="service-4-anime-img-2 shape-mockup jump1 d-none d-lg-block" data-top="20%" data-right="6%"><img src="assets/img/service/service-3_1.png" alt="img"></div>
-        <div class="service-4-anime-img-3 shape-mockup jump2 d-none d-xxl-block" data-bottom="16%" data-left="5%"><img src="assets/img/blog/shape-2_1.png" alt="img"></div>
-        <div class="service-4-anime-img-4 shape-mockup jump3 d-none d-xxl-block" data-bottom="17%" data-right="0%"><img src="assets/img/service/service-3_5.png" alt="img"></div>
+        <div class="service-4-anime-img-1 shape-mockup d-none d-lg-block" data-top="17px" data-left="0%"><img
+                class="img-1" src="assets/img/activites/shape_2_1.png" alt="img"></div>
+        <div class="service-4-anime-img-2 shape-mockup jump1 d-none d-lg-block" data-top="20%" data-right="6%"><img
+                src="assets/img/service/service-3_1.png" alt="img"></div>
+        <div class="service-4-anime-img-3 shape-mockup jump2 d-none d-xxl-block" data-bottom="16%" data-left="5%">
+            <img src="assets/img/blog/shape-2_1.png" alt="img"></div>
+        <div class="service-4-anime-img-4 shape-mockup jump3 d-none d-xxl-block" data-bottom="17%" data-right="0%">
+            <img src="assets/img/service/service-3_5.png" alt="img"></div>
         <!-- bg animated image/ -->
         <div class="container space-extra">
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <div class="title-area text-center">
                         <h2 class="sec-title">How We Works</h2>
-                        <p>Synergistically scale maintainable platforms standards compliant niche markets. Efficiently develop excellent markets for focused networks. </p>
+                        <p>Synergistically scale maintainable platforms standards compliant niche markets. Efficiently
+                            develop excellent markets for focused networks. </p>
                     </div>
                 </div>
             </div>
-            <div class="row as-carousel" data-slide-show="3" data-lg-slide-show="3" data-md-slide-show="2" data-sm-slide-show="1" data-xs-slide-show="1" data-dots="false" data-xl-dots="false" data-ml-dots="false" data-lg-dots="false" data-md-dots="true">
+            <div class="row as-carousel" data-slide-show="3" data-lg-slide-show="3" data-md-slide-show="2"
+                data-sm-slide-show="1" data-xs-slide-show="1" data-dots="false" data-xl-dots="false"
+                data-ml-dots="false" data-lg-dots="false" data-md-dots="true">
 
                 <div class="col-lg-4 col-md-6">
                     <div class="service-wrap-2">
                         <div class="service-thumb" data-bg-src="assets/img/service/service-4-mask-2.png">
                             <span class="number">01</span>
-                            <div class="thumbnail" data-mask-src="assets/img/service/service-4-mask.png" data-bg-src="assets/img/service/service-4-1.png">
+                            <div class="thumbnail" data-mask-src="assets/img/service/service-4-mask.png"
+                                data-bg-src="assets/img/service/service-4-1.png">
                             </div>
                             <img class="arrow" src="assets/img/icon/arrow-1.png" alt="img">
                         </div>
                         <h3 class="h4 title"><a href="team.html">Expert Instructor</a></h3>
-                        <p>Kids care dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna care suspendisse</p>
+                        <p>Kids care dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna care suspendisse</p>
                     </div>
                 </div>
-    
+
                 <div class="col-lg-4 col-md-6">
                     <div class="service-wrap-2">
                         <div class="service-thumb" data-bg-src="assets/img/service/service-4-mask-2.png">
                             <span class="number">02</span>
-                            <div class="thumbnail" data-mask-src="assets/img/service/service-4-mask.png" data-bg-src="assets/img/service/service-4-2.png"></div>
+                            <div class="thumbnail" data-mask-src="assets/img/service/service-4-mask.png"
+                                data-bg-src="assets/img/service/service-4-2.png"></div>
                             <img class="arrow" src="assets/img/icon/arrow-2.png" alt="img">
                         </div>
                         <h3 class="h4 title"><a href="about.html">Get All Information</a></h3>
-                        <p>Kids care dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna care suspendisse</p>
+                        <p>Kids care dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna care suspendisse</p>
                     </div>
                 </div>
-    
+
                 <div class="col-lg-4 col-md-6">
                     <div class="service-wrap-2">
                         <div class="service-thumb" data-bg-src="assets/img/service/service-4-mask-2.png">
                             <span class="number">03</span>
-                            <div class="thumbnail" data-mask-src="assets/img/service/service-4-mask.png" data-bg-src="assets/img/service/service-4-3.png"></div>
+                            <div class="thumbnail" data-mask-src="assets/img/service/service-4-mask.png"
+                                data-bg-src="assets/img/service/service-4-3.png"></div>
                         </div>
                         <h3 class="h4 title"><a href="gallery.html">Ideal Children</a></h3>
-                        <p>Kids care dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna care suspendisse</p>
+                        <p>Kids care dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna care suspendisse</p>
                     </div>
                 </div>
-    
+
             </div>
         </div>
     </section>
 
     <!--==============================
-    Team Area 02 
+    Team Area 02
     ==============================-->
     <section class="team-area-2 space">
         <div class="container">
@@ -522,7 +570,8 @@
                 <div class="col-xl-6 col-lg-7">
                     <div class="title-area text-center">
                         <h2 class="sec-title">Top Teachers</h2>
-                        <p>Synergistically scale maintainable platforms standards compliant niche markets. Efficiently develop excellent markets for focused networks. </p>
+                        <p>Synergistically scale maintainable platforms standards compliant niche markets. Efficiently
+                            develop excellent markets for focused networks. </p>
                     </div>
                 </div>
             </div>
@@ -535,10 +584,10 @@
                             <div class="team-social">
                                 <button class="icon-btn"><i class="fa-regular fa-plus"></i></button>
                                 <div class="as-social">
-                                    <a  href="about.html#"><i class="fab fa-facebook-f"></i></a>
-                                    <a  href="about.html#"><i class="fab fa-twitter"></i></a>
-                                    <a  href="about.html#"><i class="fab fa-instagram"></i></a>
-                                    <a  href="about.html#"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="about.html#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="about.html#"><i class="fab fa-twitter"></i></a>
+                                    <a href="about.html#"><i class="fab fa-instagram"></i></a>
+                                    <a href="about.html#"><i class="fab fa-linkedin-in"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -556,10 +605,10 @@
                             <div class="team-social">
                                 <button class="icon-btn"><i class="fa-regular fa-plus"></i></button>
                                 <div class="as-social">
-                                    <a  href="about.html#"><i class="fab fa-facebook-f"></i></a>
-                                    <a  href="about.html#"><i class="fab fa-twitter"></i></a>
-                                    <a  href="about.html#"><i class="fab fa-instagram"></i></a>
-                                    <a  href="about.html#"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="about.html#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="about.html#"><i class="fab fa-twitter"></i></a>
+                                    <a href="about.html#"><i class="fab fa-instagram"></i></a>
+                                    <a href="about.html#"><i class="fab fa-linkedin-in"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -577,10 +626,10 @@
                             <div class="team-social">
                                 <button class="icon-btn"><i class="fa-regular fa-plus"></i></button>
                                 <div class="as-social">
-                                    <a  href="about.html#"><i class="fab fa-facebook-f"></i></a>
-                                    <a  href="about.html#"><i class="fab fa-twitter"></i></a>
-                                    <a  href="about.html#"><i class="fab fa-instagram"></i></a>
-                                    <a  href="about.html#"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="about.html#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="about.html#"><i class="fab fa-twitter"></i></a>
+                                    <a href="about.html#"><i class="fab fa-instagram"></i></a>
+                                    <a href="about.html#"><i class="fab fa-linkedin-in"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -598,10 +647,10 @@
                             <div class="team-social">
                                 <button class="icon-btn"><i class="fa-regular fa-plus"></i></button>
                                 <div class="as-social">
-                                    <a  href="about.html#"><i class="fab fa-facebook-f"></i></a>
-                                    <a  href="about.html#"><i class="fab fa-twitter"></i></a>
-                                    <a  href="about.html#"><i class="fab fa-instagram"></i></a>
-                                    <a  href="about.html#"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="about.html#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="about.html#"><i class="fab fa-twitter"></i></a>
+                                    <a href="about.html#"><i class="fab fa-instagram"></i></a>
+                                    <a href="about.html#"><i class="fab fa-linkedin-in"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -619,10 +668,10 @@
                             <div class="team-social">
                                 <button class="icon-btn"><i class="fa-regular fa-plus"></i></button>
                                 <div class="as-social">
-                                    <a  href="about.html#"><i class="fab fa-facebook-f"></i></a>
-                                    <a  href="about.html#"><i class="fab fa-twitter"></i></a>
-                                    <a  href="about.html#"><i class="fab fa-instagram"></i></a>
-                                    <a  href="about.html#"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="about.html#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="about.html#"><i class="fab fa-twitter"></i></a>
+                                    <a href="about.html#"><i class="fab fa-instagram"></i></a>
+                                    <a href="about.html#"><i class="fab fa-linkedin-in"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -637,14 +686,18 @@
     </section>
 
     <!--==============================
-    Activites Area  
+    Activites Area
     ==============================-->
     <section class="activites-area space" data-bg-src="assets/img/bg/activities_bg.png">
         <!-- bg animated image -->
-        <div class="activites-anime-img-1 shape-mockup jump d-none d-lg-block" data-top="17%" data-left="4%"><img src="assets/img/activites/bg_anime_2_1.png" alt="img"></div>        
-        <div class="activites-anime-img-3 shape-mockup jump3 d-none d-lg-block" data-top="25%" data-right="4%"><img src="assets/img/activites/bg_anime_2_3.png" alt="img"></div>
-        <div class="activites-anime-img-4 shape-mockup jump2 d-none d-xl-block" data-bottom="18%" data-left="3%"><img src="assets/img/activites/bg_anime_2_2.png" alt="img"></div>
-        <div class="activites-anime-img-5 shape-mockup jump d-none d-xl-block" data-bottom="15%" data-right="2%"><img src="assets/img/activites/bg_anime_3_1.png" alt="img"></div>
+        <div class="activites-anime-img-1 shape-mockup jump d-none d-lg-block" data-top="17%" data-left="4%"><img
+                src="assets/img/activites/bg_anime_2_1.png" alt="img"></div>
+        <div class="activites-anime-img-3 shape-mockup jump3 d-none d-lg-block" data-top="25%" data-right="4%"><img
+                src="assets/img/activites/bg_anime_2_3.png" alt="img"></div>
+        <div class="activites-anime-img-4 shape-mockup jump2 d-none d-xl-block" data-bottom="18%" data-left="3%"><img
+                src="assets/img/activites/bg_anime_2_2.png" alt="img"></div>
+        <div class="activites-anime-img-5 shape-mockup jump d-none d-xl-block" data-bottom="15%" data-right="2%"><img
+                src="assets/img/activites/bg_anime_3_1.png" alt="img"></div>
         <!-- bg animated image/-->
         <div class="container space-extra">
             <div class="row g-0 justify-content-center">
@@ -653,7 +706,9 @@
                         <h3 class="sub-title">OUR FEATURES</h3>
                         <h2 class="sec-title title-2">Education Through
                             Inspriation & Fun</h2>
-                        <p>Pandemic materials through goal-oriented opportunities. Professionally maintain team building functionalities B2C deliverables. Appropriately disintermediate state of the art e-tailers and progressive markets.
+                        <p>Pandemic materials through goal-oriented opportunities. Professionally maintain team building
+                            functionalities B2C deliverables. Appropriately disintermediate state of the art e-tailers
+                            and progressive markets.
                         </p>
                         <a class="as-btn mt-3" href="contact.html">Contact Us</a>
                     </div>
@@ -664,7 +719,7 @@
                         <img src="assets/img/activites/baby-2.png" alt="img">
                     </div>
                 </div>
-                
+
                 <div class="col-xl-4 col-md-6 align-self-center">
                     <ul class="activities-list right-list ms-lg-3 ms-0">
                         <li class="single-list">
@@ -673,7 +728,8 @@
                             </div>
                             <div class="media-body">
                                 <h4 class="title">Full Day Care Services</h4>
-                                <p class="content">Ocardinate high-quality quality vectors rather than best create go forward total linkage
+                                <p class="content">Ocardinate high-quality quality vectors rather than best create go
+                                    forward total linkage
                                     offer high god life impact
                                 </p>
                             </div>
@@ -684,10 +740,11 @@
                             </div>
                             <div class="media-body">
                                 <h4 class="title">Summer Camp Facility</h4>
-                                <p class="content">Ocardinate high-quality quality vectors rather than best create go forward total linkage
+                                <p class="content">Ocardinate high-quality quality vectors rather than best create go
+                                    forward total linkage
                                     offer high god life impact
-                                </p>  
-                            </div>                          
+                                </p>
+                            </div>
                         </li>
                         <li class="single-list mt-4">
                             <div class="icon align-self-start">
@@ -695,7 +752,8 @@
                             </div>
                             <div class="media-body">
                                 <h4 class="title">Pre School Services</h4>
-                                <p class="content">Ocardinate high-quality quality vectors rather than best create go forward total linkage
+                                <p class="content">Ocardinate high-quality quality vectors rather than best create go
+                                    forward total linkage
                                     offer high god life impact
                                 </p>
                             </div>
@@ -707,7 +765,7 @@
     </section>
 
     <!--==============================
-    Brand Area  
+    Brand Area
     ==============================-->
     <div class="brand-sec1 pt-105 space-bottom">
         <div class="container">
@@ -716,7 +774,8 @@
                     <div class="title-area text-lg-start text-center">
                         <span class="sub-title">SUPPORTIVE BRANDS</span>
                         <h2 class="sec-title">Our Partners</h2>
-                        <p class="sec-text">Competently strategize focused ideas after resource maximizing sources. </p>
+                        <p class="sec-text">Competently strategize focused ideas after resource maximizing sources.
+                        </p>
                     </div>
                 </div>
                 <div class="col-lg-3 align-self-center text-lg-end text-center">
@@ -724,7 +783,8 @@
                 </div>
             </div>
             <div class="brand-box-bg mt-4 mt-lg-0">
-                <div class="row as-carousel" id="brandSlide1" data-slide-show="4" data-lg-slide-show="4" data-md-slide-show="3" data-sm-slide-show="1" data-xs-slide-show="1" data-arrows="false">
+                <div class="row as-carousel" id="brandSlide1" data-slide-show="4" data-lg-slide-show="4"
+                    data-md-slide-show="3" data-sm-slide-show="1" data-xs-slide-show="1" data-arrows="false">
                     <div class="col-auto">
                         <div class="brand-box">
                             <img src="assets/img/brand/brand_1_1.png" alt="Brand Logo">
@@ -823,7 +883,8 @@
                         <div class="widget footer-widget">
                             <div class="as-widget-about">
                                 <h3 class="widget_title">About Us</h3>
-                                <p class="about-text">Atem nesciunt obcaecati, natus, eius quas ut vel dicta aliquid praesentium laboriosam consequuntur ipsa maiores.</p>
+                                <p class="about-text">Atem nesciunt obcaecati, natus, eius quas ut vel dicta aliquid
+                                    praesentium laboriosam consequuntur ipsa maiores.</p>
                                 <div class="as-social">
                                     <a class="facebook" href="about.html#"><i class="fab fa-facebook-f"></i></a>
                                     <a class="goggle" href="about.html#"><i class="fab fa-google-plus-g"></i></a>
@@ -853,24 +914,30 @@
                             <div class="recent-post-wrap">
                                 <div class="recent-post">
                                     <div class="media-img">
-                                        <a href="blog-details.html"><img src="assets/img/widget/1.png" alt="Blog Image"></a>
+                                        <a href="blog-details.html"><img src="assets/img/widget/1.png"
+                                                alt="Blog Image"></a>
                                     </div>
                                     <div class="media-body">
                                         <div class="recent-post-meta">
-                                            <a href="blog.html"><i class="fal fa-calendar-days"></i>25th March, 2023</a>
+                                            <a href="blog.html"><i class="fal fa-calendar-days"></i>25th March,
+                                                2023</a>
                                         </div>
-                                        <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Mission critical action life items rather</a></h4>
+                                        <h4 class="post-title"><a class="text-inherit"
+                                                href="blog-details.html">Mission critical action life items rather</a>
+                                        </h4>
                                     </div>
                                 </div>
                                 <div class="recent-post">
                                     <div class="media-img">
-                                        <a href="blog-details.html"><img src="assets/img/widget/2.png" alt="Blog Image"></a>
+                                        <a href="blog-details.html"><img src="assets/img/widget/2.png"
+                                                alt="Blog Image"></a>
                                     </div>
                                     <div class="media-body">
                                         <div class="recent-post-meta">
                                             <a href="blog.html"><i class="fal fa-calendar-days"></i>22 June, 2023</a>
                                         </div>
-                                        <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Prepare Users Using Story Guide Yes</a></h4>                                        
+                                        <h4 class="post-title"><a class="text-inherit"
+                                                href="blog-details.html">Prepare Users Using Story Guide Yes</a></h4>
                                     </div>
                                 </div>
                             </div>
@@ -887,23 +954,25 @@
                                     <input type="text" placeholder="Enter Your Email">
                                     <button class="as-btn"><i class="far fa-envelope-open"></i></button>
                                 </div>
-                                <p class="info"><i class="fa-regular fa-circle-info"></i> We Never Publish Your Data</p>
+                                <p class="info"><i class="fa-regular fa-circle-info"></i> We Never Publish Your Data
+                                </p>
                             </div>
                         </div>
-                    </div>                    
+                    </div>
                 </div>
             </div>
         </div>
         <div class="copyright-wrap" data-bg-src="assets/img/bg/copyright_bg.png">
             <div class="container">
-                <p class="copyright-text text-center">Copyright <i class="fal fa-copyright"></i> 2023 By <a href="about.html#">Tayde</a>. All Rights Reserved.</p>
+                <p class="copyright-text text-center">Copyright <i class="fal fa-copyright"></i> 2023 By <a
+                        href="about.html#">Tayde</a>. All Rights Reserved.</p>
             </div>
         </div>
     </footer>
 
     <!--********************************
-			Code End  Here 
-	******************************** -->
+   Code End  Here
+ ******************************** -->
 
     <!-- Scroll To Top -->
     <a href="about.html#" class="scrollToTop scroll-btn">
@@ -928,10 +997,10 @@
     <!-- Isotope Filter -->
     <script src="assets/js/imagesloaded.pkgd.min.js"></script>
     <script src="assets/js/isotope.pkgd.min.js"></script>
-    
-    <!-- Skill Counter File -->    
+
+    <!-- Skill Counter File -->
     <script src="assets/js/counter.js"></script>
-    <!-- Tweenmax File -->    
+    <!-- Tweenmax File -->
     <script src="assets/js/tweenmax.min.js"></script>
     <!-- Main Js File -->
     <script src="assets/js/main.js"></script>

@@ -26,8 +26,9 @@
                         <img src="assets/img/service/service_1_1.svg" alt="img">
                     </div>
                     <h4 class="title"><a href="course-details.html">Pre School ( 1-3 Years)</a></h4>
-                    <p>School kids care sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore</p>
+                    <p>Through a variety of age-appropriate activities and programs, we help children develop
+                        foundational skills such as counting, letter recognition, and problem-solving, while also
+                        fostering important social skills such as communication, sharing, and empathy. </p>
                     <a class="read-more-btn" href="course-details.html">Read More <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
@@ -37,8 +38,11 @@
                     <div class="service-icon">
                         <img src="assets/img/service/service_1_2.svg" alt="img">
                     </div>
-                    <h4 class="title"><a href="course-details.html">Insfants (3 - 6 years)</a></h4>
-                    <p>Insfants kids care dolor, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    <h4 class="title"><a href="course-details.html">Infants (3 - 6 years)</a></h4>
+                    <p>At this stage, kids are developing important cognitive, social, and emotional skills through
+                        sensory experiences and interactions. By providing a warm and loving
+                        environment, our caregivers at Paradise Hilltop can help infants develop trust, security, and a
+                        sense of attachment.
                     </p>
                     <a class="read-more-btn" href="course-details.html">Read More <i class="fas fa-arrow-right"></i></a>
                 </div>
@@ -50,13 +54,14 @@
                         <img src="assets/img/service/service_1_3.svg" alt="img">
                     </div>
                     <h4 class="title"><a href="course-details.html">Kindergarten (6 – 9 years)</a></h4>
-                    <p>Kids care dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    <p>We believe that kindergarten is a crucial stepping stone in a child's academic journey and strive
+                        to provide an enriching and positive experience for each child at Paradise Hilltop Creche
                     </p>
                     <a class="read-more-btn" href="course-details.html">Read More <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
 
-            <div class="col-lg-4 col-md-6">
+            {{-- <div class="col-lg-4 col-md-6">
                 <div class="service-card">
                     <div class="service-icon">
                         <img src="assets/img/service/service_1_2.svg" alt="img">
@@ -66,7 +71,7 @@
                     </p>
                     <a class="read-more-btn" href="course-details.html">Read More <i class="fas fa-arrow-right"></i></a>
                 </div>
-            </div>
+            </div> --}}
         </div>
     </div>
 </div>

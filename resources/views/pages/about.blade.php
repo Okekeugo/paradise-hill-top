@@ -2,33 +2,59 @@
 
 @section('main_content')
     <!--==============================
-                Breadcumb
-            ============================== -->
+                    Breadcumb
+                ============================== -->
     {{-- @include('visitors.guest.aboutPage.partials.breadcumb_section') --}}
 
 
     <!--==============================
-            About Area
-            ==============================-->
+                Welcome (Introduction) to About Us Area
+                ==============================-->
+    @include('visitors.guest.aboutPage.partials.intro_section')
+
+
+
+
+    <!--==============================
+                Mission Area
+                ==============================-->
+    @include('visitors.guest.aboutPage.partials.mission_section')
+
+
+
+
+      <!--==============================
+                Vision Area
+                ==============================-->
+    @include('visitors.guest.aboutPage.partials.vision_section')
+
+
+
+    <!--==============================
+                About Area
+                ==============================-->
     @include('visitors.guest.aboutPage.partials.about_section')
 
-    <!--==============================
-            Service Area
-            ==============================-->
-    @include('visitors.guest.aboutPAge.partials.service_section')
+
+    {{-- (Unavailable ATM) --}}
 
     <!--==============================
-            Team Area 02
-            ==============================-->
-    @include('visitors.guest.aboutPage.partials.team_section')
+                Service Area
+                ==============================-->
+    {{-- @include('visitors.guest.aboutPAge.partials.service_section') --}}
 
     <!--==============================
-            Activites Area
-            ==============================-->
-    @include('visitors.guest.aboutPage.partials.activity_section')
+                Team Area 02 (Teachers)
+                ==============================-->
+    {{-- @include('visitors.guest.aboutPage.partials.team_section') --}}
 
     <!--==============================
-            Brand Area
-            ==============================-->
-    @include('visitors.guest.aboutPage.partials.brand_Section')
+                Activites Area
+                ==============================-->
+    {{-- @include('visitors.guest.aboutPage.partials.activity_section') --}}
+
+    <!--==============================
+                Brand Area
+                ==============================-->
+    {{-- @include('visitors.guest.aboutPage.partials.brand_Section') --}}
 @endsection
