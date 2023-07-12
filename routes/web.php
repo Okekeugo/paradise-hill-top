@@ -46,6 +46,11 @@ Route::get('/error', function () {
 })->name('error');
 
 
+Route::get('/program', function () {
+    return view('pages.programs');
+})->name('program');
+
+
 /*
 |--------------------------------------------------------------------------
 | Unavailable Routes At The Moment
@@ -72,9 +77,6 @@ Route::get('/error', function () {
 //     return view('pages.facilities');
 // })->name('facilities');
 
-Route::get('/program', function () {
-    return view('pages.program');
-})->name('program');
 
 // ======================================END OF MAIN ROUTES==================================
 

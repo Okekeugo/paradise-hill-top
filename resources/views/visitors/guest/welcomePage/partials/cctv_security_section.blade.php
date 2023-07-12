@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
-                <div class="wcu-thumb">
+                <div class="wcu-thumb col-lg-11">
                     <span class="anime-img-1 shape-mockup jump">
                         <img class="img-1" src="assets/img/wcu/cctv.png" alt="img">
                     </span>
@@ -14,7 +14,7 @@
                 </div>
             </div>
             <div class="col-lg-6">
-                <div class="wcu-wrap mt-lg-0 mt-4">
+                <div class="col-lg-12 wcu-wrap mt-lg-0 mt-4 ">
                     <div class="title-area">
                         <h3 class="sub-title">SECURITY</h3>
                         <h4 class="sec-title">Why your child is secure with us</h4>
