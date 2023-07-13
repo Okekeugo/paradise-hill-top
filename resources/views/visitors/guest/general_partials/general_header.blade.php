@@ -38,7 +38,7 @@
         <!--==============================
         count-down Area
         ==============================-->
-        @include('visitors.guest.welcomePage.partials.countdown_section')
+        {{-- @include('visitors.guest.welcomePage.partials.countdown_section') --}}
     @else
         <!--==============================
                 Breadcumb
