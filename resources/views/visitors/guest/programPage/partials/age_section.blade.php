@@ -10,11 +10,11 @@
                 <div class="about-content-wrap">
                     <div class="title-area mb-0">
                         <span class="sub-title">Age Range</span>
-                        <h2 class="sec-title uppercase">for ages 1 - 3 Years</h2>
+                        <h2 class="sec-title uppercase">for ages 6 - 24 Months</h2>
 
                         <p class="sec-text">
-                            Our creche provides a nurturing environment for young children between the ages of 1 and 3
-                            years old. We understand the importance of quality care during these formative years and are
+                            Our creche provides a nurturing environment for young children between the ages of 6 and 24
+                            Months old. We understand the importance of quality care during these formative years and are
                             committed to providing a safe and engaging space for your child to learn and grow.
                         </p>
 
