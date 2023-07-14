@@ -10,7 +10,14 @@
                     <div class="hero-style1">
                         <h1 class="hero-title">We Are Childcare
                             Professionals</h1>
-                        <p class="hero-text">Caring for your little ones, while you're away.</p>
+                        <p class="hero-text">
+                            Nurturing young minds with care and expertise.
+                            <br>
+                            Caring for your little ones, while you're away.
+                        </p>
+                        <p class="hero-text"></p>
+
+                        
                         <a href="{{ route('about us') }}" class="as-btn">Learn More</a>                        
                     </div>
                 </div>

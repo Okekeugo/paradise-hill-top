@@ -31,6 +31,14 @@
 
 
     <!--==============================
+                Services Area
+                ==============================-->
+    @include('visitors.guest.aboutPage.partials.services_section')
+
+
+
+
+     <!--==============================
                 About Area
                 ==============================-->
     @include('visitors.guest.aboutPage.partials.about_section')

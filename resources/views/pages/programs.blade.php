@@ -2,38 +2,24 @@
 
 @section('main_content')
     <!--==============================
-                    Breadcumb
-                ============================== -->
-    {{-- @include('visitors.guest.aboutPage.partials.breadcumb_section') --}}
-
-
-    <!--==============================
-                Welcome (Introduction) to About Us Area
-                ==============================-->
-    {{-- @include('visitors.guest.aboutPage.partials.intro_section') --}}
-
-
-
-
-    <!--==============================
                 Mission Area
                 ==============================-->
     @include('visitors.guest.programPage.partials.age_section')
 
 
-
-
       <!--==============================
-                Vision Area
+                Our Services Area
                 ==============================-->
-    @include('visitors.guest.aboutPage.partials.vision_section')
+
+    @include('visitors.guest.programPage.partials.services_section')
 
 
 
-    <!--==============================
-                About Area
+     <!--==============================
+                Daily Activities Area
                 ==============================-->
-    @include('visitors.guest.aboutPage.partials.about_section')
+
+    @include('visitors.guest.programPage.partials.event_section')
 
 
     {{-- (Unavailable ATM) --}}
