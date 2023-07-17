@@ -1,68 +1,80 @@
 @extends('layouts.guest')
 
 @section('main_content')
+    <!--==============================
+            ==============================
+            Main Content
+            ==============================
+            ==============================-->
+
 
     <!--==============================
-        ==============================
-        Main Content
-        ==============================
-        ==============================-->
-
-
-    <!--==============================
-        About Area
-        ==============================-->
+            About Area
+            ==============================-->
     @include('visitors.guest.welcomePage.partials.about_section')
 
     <!--==============================
-        Service Area
-        ==============================-->
+            Service Area
+            ==============================-->
     {{-- @include('visitors.guest.welcomePage.partials.services_section') --}}
 
+
     <!--==============================
-        Why-choose-us Area
-        ==============================-->
+            Why-choose-us Area
+            ==============================-->
     @include('visitors.guest.welcomePage.partials.why_choose_us_section')
 
 
-     <!--==============================
-        Security Area
-        ==============================-->
+    <!--==============================
+            Security Area
+            ==============================-->
     @include('visitors.guest.welcomePage.partials.cctv_security_section')
 
 
-    <!--==============================
-        Course Area (dynamic page creation for every course)
-        ==============================-->
-    {{-- @include('visitors.guest.welcomePage.partials.course_area_section') --}}
+
 
     <!--==============================
-        Call to Action Area
-        ==============================-->
+            Course Area (dynamic page creation for every course)
+            ==============================-->
+    {{-- @include('visitors.guest.welcomePage.partials.course_area_section') --}}
+
+
+
+    <!--==============================
+            Pricing Area
+            ==============================-->
+    @include('visitors.guest.general_partials.pricing')
+
+
+
+
+    <!--==============================
+            Call to Action Area
+            ==============================-->
     @include('visitors.guest.welcomePage.partials.call_to_action_section')
 
     <!--==============================
-        Team Area
-        ==============================-->
+            Team Area
+            ==============================-->
     {{-- @include('visitors.guest.welcomePage.partials.team_section') --}}
     <!--==============================
-        Testimonial Area
-        ==============================-->
+            Testimonial Area
+            ==============================-->
     @include('visitors.guest.welcomePage.partials.testimonial_section')
     <!--==============================
-        Blog Area
-        ==============================-->
+            Blog Area
+            ==============================-->
     {{-- @include('visitors.guest.welcomePage.partials.blog_section') --}}
 
     <!--==============================
-        Brand Area
-        ==============================-->
+            Brand Area
+            ==============================-->
     {{-- @include('visitors.guest.welcomePage.partials.brand_section') --}}
 
 
     <!--==============================
-        ==============================
-        / Main Content EOL
-        ==============================
-        ==============================-->
+            ==============================
+            / Main Content EOL
+            ==============================
+            ==============================-->
 @endsection
