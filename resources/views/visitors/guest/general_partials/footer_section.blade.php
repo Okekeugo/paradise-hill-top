@@ -1,6 +1,6 @@
 <footer class="footer-wrapper footer-layout1 remi" data-bg-href="/assets/img/bg/footer_bg_1.png">
     <div class="bg-shape-top">
-        <img href="/assets/img/bg/header_bg_1.png" alt="img">
+        <img src="/assets/img/bg/header_bg_1.png" alt="img">
     </div>
     <div class="footer-top">
         <div class="container">
@@ -8,7 +8,7 @@
                 <li>
                     <div class="footer-contact-wrap">
                         <div class="icon">
-                            <img href="/assets/img/icon/phone.svg" alt="img">
+                            <img src="/assets/img/icon/phone.svg" alt="img">
                         </div>
                         <div class="details">
                             <p class="title">Give us a Call</p>
@@ -19,18 +19,20 @@
                 <li>
                     <div class="footer-contact-wrap">
                         <div class="icon">
-                            <img href="/assets/img/icon/envelope.svg" alt="img">
+                            <img src="/assets/img/icon/envelope.svg" alt="img">
                         </div>
                         <div class="details">
                             <p class="title">Send us a Message</p>
-                            <h6 class="info"><a href="mailto:info@paradisehilltop.com"><small><small>info@paradisehilltop.com</small></small></a></h6>
+                            <h6 class="info"><a
+                                    href="mailto:info@paradisehilltop.com"><small><small>info@paradisehilltop.com</small></small></a>
+                            </h6>
                         </div>
                     </div>
                 </li>
                 <li>
                     <div class="footer-contact-wrap">
                         <div class="icon">
-                            <img href="/assets/img/icon/home.svg" alt="img">
+                            <img src="/assets/img/icon/home.svg" alt="img">
                         </div>
                         <div class="details">
                             <p class="title">Visit our Office</p>
@@ -48,7 +50,8 @@
                     <div class="widget footer-widget">
                         <div class="as-widget-about">
                             <h3 class="widget_title">About Us</h3>
-                            <p class="about-text">{{env('CRECHE_COY')}} aims to bring out the best in your baby. We give a high priority to the safety and security of our children.</p>
+                            <p class="about-text">{{ env('CRECHE_COY') }} aims to bring out the best in your baby. We
+                                give a high priority to the safety and security of our children.</p>
                             <div class="as-social">
                                 <a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a>
                                 <a class="goggle" href="#"><i class="fab fa-google-plus-g"></i></a>
@@ -128,7 +131,7 @@
     <div class="copyright-wrap" data-bg-href="/assets/img/bg/copyright_bg.png">
         <div class="container">
             <p class="copyright-text text-center">Copyright <i class="fal fa-copyright"></i> 2023 By <a
-                    href="home-child-care.html#">{{ env('SCHOOL_NAME') }}</a>. All Rights Reserved.</p>
+                    href="{{ route('welcome') }}#">{{ env('SCHOOL_NAME') }}</a>. All Rights Reserved.</p>
         </div>
     </div>
 </footer>

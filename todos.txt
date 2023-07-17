@@ -48,3 +48,8 @@ duplicate the Event page for program and services.
 view-source:http://127.0.0.1:8000/assets/logo/logo_white_no_bg_32x32.ico
 view-source:http://127.0.0.1:8000/mary/show/assets/logo/logo_white_no_bg_32x32.ico
 
+Add Background to space between sections
+adjust the text above footer
+
+blog panel
+create a firewall for admin
