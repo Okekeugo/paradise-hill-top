@@ -42,9 +42,9 @@
                     <div class="row align-items-center justify-content-between">
                         <div class="col-auto">
                             <div class="header-logo">
-                                {{-- <a href="home-child-care.html"><img src="assets/logo/logo_white_no_bg.png" alt="Paradise Hilltop"></a> --}}
+                                {{-- <a href="home-child-care.html"><img src="/assets/logo/logo_white_no_bg.png" alt="Paradise Hilltop"></a> --}}
                                 <a href="home-child-care.html">
-                                    <img src="assets/logo/logo_white.jpeg" alt="Paradise Hilltop" width="125">
+                                    <img src="/assets/logo/logo_white.jpeg" alt="Paradise Hilltop" width="125">
                                 </a>
                             </div>
                         </div>
@@ -149,14 +149,14 @@
                                                 <a href="{{ url('/facility') }}">Facilities</a>
                                             </li> --}}
 
-                                            {{-- unavailable --}}
+                                        {{-- unavailable --}}
                                         {{-- <li>
                                             <a href="{{ url('/gallery') }}">Gallery</a>
                                         </li> --}}
                                         {{-- not yet available --}}
-                                        {{-- <li>    
-                                                <a href="{{ url('/blog') }}">blog</a>
-                                            </li> --}}
+                                        <li>
+                                            <a href="{{ url('/blog') }}">blog</a>
+                                        </li>
                                         <li>
                                             <a href="{{ url('/about') }}">About Us</a>
                                         </li>
@@ -183,7 +183,7 @@
                     </div>
                 </div>
             </div>
-            <div class="menu-shape" data-bg-src="assets/img/bg/header_bg_1.png">
+            <div class="menu-shape" data-bg-src="/assets/img/bg/header_bg_1.png">
             </div>
         </div>
     </div>

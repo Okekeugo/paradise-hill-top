@@ -13,39 +13,39 @@
             <div class="testimonial-slider-nav">
                 <div>
                     <div class="thumb">
-                        <img src="assets/img/testimonial/testi_1_1.png" alt="img">
+                        <img src="/assets/img/testimonial/testi_1_1.png" alt="img">
                     </div>
                 </div>
                 <div>
                     <div class="thumb">
-                        <img src="assets/img/testimonial/testi_1_02.png" alt="img">
+                        <img src="/assets/img/testimonial/testi_1_02.png" alt="img">
                     </div>
                 </div>
                 <div>
                     <div class="thumb">
-                        <img src="assets/img/testimonial/testi_1_03.png" alt="img">
+                        <img src="/assets/img/testimonial/testi_1_03.png" alt="img">
                     </div>
                 </div>
                 <div>
                     <div class="thumb">
-                        <img src="assets/img/testimonial/testi_1_04.png" alt="img">
+                        <img src="/assets/img/testimonial/testi_1_04.png" alt="img">
                     </div>
                 </div>
                 <div>
                     <div class="thumb">
-                        <img src="assets/img/testimonial/testi_1_05.png" alt="img">
+                        <img src="/assets/img/testimonial/testi_1_05.png" alt="img">
                     </div>
                 </div>
             </div>
             <div class="action">
                 <a class="testi-indicator-2" href="home-child-care.html#" data-slide="2"><img
-                        src="assets/img/testimonial/testi_1_2.png" alt="img"></a>
+                        src="/assets/img/testimonial/testi_1_2.png" alt="img"></a>
                 <a class="testi-indicator-3" href="home-child-care.html#" data-slide="3"><img
-                        src="assets/img/testimonial/testi_1_3.png" alt="img"></a>
+                        src="/assets/img/testimonial/testi_1_3.png" alt="img"></a>
                 <a class="testi-indicator-4" href="home-child-care.html#" data-slide="4"><img
-                        src="assets/img/testimonial/testi_1_4.png" alt="img"></a>
+                        src="/assets/img/testimonial/testi_1_4.png" alt="img"></a>
                 <a class="testi-indicator-5" href="home-child-care.html#" data-slide="5"><img
-                        src="assets/img/testimonial/testi_1_5.png" alt="img"></a>
+                        src="/assets/img/testimonial/testi_1_5.png" alt="img"></a>
             </div>
             <div class="testimonial-slider">
                 <div class="testi-box">

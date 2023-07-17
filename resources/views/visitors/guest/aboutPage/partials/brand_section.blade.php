@@ -13,45 +13,46 @@
             </div>
         </div>
         <div class="brand-box-bg mt-4 mt-lg-0">
-            <div class="row as-carousel" id="brandSlide1" data-slide-show="4" data-lg-slide-show="4" data-md-slide-show="3" data-sm-slide-show="1" data-xs-slide-show="1" data-arrows="false">
+            <div class="row as-carousel" id="brandSlide1" data-slide-show="4" data-lg-slide-show="4"
+                data-md-slide-show="3" data-sm-slide-show="1" data-xs-slide-show="1" data-arrows="false">
                 <div class="col-auto">
                     <div class="brand-box">
-                        <img src="assets/img/brand/brand_1_1.png" alt="Brand Logo">
+                        <img src="/assets/img/brand/brand_1_1.png" alt="Brand Logo">
                     </div>
                 </div>
                 <div class="col-auto">
                     <div class="brand-box">
-                        <img src="assets/img/brand/brand_1_2.png" alt="Brand Logo">
+                        <img src="/assets/img/brand/brand_1_2.png" alt="Brand Logo">
                     </div>
                 </div>
                 <div class="col-auto">
                     <div class="brand-box">
-                        <img src="assets/img/brand/brand_1_3.png" alt="Brand Logo">
+                        <img src="/assets/img/brand/brand_1_3.png" alt="Brand Logo">
                     </div>
                 </div>
                 <div class="col-auto">
                     <div class="brand-box">
-                        <img src="assets/img/brand/brand_1_4.png" alt="Brand Logo">
+                        <img src="/assets/img/brand/brand_1_4.png" alt="Brand Logo">
                     </div>
                 </div>
                 <div class="col-auto">
                     <div class="brand-box">
-                        <img src="assets/img/brand/brand_1_1.png" alt="Brand Logo">
+                        <img src="/assets/img/brand/brand_1_1.png" alt="Brand Logo">
                     </div>
                 </div>
                 <div class="col-auto">
                     <div class="brand-box">
-                        <img src="assets/img/brand/brand_1_2.png" alt="Brand Logo">
+                        <img src="/assets/img/brand/brand_1_2.png" alt="Brand Logo">
                     </div>
                 </div>
                 <div class="col-auto">
                     <div class="brand-box">
-                        <img src="assets/img/brand/brand_1_3.png" alt="Brand Logo">
+                        <img src="/assets/img/brand/brand_1_3.png" alt="Brand Logo">
                     </div>
                 </div>
                 <div class="col-auto">
                     <div class="brand-box">
-                        <img src="assets/img/brand/brand_1_4.png" alt="Brand Logo">
+                        <img src="/assets/img/brand/brand_1_4.png" alt="Brand Logo">
                     </div>
                 </div>
             </div>

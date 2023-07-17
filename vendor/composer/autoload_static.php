@@ -36,6 +36,7 @@ class ComposerStaticInit62219a564e78f5cd196dd853f0b3d319
         'a1cfe24d14977df6878b9bf804af2d1c' => __DIR__ . '/..' . '/nunomaduro/collision/src/Adapters/Phpunit/Autoload.php',
         'ec07570ca5a812141189b1fa81503674' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Assert/Functions.php',
         '320163ac6b93aebe3dc25b60a0533d56' => __DIR__ . '/..' . '/spatie/laravel-ignition/src/helpers.php',
+        '9eb92a60b23a168bdc5f3366f76ebf52' => __DIR__ . '/../..' . '/app/helpers/helpers.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -349,8 +350,8 @@ class ComposerStaticInit62219a564e78f5cd196dd853f0b3d319
         ),
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-message/src',
-            1 => __DIR__ . '/..' . '/psr/http-factory/src',
+            0 => __DIR__ . '/..' . '/psr/http-factory/src',
+            1 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
         'Psr\\Http\\Client\\' => 
         array (

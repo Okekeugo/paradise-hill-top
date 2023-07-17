@@ -51,6 +51,29 @@ Route::get('/program', function () {
 })->name('program');
 
 
+Route::get('/blog', function () {
+    return view('pages.blog');
+})->name('blog');
+
+
+
+// Route::get('/blog2}', function () {
+//     $blog = 1;
+//     return view('pages.blog_details', compact('blog'));
+// })->name('blog.show');
+
+
+
+Route::get('blog/1/show', function () {
+    // dd('fufu');
+    $blog = 1;
+    return view('pages.blog_details');
+})->name('blog.show');
+
+
+
+
+
 /*
 |--------------------------------------------------------------------------
 | Unavailable Routes At The Moment
@@ -62,9 +85,6 @@ Route::get('/program', function () {
 |
 */
 
-// Route::get('/blog', function () {
-//     return view('pages.blog');
-// })->name('blog');
 
 
 // Not yet available

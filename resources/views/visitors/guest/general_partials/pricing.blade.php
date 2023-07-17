@@ -11,7 +11,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="pricing-card">
                     <div class="top-dots">
-                        <img src="assets/img/icon/circle.png" alt="img">
+                        <img src="/assets/img/icon/circle.png" alt="img">
                     </div>
                     <h3 class="title">Daily</h3>
                     <h4 class="price">₦4,000</h4>
@@ -20,14 +20,14 @@
                     <a class="as-btn style2" href="login.html">Choose Plan</a>
                     {{-- <p class="note">All Price Exclude 25% VAT</p> --}}
                     <div class="bottom-dots">
-                        <img src="assets/img/icon/circle.png" alt="img">
+                        <img src="/assets/img/icon/circle.png" alt="img">
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="pricing-card active">
                     <div class="top-dots">
-                        <img src="assets/img/icon/circle.png" alt="img">
+                        <img src="/assets/img/icon/circle.png" alt="img">
                     </div>
                     <h3 class="title">Monthly</h3>
                     <h4 class="price">₦17,000</h4>
@@ -36,14 +36,14 @@
                     <a class="as-btn style4" href="login.html">Choose Plan</a>
                     {{-- <p class="note">All Price Exclude 25% VAT</p> --}}
                     <div class="bottom-dots">
-                        <img src="assets/img/icon/circle.png" alt="img">
+                        <img src="/assets/img/icon/circle.png" alt="img">
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="pricing-card">
                     <div class="top-dots">
-                        <img src="assets/img/icon/circle.png" alt="img">
+                        <img src="/assets/img/icon/circle.png" alt="img">
                     </div>
                     <h3 class="title">Yearly</h3>
                     <h4 class="price">₦50,000</h4>
@@ -52,7 +52,7 @@
                     <a class="as-btn style2" href="login.html">Choose Plan</a>
                     {{-- <p class="note">All Price Exclude 25% VAT</p> --}}
                     <div class="bottom-dots">
-                        <img src="assets/img/icon/circle.png" alt="img">
+                        <img src="/assets/img/icon/circle.png" alt="img">
                     </div>
                 </div>
             </div>

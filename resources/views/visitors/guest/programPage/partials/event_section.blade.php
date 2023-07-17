@@ -5,7 +5,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="event-card">
                     <div class="thumb">
-                        <img src="assets/img/event/event_1.png" alt="img">
+                        <img src="/assets/img/event/event_1.png" alt="img">
                     </div>
                     <div class="details">
                         <h4 class="event-title"><a href="event-details.html">Nature/Sensory Learning</a></h4>
@@ -20,7 +20,7 @@
             {{-- <div class="col-lg-4 col-md-6">
                 <div class="event-card">
                     <div class="thumb">
-                        <img src="assets/img/event/event_2.png" alt="img">
+                        <img src="/assets/img/event/event_2.png" alt="img">
                     </div>
                     <div class="details">
                         <h4 class="event-title"><a href="event-details.html">Kids Walk through Nature</a></h4>
@@ -35,7 +35,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="event-card">
                     <div class="thumb">
-                        <img src="assets/img/event/event_5.png" alt="img">
+                        <img src="/assets/img/event/event_5.png" alt="img">
                     </div>
                     <div class="details">
                         <h4 class="event-title"><a href="event-details.html">Stretch and giggle time</a></h4>
@@ -51,7 +51,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="event-card">
                     <div class="thumb">
-                        <img src="assets/img/event/event_3.png" alt="img">
+                        <img src="/assets/img/event/event_3.png" alt="img">
                     </div>
                     <div class="details">
                         <h4 class="event-title"><a href="event-details.html">TV/Video Player - Kids Programs</a></h4>
@@ -66,7 +66,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="event-card">
                     <div class="thumb">
-                        <img src="assets/img/event/event_4.png" alt="img">
+                        <img src="/assets/img/event/event_4.png" alt="img">
                     </div>
                     <div class="details">
                         <h4 class="event-title"><a href="event-details.html">Circle session</a></h4>
@@ -81,7 +81,7 @@
             {{-- <div class="col-lg-4 col-md-6">
                 <div class="event-card">
                     <div class="thumb">
-                        <img src="assets/img/event/event_5.png" alt="img">
+                        <img src="/assets/img/event/event_5.png" alt="img">
                     </div>
                     <div class="details">
                         <h4 class="event-title"><a href="event-details.html">Stretch and giggle</a></h4>
@@ -97,7 +97,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="event-card">
                     <div class="thumb">
-                        <img src="assets/img/event/event_2.png" alt="img">
+                        <img src="/assets/img/event/event_2.png" alt="img">
                     </div>
                     <div class="details">
                         <h4 class="event-title"><a href="event-details.html"> Walk through Nature</a></h4>
@@ -109,11 +109,11 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="col-lg-4 col-md-6">
                 <div class="event-card">
                     <div class="thumb">
-                        <img src="assets/img/event/event_6.png" alt="img">
+                        <img src="/assets/img/event/event_6.png" alt="img">
                     </div>
                     <div class="details">
                         <h4 class="event-title"><a href="event-details.html">Free Play Activities</a></h4>

@@ -33,14 +33,16 @@
     <meta name="theme-color" content="#ffffff">
 
     <!--==============================
-	  Google Fonts
-	============================== -->
+ Google Fonts
+ ============================== -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
 
     <!--==============================
-	    All CSS File
-	============================== -->
+ All CSS File
+ ============================== -->
     <!-- Bootstrap -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <!-- Fontawesome Icon -->
@@ -49,7 +51,7 @@
     <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
     <!-- Slick Slider -->
     <link rel="stylesheet" href="assets/css/slick.min.css">
-    
+
     <!-- Theme Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
 
@@ -59,14 +61,14 @@
 
 
     <!--[if lte IE 9]>
-    	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
     <![endif]-->
 
 
 
     <!--********************************
-   		Code Start From Here 
-	******************************** -->
+   Code Start From Here
+ ******************************** -->
 
 
 
@@ -94,7 +96,7 @@
         <div class="as-menu-area text-center">
             <button class="as-menu-toggle"><i class="fal fa-times"></i></button>
             <div class="mobile-logo">
-                <a href="home-child-care.html"><img src="assets/img/logo.svg" alt="Tayde"></a>
+                <a href="home-child-care.html"><img src="/assets/img/logo.svg" alt="Tayde"></a>
             </div>
             <div class="as-mobile-menu">
                 <ul>
@@ -127,9 +129,12 @@
                                     <li><a href="home-modern-kindergarten-rtl.html">Modern Kindergarten Rtl</a></li>
                                     <li><a href="home-kindergarten-rtl.html">New Kindergarten Rtl</a></li>
                                     <li><a href="home-child-care-onepage-rtl.html">Home Child Care Onepage Rtl</a></li>
-                                    <li><a href="home-child-care-center-onepage-rtl.html">Child Care Center Onepage Rtl</a></li>
-                                    <li><a href="home-modern-kindergarten-onepage-rtl.html">Modern Kindergarten Onepage Rtl</a></li>
-                                    <li><a href="home-kindergarten-rtl-onepage.html">New Kindergarten Onepage Rtl</a></li>
+                                    <li><a href="home-child-care-center-onepage-rtl.html">Child Care Center Onepage
+                                            Rtl</a></li>
+                                    <li><a href="home-modern-kindergarten-onepage-rtl.html">Modern Kindergarten Onepage
+                                            Rtl</a></li>
+                                    <li><a href="home-kindergarten-rtl-onepage.html">New Kindergarten Onepage Rtl</a>
+                                    </li>
                                 </ul>
                             </li>
                         </ul>
@@ -193,40 +198,50 @@
                 <div class="widget_shopping_cart_content">
                     <ul class="woocommerce-mini-cart cart_list product_list_widget ">
                         <li class="woocommerce-mini-cart-item mini_cart_item">
-                            <a href="event-details.html#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
-                            <a href="event-details.html#"><img src="assets/img/product/product_thumb_1_1.png" alt="Cart Image">Wooden Bunny</a>
+                            <a href="event-details.html#" class="remove remove_from_cart_button"><i
+                                    class="far fa-times"></i></a>
+                            <a href="event-details.html#"><img src="/assets/img/product/product_thumb_1_1.png"
+                                    alt="Cart Image">Wooden Bunny</a>
                             <span class="quantity">1 ×
                                 <span class="woocommerce-Price-amount amount">
                                     <span class="woocommerce-Price-currencySymbol">$</span>940.00</span>
                             </span>
                         </li>
                         <li class="woocommerce-mini-cart-item mini_cart_item">
-                            <a href="event-details.html#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
-                            <a href="event-details.html#"><img src="assets/img/product/product_thumb_1_2.png" alt="Cart Image">Kids Dinosour</a>
+                            <a href="event-details.html#" class="remove remove_from_cart_button"><i
+                                    class="far fa-times"></i></a>
+                            <a href="event-details.html#"><img src="/assets/img/product/product_thumb_1_2.png"
+                                    alt="Cart Image">Kids Dinosour</a>
                             <span class="quantity">1 ×
                                 <span class="woocommerce-Price-amount amount">
                                     <span class="woocommerce-Price-currencySymbol">$</span>899.00</span>
                             </span>
                         </li>
                         <li class="woocommerce-mini-cart-item mini_cart_item">
-                            <a href="event-details.html#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
-                            <a href="event-details.html#"><img src="assets/img/product/product_thumb_1_3.png" alt="Cart Image">Small Truck</a>
+                            <a href="event-details.html#" class="remove remove_from_cart_button"><i
+                                    class="far fa-times"></i></a>
+                            <a href="event-details.html#"><img src="/assets/img/product/product_thumb_1_3.png"
+                                    alt="Cart Image">Small Truck</a>
                             <span class="quantity">1 ×
                                 <span class="woocommerce-Price-amount amount">
                                     <span class="woocommerce-Price-currencySymbol">$</span>756.00</span>
                             </span>
                         </li>
                         <li class="woocommerce-mini-cart-item mini_cart_item">
-                            <a href="event-details.html#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
-                            <a href="event-details.html#"><img src="assets/img/product/product_thumb_1_4.png" alt="Cart Image">Color Kid Truck</a>
+                            <a href="event-details.html#" class="remove remove_from_cart_button"><i
+                                    class="far fa-times"></i></a>
+                            <a href="event-details.html#"><img src="/assets/img/product/product_thumb_1_4.png"
+                                    alt="Cart Image">Color Kid Truck</a>
                             <span class="quantity">1 ×
                                 <span class="woocommerce-Price-amount amount">
                                     <span class="woocommerce-Price-currencySymbol">$</span>723.00</span>
                             </span>
                         </li>
                         <li class="woocommerce-mini-cart-item mini_cart_item">
-                            <a href="event-details.html#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
-                            <a href="event-details.html#"><img src="assets/img/product/product_thumb_1_5.png" alt="Cart Image">Dog Pupet</a>
+                            <a href="event-details.html#" class="remove remove_from_cart_button"><i
+                                    class="far fa-times"></i></a>
+                            <a href="event-details.html#"><img src="/assets/img/product/product_thumb_1_5.png"
+                                    alt="Cart Image">Dog Pupet</a>
                             <span class="quantity">1 ×
                                 <span class="woocommerce-Price-amount amount">
                                     <span class="woocommerce-Price-currencySymbol">$</span>1080.00</span>
@@ -247,7 +262,7 @@
         </div>
     </div>
     <!--==============================
-	Header Area
+ Header Area
     ==============================-->
     <header class="as-header header-layout1">
         <div class="navbar-top">
@@ -256,20 +271,21 @@
                     <div class="col-lg-8 d-none d-lg-block">
                         <div class="header-links">
                             <ul>
-                                <li><i class="fa-solid fa-phone"></i><a href="tel:+25625921589">+246 214 203 215</a></li>
+                                <li><i class="fa-solid fa-phone"></i><a href="tel:+25625921589">+246 214 203 215</a>
+                                </li>
                                 <li><i class="fa-solid fa-location-dot"></i>258 Helano Street, New York</li>
                                 <li><i class="fa-regular fa-clock"></i><span>Mon - Sat: 8:30 am - 6:00 pm</span>
                                 </li>
                             </ul>
                         </div>
-                        
+
                     </div>
                     <div class="col-lg-4 align-self-center text-lg-end text-center">
                         <ul class="navbar-top-right header-links">
                             <li>
                                 <i class="fa-regular fa-user"></i>
-                                    <a href="login.html">Login</a> <span>/</span>
-                                    <a href="signup.html">Register</a>
+                                <a href="login.html">Login</a> <span>/</span>
+                                <a href="signup.html">Register</a>
                             </li>
                             <li>
                                 <div class="header-social">
@@ -292,7 +308,8 @@
                         <div class="row align-items-center justify-content-between">
                             <div class="col-auto">
                                 <div class="header-logo">
-                                    <a href="home-child-care.html"><img src="assets/img/logo.svg" alt="Tayde"></a>
+                                    <a href="home-child-care.html"><img src="/assets/img/logo.svg"
+                                            alt="Tayde"></a>
                                 </div>
                             </div>
                             <div class="col-auto">
@@ -306,32 +323,47 @@
                                                         <a href="event-details.html#">Multipage</a>
                                                         <ul class="sub-menu">
                                                             <li><a href="home-child-care.html">Home Child Care</a></li>
-                                                            <li><a href="home-child-care-center.html">Child Care Center</a></li>
-                                                            <li><a href="home-modern-kindergarten.html">Modern Kindergarten</a></li>
-                                                            <li><a href="home-kindergarten.html">New Kindergarten</a></li>
+                                                            <li><a href="home-child-care-center.html">Child Care
+                                                                    Center</a></li>
+                                                            <li><a href="home-modern-kindergarten.html">Modern
+                                                                    Kindergarten</a></li>
+                                                            <li><a href="home-kindergarten.html">New Kindergarten</a>
+                                                            </li>
                                                         </ul>
                                                     </li>
                                                     <li class="menu-item-has-children">
                                                         <a href="event-details.html#">Onepage</a>
                                                         <ul class="sub-menu">
-                                    <li><a href="home-child-care-onepage.html">Home Child Care</a></li>
-                                    <li><a href="home-child-care-center-onepage.html">Child Care Center</a></li>
-                                    <li><a href="home-modern-kindergarten-onepage.html">Modern Kindergarten</a></li>
-                                    <li><a href="home-kindergarten-onepage.html">New Kindergarten</a></li>
-                                </ul>
+                                                            <li><a href="home-child-care-onepage.html">Home Child
+                                                                    Care</a></li>
+                                                            <li><a href="home-child-care-center-onepage.html">Child
+                                                                    Care Center</a></li>
+                                                            <li><a href="home-modern-kindergarten-onepage.html">Modern
+                                                                    Kindergarten</a></li>
+                                                            <li><a href="home-kindergarten-onepage.html">New
+                                                                    Kindergarten</a></li>
+                                                        </ul>
                                                     </li>
                                                     <li class="menu-item-has-children">
                                                         <a href="event-details.html#">RTL</a>
                                                         <ul class="sub-menu">
-                                    <li><a href="home-child-care-rtl.html">Home Child Care Rtl</a></li>
-                                    <li><a href="home-child-care-center-rtl.html">Child Care Center Rtl</a></li>
-                                    <li><a href="home-modern-kindergarten-rtl.html">Modern Kindergarten Rtl</a></li>
-                                    <li><a href="home-kindergarten-rtl.html">New Kindergarten Rtl</a></li>
-                                    <li><a href="home-child-care-onepage-rtl.html">Home Child Care Onepage Rtl</a></li>
-                                    <li><a href="home-child-care-center-onepage-rtl.html">Child Care Center Onepage Rtl</a></li>
-                                    <li><a href="home-modern-kindergarten-onepage-rtl.html">Modern Kindergarten Onepage Rtl</a></li>
-                                    <li><a href="home-kindergarten-rtl-onepage.html">New Kindergarten Onepage Rtl</a></li>
-                                </ul>
+                                                            <li><a href="home-child-care-rtl.html">Home Child Care
+                                                                    Rtl</a></li>
+                                                            <li><a href="home-child-care-center-rtl.html">Child Care
+                                                                    Center Rtl</a></li>
+                                                            <li><a href="home-modern-kindergarten-rtl.html">Modern
+                                                                    Kindergarten Rtl</a></li>
+                                                            <li><a href="home-kindergarten-rtl.html">New Kindergarten
+                                                                    Rtl</a></li>
+                                                            <li><a href="home-child-care-onepage-rtl.html">Home Child
+                                                                    Care Onepage Rtl</a></li>
+                                                            <li><a href="home-child-care-center-onepage-rtl.html">Child
+                                                                    Care Center Onepage Rtl</a></li>
+                                                            <li><a href="home-modern-kindergarten-onepage-rtl.html">Modern
+                                                                    Kindergarten Onepage Rtl</a></li>
+                                                            <li><a href="home-kindergarten-rtl-onepage.html">New
+                                                                    Kindergarten Onepage Rtl</a></li>
+                                                        </ul>
                                                     </li>
                                                 </ul>
                                             </li>
@@ -344,7 +376,7 @@
                                                     <li><a href="course.html">Courses</a></li>
                                                 </ul>
                                             </li>
-                                            
+
                                             <li class="menu-item-has-children">
                                                 <a href="event-details.html#">Classes</a>
                                                 <ul class="sub-menu">
@@ -383,13 +415,15 @@
                                             </li>
                                         </ul>
                                     </nav>
-                                    <button type="button" class="as-menu-toggle d-inline-block d-lg-none"><i class="far fa-bars"></i></button>
+                                    <button type="button" class="as-menu-toggle d-inline-block d-lg-none"><i
+                                            class="far fa-bars"></i></button>
                                 </div>
                             </div>
                             <div class="col-auto d-none d-lg-block">
                                 <div class="header-button">
-                                    
-                                    <button type="button" class="icon-btn searchBoxToggler"><i class="fa-regular fa-magnifying-glass"></i></button>
+
+                                    <button type="button" class="icon-btn searchBoxToggler"><i
+                                            class="fa-regular fa-magnifying-glass"></i></button>
                                     <button type="button" class="icon-btn bar-btn  sideMenuToggler">
                                         <i class="fa-regular fa-basket-shopping-simple"></i>
                                         <span class="badge">5</span>
@@ -400,16 +434,16 @@
                         </div>
                     </div>
                 </div>
-                <div class="menu-shape" data-bg-src="assets/img/bg/header_bg_1.png">
+                <div class="menu-shape" data-bg-src="/assets/img/bg/header_bg_1.png">
                 </div>
             </div>
-        </div> 
+        </div>
     </header>
 
     <!--==============================
         Breadcumb
     ============================== -->
-    <div class="breadcumb-wrapper " data-bg-src="assets/img/breadcumb/breadcumb-bg.png">
+    <div class="breadcumb-wrapper " data-bg-src="/assets/img/breadcumb/breadcumb-bg.png">
         <div class="container">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">Event Details</h1>
@@ -421,25 +455,27 @@
             </div>
         </div>
         <div class="bottom-shape">
-            <img  src="assets/img/breadcumb/breadcumb-bg-bottom.png" alt="img">
+            <img src="/assets/img/breadcumb/breadcumb-bg-bottom.png" alt="img">
         </div>
     </div>
 
     <!--==============================
-    event details Area 
+    event details Area
     ==============================-->
     <section class="event-section space-extra2-top space-bottom">
         <div class="container">
             <div class="event-details space-bottom">
-                <div class="row event-img-slider as-carousel" id="eventimgslide" data-slide-show="1" data-md-slide-show="1" data-arrows="true" data-xl-arrows="true" data-ml-arrows="true" data-lg-arrows="true" data-md-arrows="true">
+                <div class="row event-img-slider as-carousel" id="eventimgslide" data-slide-show="1"
+                    data-md-slide-show="1" data-arrows="true" data-xl-arrows="true" data-ml-arrows="true"
+                    data-lg-arrows="true" data-md-arrows="true">
                     <div class="col-12 img-box">
-                        <img src="assets/img/event/event_details-1.png" alt="event 3">
+                        <img src="/assets/img/event/event_details-1.png" alt="event 3">
                     </div>
                     <div class="col-12 img-box">
-                        <img src="assets/img/event/event_details-1.png" alt="event 3">
+                        <img src="/assets/img/event/event_details-1.png" alt="event 3">
                     </div>
                     <div class="col-12 img-box">
-                        <img src="assets/img/event/event_details-1.png" alt="event 3">
+                        <img src="/assets/img/event/event_details-1.png" alt="event 3">
                     </div>
                 </div>
                 <div class="row mb-35 gy-4">
@@ -454,15 +490,23 @@
                             </div>
                         </div>
                         <div class="btn-group mt-35">
-                            <a  href="event-details.html#" class="as-btn wave-btn">Save On Calendar</a>
-                            <a  href="event-details.html#" class="as-btn wave-btn">Iocal Export</a>
+                            <a href="event-details.html#" class="as-btn wave-btn">Save On Calendar</a>
+                            <a href="event-details.html#" class="as-btn wave-btn">Iocal Export</a>
                         </div>
                     </div>
                     <div class="col-lg-5 align-self-center">
-                        
+
                     </div>
                 </div>
-                <p class="mb-30">Proactively enable reliable partnerships whereas process-centric potentialities. Authoritatively integrate covalent vortals whereas virtual e-markets. Competently empower customized customer service with standards compliant infrastructures. Energistically deliver integrated e-tailers after reliable technologies. Conveniently customize dynamic architectures with high-quality e-commerce. Efficiently productize just in time process improvements whereas transparent action items. Dynamically incubate multidisciplinary models vis-a-vis 2.0 ROI. Efficiently plagiarize fully researched experiences through bricks-and-clicks expertise. Seamlessly reconceptualize flexible content before viral web-readiness. Globally transform scalable content without process-centric meta-services.</p>
+                <p class="mb-30">Proactively enable reliable partnerships whereas process-centric potentialities.
+                    Authoritatively integrate covalent vortals whereas virtual e-markets. Competently empower customized
+                    customer service with standards compliant infrastructures. Energistically deliver integrated
+                    e-tailers after reliable technologies. Conveniently customize dynamic architectures with
+                    high-quality e-commerce. Efficiently productize just in time process improvements whereas
+                    transparent action items. Dynamically incubate multidisciplinary models vis-a-vis 2.0 ROI.
+                    Efficiently plagiarize fully researched experiences through bricks-and-clicks expertise. Seamlessly
+                    reconceptualize flexible content before viral web-readiness. Globally transform scalable content
+                    without process-centric meta-services.</p>
                 <div class="row gy-30">
                     <div class="col-lg-7">
                         <h3>Event Details</h3>
@@ -476,17 +520,19 @@
                                 <li><i class="fas fa-phone"></i>Phone: 1-677-124-44227</li>
 
                                 <li><i class="fa-solid fa-calendar-check"></i>Online Booking: Available</li>
-                                <li><i class="fa-solid fa-money-bill"></i>Ticket Price:  $25.15</li>
+                                <li><i class="fa-solid fa-money-bill"></i>Ticket Price: $25.15</li>
                                 <li><i class="fa-sharp fa-solid fa-chair-office"></i>Seats Available: 1000</li>
                                 <li><i class="fa-solid fa-microphone"></i>Speakers: 25 Child Expert</li>
                                 <li><i class="fa-solid fa-megaphone"></i>Journalist: 30 Multimedia</li>
                                 <li><i class="fas fa-envelope"></i>Email: info@Tayder.com</li>
                             </ul>
-                        </div>                    
-                    </div>                    
+                        </div>
+                    </div>
                     <div class="col-lg-5 align-self-center">
                         <div class="event-location map-sec">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3644.7310056272386!2d89.2286059153658!3d24.00527418490799!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fe9b97badc6151%3A0x30b048c9fb2129bc!2sTayde!5e0!3m2!1sen!2sbd!4v1651028958211!5m2!1sen!2sbd" allowfullscreen="" loading="lazy"></iframe>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3644.7310056272386!2d89.2286059153658!3d24.00527418490799!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fe9b97badc6151%3A0x30b048c9fb2129bc!2sTayde!5e0!3m2!1sen!2sbd!4v1651028958211!5m2!1sen!2sbd"
+                                allowfullscreen="" loading="lazy"></iframe>
                         </div>
                     </div>
                 </div>
@@ -494,7 +540,7 @@
             <div class="event-nav">
                 <a href="event-details.html" class="nav-btn">
                     <i class="far fa-long-arrow-left"></i> <span>Scinece Fair Event</span>
-                </a> 
+                </a>
                 <a href="event-details.html" class="nav-btn"><span>School Fair Event </span>
                     <i class="far fa-long-arrow-right"></i>
                 </a>
@@ -505,9 +551,9 @@
     <!--==============================
         Footer Area
     ==============================-->
-    <footer class="footer-wrapper footer-layout1" data-bg-src="assets/img/bg/footer_bg_1.png">
+    <footer class="footer-wrapper footer-layout1" data-bg-src="/assets/img/bg/footer_bg_1.png">
         <div class="bg-shape-top">
-            <img src="assets/img/bg/header_bg_1.png" alt="img">
+            <img src="/assets/img/bg/header_bg_1.png" alt="img">
         </div>
         <div class="footer-top">
             <div class="container">
@@ -515,7 +561,7 @@
                     <li>
                         <div class="footer-contact-wrap">
                             <div class="icon">
-                                <img src="assets/img/icon/phone.svg" alt="img">
+                                <img src="/assets/img/icon/phone.svg" alt="img">
                             </div>
                             <div class="details">
                                 <p class="title">Give us a Call</p>
@@ -526,7 +572,7 @@
                     <li>
                         <div class="footer-contact-wrap">
                             <div class="icon">
-                                <img src="assets/img/icon/envelope.svg" alt="img">
+                                <img src="/assets/img/icon/envelope.svg" alt="img">
                             </div>
                             <div class="details">
                                 <p class="title">Send us a Message</p>
@@ -537,7 +583,7 @@
                     <li>
                         <div class="footer-contact-wrap">
                             <div class="icon">
-                                <img src="assets/img/icon/home.svg" alt="img">
+                                <img src="/assets/img/icon/home.svg" alt="img">
                             </div>
                             <div class="details">
                                 <p class="title">Visit our Office</p>
@@ -555,12 +601,16 @@
                         <div class="widget footer-widget">
                             <div class="as-widget-about">
                                 <h3 class="widget_title">About Us</h3>
-                                <p class="about-text">Atem nesciunt obcaecati, natus, eius quas ut vel dicta aliquid praesentium laboriosam consequuntur ipsa maiores.</p>
+                                <p class="about-text">Atem nesciunt obcaecati, natus, eius quas ut vel dicta aliquid
+                                    praesentium laboriosam consequuntur ipsa maiores.</p>
                                 <div class="as-social">
-                                    <a class="facebook" href="event-details.html#"><i class="fab fa-facebook-f"></i></a>
-                                    <a class="goggle" href="event-details.html#"><i class="fab fa-google-plus-g"></i></a>
+                                    <a class="facebook" href="event-details.html#"><i
+                                            class="fab fa-facebook-f"></i></a>
+                                    <a class="goggle" href="event-details.html#"><i
+                                            class="fab fa-google-plus-g"></i></a>
                                     <a class="twitter" href="event-details.html#"><i class="fab fa-twitter"></i></a>
-                                    <a class="pinterest" href="event-details.html#"><i class="fab fa-pinterest-p"></i></a>
+                                    <a class="pinterest" href="event-details.html#"><i
+                                            class="fab fa-pinterest-p"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -585,24 +635,30 @@
                             <div class="recent-post-wrap">
                                 <div class="recent-post">
                                     <div class="media-img">
-                                        <a href="blog-details.html"><img src="assets/img/widget/1.png" alt="Blog Image"></a>
+                                        <a href="blog-details.html"><img src="/assets/img/widget/1.png"
+                                                alt="Blog Image"></a>
                                     </div>
                                     <div class="media-body">
                                         <div class="recent-post-meta">
-                                            <a href="blog.html"><i class="fal fa-calendar-days"></i>25th March, 2023</a>
+                                            <a href="blog.html"><i class="fal fa-calendar-days"></i>25th March,
+                                                2023</a>
                                         </div>
-                                        <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Mission critical action life items rather</a></h4>
+                                        <h4 class="post-title"><a class="text-inherit"
+                                                href="blog-details.html">Mission critical action life items rather</a>
+                                        </h4>
                                     </div>
                                 </div>
                                 <div class="recent-post">
                                     <div class="media-img">
-                                        <a href="blog-details.html"><img src="assets/img/widget/2.png" alt="Blog Image"></a>
+                                        <a href="blog-details.html"><img src="/assets/img/widget/2.png"
+                                                alt="Blog Image"></a>
                                     </div>
                                     <div class="media-body">
                                         <div class="recent-post-meta">
                                             <a href="blog.html"><i class="fal fa-calendar-days"></i>22 June, 2023</a>
                                         </div>
-                                        <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Prepare Users Using Story Guide Yes</a></h4>                                        
+                                        <h4 class="post-title"><a class="text-inherit"
+                                                href="blog-details.html">Prepare Users Using Story Guide Yes</a></h4>
                                     </div>
                                 </div>
                             </div>
@@ -619,52 +675,55 @@
                                     <input type="text" placeholder="Enter Your Email">
                                     <button class="as-btn"><i class="far fa-envelope-open"></i></button>
                                 </div>
-                                <p class="info"><i class="fa-regular fa-circle-info"></i> We Never Publish Your Data</p>
+                                <p class="info"><i class="fa-regular fa-circle-info"></i> We Never Publish Your Data
+                                </p>
                             </div>
                         </div>
-                    </div>                    
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="copyright-wrap" data-bg-src="assets/img/bg/copyright_bg.png">
+        <div class="copyright-wrap" data-bg-src="/assets/img/bg/copyright_bg.png">
             <div class="container">
-                <p class="copyright-text text-center">Copyright <i class="fal fa-copyright"></i> 2023 By <a href="event-details.html#">Tayde</a>. All Rights Reserved.</p>
+                <p class="copyright-text text-center">Copyright <i class="fal fa-copyright"></i> 2023 By <a
+                        href="event-details.html#">Tayde</a>. All Rights Reserved.</p>
             </div>
         </div>
     </footer>
 
     <!--********************************
-			Code End  Here 
-	******************************** -->
+   Code End  Here
+ ******************************** -->
 
     <!-- Scroll To Top -->
-    <a href="event-details.html#" class="scrollToTop scroll-btn"><img src="assets/img/icon/click-top-btn.png" alt="img"></a>
+    <a href="event-details.html#" class="scrollToTop scroll-btn"><img src="/assets/img/icon/click-top-btn.png"
+            alt="img"></a>
 
     <!--==============================
     All Js File
     ============================== -->
     <!-- Jquery -->
-    <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="/assets/js/vendor/jquery-3.6.0.min.js"></script>
     <!-- Slick Slider -->
-    <script src="assets/js/slick.min.js"></script>
+    <script src="/assets/js/slick.min.js"></script>
     <!-- Bootstrap -->
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
     <!-- Magnific Popup -->
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="/assets/js/jquery.magnific-popup.min.js"></script>
     <!-- Counter Up -->
-    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="/assets/js/jquery.counterup.min.js"></script>
     <!-- Range Slider -->
-    <script src="assets/js/jquery-ui.min.js"></script>
+    <script src="/assets/js/jquery-ui.min.js"></script>
     <!-- Isotope Filter -->
-    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
-    <script src="assets/js/isotope.pkgd.min.js"></script>
-    
-    <!-- Skill Counter File -->    
-    <script src="assets/js/counter.js"></script>
-    <!-- Tweenmax File -->    
-    <script src="assets/js/tweenmax.min.js"></script>
+    <script src="/assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="/assets/js/isotope.pkgd.min.js"></script>
+
+    <!-- Skill Counter File -->
+    <script src="/assets/js/counter.js"></script>
+    <!-- Tweenmax File -->
+    <script src="/assets/js/tweenmax.min.js"></script>
     <!-- Main Js File -->
-    <script src="assets/js/main.js"></script>
+    <script src="/assets/js/main.js"></script>
 
 </body>
 

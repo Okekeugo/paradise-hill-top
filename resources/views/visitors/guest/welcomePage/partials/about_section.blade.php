@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-lg-5 col-md-8 order-lg-2">
                 <div class="about-thumb mb-5 mb-lg-0">
-                    <img src="assets/img/normal/about_1.png" alt="img">
+                    <img src="/assets/img/normal/about_1.png" alt="img">
                     <div class="about-list-info">
                         <h4 class="white-title">Our Speciality</h4>
                         <ul>
@@ -48,20 +48,20 @@
                         </p>
                     </div>
                     <div class="about-card-box">
-                        <img src="assets/img/normal/about_2.png" alt="img">
+                        <img src="/assets/img/normal/about_2.png" alt="img">
                         <h5 class="quote-content">The Best Baby Care and Creche in Nigeria. You are welcome to come
                             visit</h5>
                     </div>
                     <div class="about-founder">
                         <div class="thumb">
-                            <img src="assets/img/normal/chairman.png" alt="img">
+                            <img src="/assets/img/normal/chairman.png" alt="img">
                         </div>
                         <div class="details">
                             <h4 class="author-name">Ugochukwu Okeke</h4>
                             <p class="author-desig">Chairman & Founder</p>
                         </div>
                         <div class="sign">
-                            <img src="assets/img/normal/signature.png" alt="sign">
+                            <img src="/assets/img/normal/signature.png" alt="sign">
                         </div>
                     </div>
                 </div>

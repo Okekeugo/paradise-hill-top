@@ -1,10 +1,10 @@
 <section class="space-extra2-top space-bottom" id="about-sec">
     <div class="container">
         <div class="row">
-            
+
             <div class="col-lg-6 order-lg-1 align-self-center">
                 <div class="about-thumb-3 mb-5 mb-lg-0">
-                    <img src="assets/img/normal/vision.png" alt="img">
+                    <img src="/assets/img/normal/vision.png" alt="img">
                 </div>
             </div>
 

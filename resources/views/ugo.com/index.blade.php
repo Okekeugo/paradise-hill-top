@@ -96,7 +96,7 @@
         <div class="as-menu-area text-center">
             <button class="as-menu-toggle"><i class="fal fa-times"></i></button>
             <div class="mobile-logo">
-                <a href="home-child-care.html"><img src="assets/img/logo.svg" alt="Tayde"></a>
+                <a href="home-child-care.html"><img src="/assets/img/logo.svg" alt="Tayde"></a>
             </div>
             <div class="as-mobile-menu">
                 <ul>
@@ -202,7 +202,7 @@
                         <li class="woocommerce-mini-cart-item mini_cart_item">
                             <a href="home-child-care.html#" class="remove remove_from_cart_button"><i
                                     class="far fa-times"></i></a>
-                            <a href="home-child-care.html#"><img src="assets/img/product/product_thumb_1_1.png"
+                            <a href="home-child-care.html#"><img src="/assets/img/product/product_thumb_1_1.png"
                                     alt="Cart Image">Wooden Bunny</a>
                             <span class="quantity">1 ×
                                 <span class="woocommerce-Price-amount amount">
@@ -212,7 +212,7 @@
                         <li class="woocommerce-mini-cart-item mini_cart_item">
                             <a href="home-child-care.html#" class="remove remove_from_cart_button"><i
                                     class="far fa-times"></i></a>
-                            <a href="home-child-care.html#"><img src="assets/img/product/product_thumb_1_2.png"
+                            <a href="home-child-care.html#"><img src="/assets/img/product/product_thumb_1_2.png"
                                     alt="Cart Image">Kids Dinosour</a>
                             <span class="quantity">1 ×
                                 <span class="woocommerce-Price-amount amount">
@@ -222,7 +222,7 @@
                         <li class="woocommerce-mini-cart-item mini_cart_item">
                             <a href="home-child-care.html#" class="remove remove_from_cart_button"><i
                                     class="far fa-times"></i></a>
-                            <a href="home-child-care.html#"><img src="assets/img/product/product_thumb_1_3.png"
+                            <a href="home-child-care.html#"><img src="/assets/img/product/product_thumb_1_3.png"
                                     alt="Cart Image">Small Truck</a>
                             <span class="quantity">1 ×
                                 <span class="woocommerce-Price-amount amount">
@@ -232,7 +232,7 @@
                         <li class="woocommerce-mini-cart-item mini_cart_item">
                             <a href="home-child-care.html#" class="remove remove_from_cart_button"><i
                                     class="far fa-times"></i></a>
-                            <a href="home-child-care.html#"><img src="assets/img/product/product_thumb_1_4.png"
+                            <a href="home-child-care.html#"><img src="/assets/img/product/product_thumb_1_4.png"
                                     alt="Cart Image">Color Kid Truck</a>
                             <span class="quantity">1 ×
                                 <span class="woocommerce-Price-amount amount">
@@ -242,7 +242,7 @@
                         <li class="woocommerce-mini-cart-item mini_cart_item">
                             <a href="home-child-care.html#" class="remove remove_from_cart_button"><i
                                     class="far fa-times"></i></a>
-                            <a href="home-child-care.html#"><img src="assets/img/product/product_thumb_1_5.png"
+                            <a href="home-child-care.html#"><img src="/assets/img/product/product_thumb_1_5.png"
                                     alt="Cart Image">Dog Pupet</a>
                             <span class="quantity">1 ×
                                 <span class="woocommerce-Price-amount amount">
@@ -310,7 +310,8 @@
                         <div class="row align-items-center justify-content-between">
                             <div class="col-auto">
                                 <div class="header-logo">
-                                    <a href="home-child-care.html"><img src="assets/img/logo.svg" alt="Tayde"></a>
+                                    <a href="home-child-care.html"><img src="/assets/img/logo.svg"
+                                            alt="Tayde"></a>
                                 </div>
                             </div>
                             <div class="col-auto">
@@ -435,7 +436,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="menu-shape" data-bg-src="assets/img/bg/header_bg_1.png">
+                <div class="menu-shape" data-bg-src="/assets/img/bg/header_bg_1.png">
                 </div>
             </div>
         </div>
@@ -444,12 +445,12 @@
     <!--==============================
     Hero Area
     ==============================-->
-    <div class="as-hero-wrapper hero-1" id="hero" data-bg-src="assets/img/hero/hero_bg_1_1.png">
+    <div class="as-hero-wrapper hero-1" id="hero" data-bg-src="/assets/img/hero/hero_bg_1_1.png">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-5 col-md-6">
                     <div class="hero-thumbnail">
-                        <img src="assets/img/hero/1.png" alt="img">
+                        <img src="/assets/img/hero/1.png" alt="img">
                     </div>
                 </div>
                 <div class="col-lg-7">
@@ -463,10 +464,10 @@
             </div>
         </div>
         <div class="banner-anime-img">
-            <img src="assets/img/hero/hero_shape_1.png" alt="img">
+            <img src="/assets/img/hero/hero_shape_1.png" alt="img">
         </div>
         <div class="hero-shape-2">
-            <img src="assets/img/hero/hero_shape_2.png" alt="img">
+            <img src="/assets/img/hero/hero_shape_2.png" alt="img">
         </div>
     </div>
     <!--======== / Hero Section ========-->
@@ -515,7 +516,7 @@
             <div class="row">
                 <div class="col-lg-5 col-md-8 order-lg-2">
                     <div class="about-thumb mb-5 mb-lg-0">
-                        <img src="assets/img/normal/about_1.png" alt="img">
+                        <img src="/assets/img/normal/about_1.png" alt="img">
                         <div class="about-list-info">
                             <h4 class="white-title">Speciality Of us</h4>
                             <ul>
@@ -550,20 +551,20 @@
                                 gravida. Risus commodo viverra maecenas...</p>
                         </div>
                         <div class="about-card-box">
-                            <img src="assets/img/normal/about_2.png" alt="img">
+                            <img src="/assets/img/normal/about_2.png" alt="img">
                             <h5 class="quote-content">The Best Baby Care Company From
                                 1992. Come To Visit</h5>
                         </div>
                         <div class="about-founder">
                             <div class="thumb">
-                                <img src="assets/img/normal/chairman.png" alt="img">
+                                <img src="/assets/img/normal/chairman.png" alt="img">
                             </div>
                             <div class="details">
                                 <h4 class="author-name">Koleo Son</h4>
                                 <p class="author-desig">Chairman & Founder</p>
                             </div>
                             <div class="sign">
-                                <img src="assets/img/normal/signature.png" alt="sign">
+                                <img src="/assets/img/normal/signature.png" alt="sign">
                             </div>
                         </div>
                     </div>
@@ -575,18 +576,18 @@
     <!--==============================
     Service Area
     ==============================-->
-    <div class="service-area space" id="service-sec" data-bg-src="assets/img/service/service_1_bg.png">
+    <div class="service-area space" id="service-sec" data-bg-src="/assets/img/service/service_1_bg.png">
         <!-- bg animated image -->
         <div class="service-anime-img-1 shape-mockup jump d-none d-lg-block" data-top="15%" data-right="8%"><img
-                src="assets/img/service/service_1_1.png" alt="img"></div>
+                src="/assets/img/service/service_1_1.png" alt="img"></div>
         <div class="service-anime-img-2 shape-mockup jump1 d-none d-xl-block" data-bottom="17%" data-right="12%"><img
-                src="assets/img/service/service_1_2.png" alt="img"></div>
+                src="/assets/img/service/service_1_2.png" alt="img"></div>
         <div class="service-anime-img-3 shape-mockup jump2 d-none d-lg-block" data-top="16%" data-left="21%"><img
-                src="assets/img/service/service_1_3.png" alt="img"></div>
+                src="/assets/img/service/service_1_3.png" alt="img"></div>
         <div class="service-anime-img-4 shape-mockup jump3 d-none d-lg-block" data-top="17%" data-left="5%"><img
-                src="assets/img/service/service_1_4.png" alt="img"></div>
+                src="/assets/img/service/service_1_4.png" alt="img"></div>
         <div class="service-anime-img-5 shape-mockup jump2 d-none d-xl-block" data-bottom="12%" data-left="3%"><img
-                src="assets/img/service/service_1_5.png" alt="img"></div>
+                src="/assets/img/service/service_1_5.png" alt="img"></div>
         <!-- bg animated image/ -->
         <div class="container space-extra">
             <div class="title-area text-center">
@@ -600,7 +601,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="service-card">
                         <div class="service-icon">
-                            <img src="assets/img/service/service_1_1.svg" alt="img">
+                            <img src="/assets/img/service/service_1_1.svg" alt="img">
                         </div>
                         <h4 class="title"><a href="course-details.html">Pre School ( 1-3 Years)</a></h4>
                         <p>School kids care sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -613,7 +614,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="service-card">
                         <div class="service-icon">
-                            <img src="assets/img/service/service_1_2.svg" alt="img">
+                            <img src="/assets/img/service/service_1_2.svg" alt="img">
                         </div>
                         <h4 class="title"><a href="course-details.html">Insfants (3 - 6 years)</a></h4>
                         <p>Insfants kids care dolor, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -626,7 +627,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="service-card">
                         <div class="service-icon">
-                            <img src="assets/img/service/service_1_3.svg" alt="img">
+                            <img src="/assets/img/service/service_1_3.svg" alt="img">
                         </div>
                         <h4 class="title"><a href="course-details.html">Kindergarten (6 – 9 years)</a></h4>
                         <p>Kids care dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -639,7 +640,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="service-card">
                         <div class="service-icon">
-                            <img src="assets/img/service/service_1_2.svg" alt="img">
+                            <img src="/assets/img/service/service_1_2.svg" alt="img">
                         </div>
                         <h4 class="title"><a href="course-details.html">Insfants (3 - 6 years)</a></h4>
                         <p>Kids care dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -662,13 +663,13 @@
                 <div class="col-lg-6">
                     <div class="wcu-thumb">
                         <span class="anime-img-1 shape-mockup jump">
-                            <img class="img-1" src="assets/img/wcu/1.png" alt="img">
+                            <img class="img-1" src="/assets/img/wcu/1.png" alt="img">
                         </span>
                         <span class="anime-img-2 jump2">
-                            <img class="img-2" src="assets/img/wcu/2.png" alt="img">
+                            <img class="img-2" src="/assets/img/wcu/2.png" alt="img">
                         </span>
-                        <img class="img-3" src="assets/img/wcu/anime-img.png" alt="img">
-                        <img class="img-4" src="assets/img/wcu/anime-img-2.png" alt="img">
+                        <img class="img-3" src="/assets/img/wcu/anime-img.png" alt="img">
+                        <img class="img-4" src="/assets/img/wcu/anime-img-2.png" alt="img">
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -709,18 +710,18 @@
     <!--==============================
     Course Area
     ==============================-->
-    <div class="course-area space" data-bg-src="assets/img/course/bg.png">
+    <div class="course-area space" data-bg-src="/assets/img/course/bg.png">
         <!-- bg animated image -->
         <div class="course-anime-img-1 shape-mockup jump d-none d-lg-block" data-top="-50px" data-right="14%"><img
-                src="assets/img/course/shape-1.png" alt="img"></div>
+                src="/assets/img/course/shape-1.png" alt="img"></div>
         <div class="course-anime-img-2 shape-mockup jump1 d-none d-lg-block" data-top="17%" data-right="5%"><img
-                src="assets/img/course/shape-2.png" alt="img"></div>
+                src="/assets/img/course/shape-2.png" alt="img"></div>
         <div class="course-anime-img-3 shape-mockup jump2 d-none d-xl-block" data-bottom="10%" data-right="2%"><img
-                src="assets/img/course/shape-3.png" alt="img"></div>
+                src="/assets/img/course/shape-3.png" alt="img"></div>
         <div class="course-anime-img-4 shape-mockup jump3 d-none d-lg-block" data-top="17%" data-left="5%"><img
-                src="assets/img/course/shape-4.png" alt="img"></div>
+                src="/assets/img/course/shape-4.png" alt="img"></div>
         <div class="course-anime-img-5 shape-mockup jump2 d-none d-xl-block" data-bottom="12%" data-left="2%"><img
-                src="assets/img/course/shape-5.png" alt="img"></div>
+                src="/assets/img/course/shape-5.png" alt="img"></div>
         <!-- bg animated image/ -->
         <div class="container space-extra">
             <div class="title-area text-center">
@@ -733,7 +734,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="course-card">
                         <div class="thumb">
-                            <img src="assets/img/course/1.png" alt="img">
+                            <img src="/assets/img/course/1.png" alt="img">
                         </div>
                         <div class="details">
                             <div class="price">
@@ -759,7 +760,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="course-card">
                         <div class="thumb">
-                            <img src="assets/img/course/2.png" alt="img">
+                            <img src="/assets/img/course/2.png" alt="img">
                         </div>
                         <div class="details">
                             <div class="price">
@@ -785,7 +786,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="course-card">
                         <div class="thumb">
-                            <img src="assets/img/course/3.png" alt="img">
+                            <img src="/assets/img/course/3.png" alt="img">
                         </div>
                         <div class="details">
                             <div class="price">
@@ -815,7 +816,7 @@
     <!--==============================
     Call to Action Area
     ==============================-->
-    <div class="cta-area" data-bg-src="assets/img/bg/cta_bg.png">
+    <div class="cta-area" data-bg-src="/assets/img/bg/cta_bg.png">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6">
@@ -835,14 +836,14 @@
     Team Area
     ==============================-->
     <div class="team-area space">
-        <img class="bg-top-shape" src="assets/img/team/team_bg_1.png" alt="img">
+        <img class="bg-top-shape" src="/assets/img/team/team_bg_1.png" alt="img">
         <!-- bg animated image -->
         <div class="team-anime-img-1 shape-mockup jump1 d-none d-lg-block" data-top="13%" data-left="10%"><img
-                src="assets/img/team/shape-1.png" alt="img"></div>
+                src="/assets/img/team/shape-1.png" alt="img"></div>
         <div class="team-anime-img-2 shape-mockup jump3 d-none d-lg-block" data-bottom="10%" data-left="5%"><img
-                src="assets/img/team/shape-2.png" alt="img"></div>
+                src="/assets/img/team/shape-2.png" alt="img"></div>
         <div class="team-anime-img-3 shape-mockup jump2 d-none d-xl-block" data-top="14%" data-right="5%"><img
-                src="assets/img/team/shape-3.png" alt="img"></div>
+                src="/assets/img/team/shape-3.png" alt="img"></div>
         <!-- bg animated image/ -->
         <div class="container">
             <div class="row">
@@ -865,7 +866,7 @@
                         <div class="col-lg-3 col-sm-6">
                             <div class="team-card">
                                 <div class="team-img">
-                                    <img src="assets/img/team/team-1.png" alt="Team">
+                                    <img src="/assets/img/team/team-1.png" alt="Team">
                                 </div>
                                 <div class="team-content">
                                     <h4 class="team-title"><a href="team-details.html">David Smith</a></h4>
@@ -886,7 +887,7 @@
                         <div class="col-lg-3 col-sm-6">
                             <div class="team-card">
                                 <div class="team-img">
-                                    <img src="assets/img/team/team-2.png" alt="Team">
+                                    <img src="/assets/img/team/team-2.png" alt="Team">
                                 </div>
                                 <div class="team-content">
                                     <h4 class="team-title"><a href="team-details.html">Melina Delou</a></h4>
@@ -928,39 +929,39 @@
                 <div class="testimonial-slider-nav">
                     <div>
                         <div class="thumb">
-                            <img src="assets/img/testimonial/testi_1_1.png" alt="img">
+                            <img src="/assets/img/testimonial/testi_1_1.png" alt="img">
                         </div>
                     </div>
                     <div>
                         <div class="thumb">
-                            <img src="assets/img/testimonial/testi_1_02.png" alt="img">
+                            <img src="/assets/img/testimonial/testi_1_02.png" alt="img">
                         </div>
                     </div>
                     <div>
                         <div class="thumb">
-                            <img src="assets/img/testimonial/testi_1_03.png" alt="img">
+                            <img src="/assets/img/testimonial/testi_1_03.png" alt="img">
                         </div>
                     </div>
                     <div>
                         <div class="thumb">
-                            <img src="assets/img/testimonial/testi_1_04.png" alt="img">
+                            <img src="/assets/img/testimonial/testi_1_04.png" alt="img">
                         </div>
                     </div>
                     <div>
                         <div class="thumb">
-                            <img src="assets/img/testimonial/testi_1_05.png" alt="img">
+                            <img src="/assets/img/testimonial/testi_1_05.png" alt="img">
                         </div>
                     </div>
                 </div>
                 <div class="action">
                     <a class="testi-indicator-2" href="home-child-care.html#" data-slide="2"><img
-                            src="assets/img/testimonial/testi_1_2.png" alt="img"></a>
+                            src="/assets/img/testimonial/testi_1_2.png" alt="img"></a>
                     <a class="testi-indicator-3" href="home-child-care.html#" data-slide="3"><img
-                            src="assets/img/testimonial/testi_1_3.png" alt="img"></a>
+                            src="/assets/img/testimonial/testi_1_3.png" alt="img"></a>
                     <a class="testi-indicator-4" href="home-child-care.html#" data-slide="4"><img
-                            src="assets/img/testimonial/testi_1_4.png" alt="img"></a>
+                            src="/assets/img/testimonial/testi_1_4.png" alt="img"></a>
                     <a class="testi-indicator-5" href="home-child-care.html#" data-slide="5"><img
-                            src="assets/img/testimonial/testi_1_5.png" alt="img"></a>
+                            src="/assets/img/testimonial/testi_1_5.png" alt="img"></a>
                 </div>
                 <div class="testimonial-slider">
                     <div class="testi-box">
@@ -1016,16 +1017,16 @@
     <!--==============================
     Blog Area
     ==============================-->
-    <section class="blog-area space-extra2" id="blog-sec" data-bg-src="assets/img/service/service_1_bg.png">
+    <section class="blog-area space-extra2" id="blog-sec" data-bg-src="/assets/img/service/service_1_bg.png">
         <!-- bg animated image -->
         <div class="blog-anime-img-1 shape-mockup spin d-none d-lg-block" data-top="20%" data-left="3%"><img
-                src="assets/img/blog/shape-1.png" alt="img"></div>
+                src="/assets/img/blog/shape-1.png" alt="img"></div>
         <div class="blog-anime-img-2 shape-mockup jump3 d-none d-xl-block" data-bottom="16%" data-right="2%"><img
-                src="assets/img/blog/shape-2.png" alt="img"></div>
+                src="/assets/img/blog/shape-2.png" alt="img"></div>
         <div class="blog-anime-img-3 shape-mockup jump2 d-none d-lg-block" data-top="16%" data-right="6%"><img
-                src="assets/img/blog/shape-3.png" alt="img"></div>
+                src="/assets/img/blog/shape-3.png" alt="img"></div>
         <div class="blog-anime-img-4 shape-mockup jump2 d-none d-xl-block" data-bottom="20%" data-left="7%"><img
-                src="assets/img/blog/shape-4.png" alt="img"></div>
+                src="/assets/img/blog/shape-4.png" alt="img"></div>
         <!-- bg animated image/ -->
         <div class="container space-extra">
             <div class="title-area text-center">
@@ -1037,7 +1038,7 @@
                 <div class="col-md-6 col-xl-4">
                     <div class="blog-block">
                         <div class="blog-img">
-                            <img src="assets/img/blog/blog_1_1.png" alt="blog image">
+                            <img src="/assets/img/blog/blog_1_1.png" alt="blog image">
                         </div>
                         <div class="blog-content">
                             <h3 class="blog-title fw-bold"><a href="blog-details.html">Child Education Always Grow
@@ -1054,7 +1055,7 @@
                 <div class="col-md-6 col-xl-4">
                     <div class="blog-block">
                         <div class="blog-img">
-                            <img src="assets/img/blog/blog_4_6.jpg" alt="blog image">
+                            <img src="/assets/img/blog/blog_4_6.jpg" alt="blog image">
                         </div>
                         <div class="blog-content">
                             <h3 class="blog-title fw-bold"><a href="blog-details.html">Always Grow
@@ -1071,7 +1072,7 @@
                 <div class="col-md-6 col-xl-4">
                     <div class="blog-block">
                         <div class="blog-img">
-                            <img src="assets/img/blog/blog_4_7.jpg" alt="blog image">
+                            <img src="/assets/img/blog/blog_4_7.jpg" alt="blog image">
                         </div>
                         <div class="blog-content">
                             <h3 class="blog-title fw-bold"><a href="blog-details.html">Education Knowledge Always Grow
@@ -1088,7 +1089,7 @@
                 <div class="col-md-6 col-xl-4">
                     <div class="blog-block">
                         <div class="blog-img">
-                            <img src="assets/img/blog/blog_4_8.jpg" alt="blog image">
+                            <img src="/assets/img/blog/blog_4_8.jpg" alt="blog image">
                         </div>
                         <div class="blog-content">
                             <h3 class="blog-title fw-bold"><a href="blog-details.html">Toabikora mission critical
@@ -1129,42 +1130,42 @@
                     data-md-slide-show="3" data-sm-slide-show="1" data-xs-slide-show="1" data-arrows="false">
                     <div class="col-auto">
                         <div class="brand-box">
-                            <img src="assets/img/brand/brand_1_1.png" alt="Brand Logo">
+                            <img src="/assets/img/brand/brand_1_1.png" alt="Brand Logo">
                         </div>
                     </div>
                     <div class="col-auto">
                         <div class="brand-box">
-                            <img src="assets/img/brand/brand_1_2.png" alt="Brand Logo">
+                            <img src="/assets/img/brand/brand_1_2.png" alt="Brand Logo">
                         </div>
                     </div>
                     <div class="col-auto">
                         <div class="brand-box">
-                            <img src="assets/img/brand/brand_1_3.png" alt="Brand Logo">
+                            <img src="/assets/img/brand/brand_1_3.png" alt="Brand Logo">
                         </div>
                     </div>
                     <div class="col-auto">
                         <div class="brand-box">
-                            <img src="assets/img/brand/brand_1_4.png" alt="Brand Logo">
+                            <img src="/assets/img/brand/brand_1_4.png" alt="Brand Logo">
                         </div>
                     </div>
                     <div class="col-auto">
                         <div class="brand-box">
-                            <img src="assets/img/brand/brand_1_1.png" alt="Brand Logo">
+                            <img src="/assets/img/brand/brand_1_1.png" alt="Brand Logo">
                         </div>
                     </div>
                     <div class="col-auto">
                         <div class="brand-box">
-                            <img src="assets/img/brand/brand_1_2.png" alt="Brand Logo">
+                            <img src="/assets/img/brand/brand_1_2.png" alt="Brand Logo">
                         </div>
                     </div>
                     <div class="col-auto">
                         <div class="brand-box">
-                            <img src="assets/img/brand/brand_1_3.png" alt="Brand Logo">
+                            <img src="/assets/img/brand/brand_1_3.png" alt="Brand Logo">
                         </div>
                     </div>
                     <div class="col-auto">
                         <div class="brand-box">
-                            <img src="assets/img/brand/brand_1_4.png" alt="Brand Logo">
+                            <img src="/assets/img/brand/brand_1_4.png" alt="Brand Logo">
                         </div>
                     </div>
                 </div>
@@ -1175,9 +1176,9 @@
     <!--==============================
         Footer Area
     ==============================-->
-    <footer class="footer-wrapper footer-layout1" data-bg-src="assets/img/bg/footer_bg_1.png">
+    <footer class="footer-wrapper footer-layout1" data-bg-src="/assets/img/bg/footer_bg_1.png">
         <div class="bg-shape-top">
-            <img src="assets/img/bg/header_bg_1.png" alt="img">
+            <img src="/assets/img/bg/header_bg_1.png" alt="img">
         </div>
         <div class="footer-top">
             <div class="container">
@@ -1185,7 +1186,7 @@
                     <li>
                         <div class="footer-contact-wrap">
                             <div class="icon">
-                                <img src="assets/img/icon/phone.svg" alt="img">
+                                <img src="/assets/img/icon/phone.svg" alt="img">
                             </div>
                             <div class="details">
                                 <p class="title">Give us a Call</p>
@@ -1196,7 +1197,7 @@
                     <li>
                         <div class="footer-contact-wrap">
                             <div class="icon">
-                                <img src="assets/img/icon/envelope.svg" alt="img">
+                                <img src="/assets/img/icon/envelope.svg" alt="img">
                             </div>
                             <div class="details">
                                 <p class="title">Send us a Message</p>
@@ -1207,7 +1208,7 @@
                     <li>
                         <div class="footer-contact-wrap">
                             <div class="icon">
-                                <img src="assets/img/icon/home.svg" alt="img">
+                                <img src="/assets/img/icon/home.svg" alt="img">
                             </div>
                             <div class="details">
                                 <p class="title">Visit our Office</p>
@@ -1260,7 +1261,7 @@
                             <div class="recent-post-wrap">
                                 <div class="recent-post">
                                     <div class="media-img">
-                                        <a href="blog-details.html"><img src="assets/img/widget/1.png"
+                                        <a href="blog-details.html"><img src="/assets/img/widget/1.png"
                                                 alt="Blog Image"></a>
                                     </div>
                                     <div class="media-body">
@@ -1275,7 +1276,7 @@
                                 </div>
                                 <div class="recent-post">
                                     <div class="media-img">
-                                        <a href="blog-details.html"><img src="assets/img/widget/2.png"
+                                        <a href="blog-details.html"><img src="/assets/img/widget/2.png"
                                                 alt="Blog Image"></a>
                                     </div>
                                     <div class="media-body">
@@ -1309,7 +1310,7 @@
                 </div>
             </div>
         </div>
-        <div class="copyright-wrap" data-bg-src="assets/img/bg/copyright_bg.png">
+        <div class="copyright-wrap" data-bg-src="/assets/img/bg/copyright_bg.png">
             <div class="container">
                 <p class="copyright-text text-center">Copyright <i class="fal fa-copyright"></i> 2023 By <a
                         href="home-child-care.html#">Tayde</a>. All Rights Reserved.</p>
@@ -1322,34 +1323,34 @@
  ******************************** -->
 
     <!-- Scroll To Top -->
-    <a href="home-child-care.html#" class="scrollToTop scroll-btn"><img src="assets/img/icon/click-top-btn.png"
+    <a href="home-child-care.html#" class="scrollToTop scroll-btn"><img src="/assets/img/icon/click-top-btn.png"
             alt="img"></a>
 
     <!--==============================
     All Js File
     ============================== -->
     <!-- Jquery -->
-    <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="/assets/js/vendor/jquery-3.6.0.min.js"></script>
     <!-- Slick Slider -->
-    <script src="assets/js/slick.min.js"></script>
+    <script src="/assets/js/slick.min.js"></script>
     <!-- Bootstrap -->
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
     <!-- Magnific Popup -->
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="/assets/js/jquery.magnific-popup.min.js"></script>
     <!-- Counter Up -->
-    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="/assets/js/jquery.counterup.min.js"></script>
     <!-- Range Slider -->
-    <script src="assets/js/jquery-ui.min.js"></script>
+    <script src="/assets/js/jquery-ui.min.js"></script>
     <!-- Isotope Filter -->
-    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
-    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="/assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="/assets/js/isotope.pkgd.min.js"></script>
 
     <!-- Skill Counter File -->
-    <script src="assets/js/counter.js"></script>
+    <script src="/assets/js/counter.js"></script>
     <!-- Tweenmax File -->
-    <script src="assets/js/tweenmax.min.js"></script>
+    <script src="/assets/js/tweenmax.min.js"></script>
     <!-- Main Js File -->
-    <script src="assets/js/main.js"></script>
+    <script src="/assets/js/main.js"></script>
 
 </body>
 

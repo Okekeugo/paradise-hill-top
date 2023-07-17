@@ -2,7 +2,7 @@
     <div class="as-menu-area text-center">
         <button class="as-menu-toggle"><i class="fal fa-times"></i></button>
         <div class="mobile-logo">
-            <a href="home-child-care.html"><img src="assets/img/logo.svg" alt="Tayde"></a>
+            <a href="home-child-care.html"><img src="/assets/img/logo.svg" alt="Tayde"></a>
         </div>
         <div class="as-mobile-menu">
             <ul>
@@ -34,8 +34,10 @@
                                 <li><a href="home-modern-kindergarten-rtl.html">Modern Kindergarten Rtl</a></li>
                                 <li><a href="home-kindergarten-rtl.html">New Kindergarten Rtl</a></li>
                                 <li><a href="home-child-care-onepage-rtl.html">Home Child Care Onepage Rtl</a></li>
-                                <li><a href="home-child-care-center-onepage-rtl.html">Child Care Center Onepage Rtl</a></li>
-                                <li><a href="home-modern-kindergarten-onepage-rtl.html">Modern Kindergarten Onepage Rtl</a></li>
+                                <li><a href="home-child-care-center-onepage-rtl.html">Child Care Center Onepage Rtl</a>
+                                </li>
+                                <li><a href="home-modern-kindergarten-onepage-rtl.html">Modern Kindergarten Onepage
+                                        Rtl</a></li>
                                 <li><a href="home-kindergarten-rtl-onepage.html">New Kindergarten Onepage Rtl</a></li>
                             </ul>
                         </li>
@@ -46,7 +48,8 @@
                     <a href="error.html#">Services</a>
                     <ul class="sub-menu">
                         <li><a href="https://angfuzsoft.com/html/tayde/demo/service.html">Services</a></li>
-                        <li><a href="https://angfuzsoft.com/html/tayde/demo/service-details.html">Services Details</a></li>
+                        <li><a href="https://angfuzsoft.com/html/tayde/demo/service-details.html">Services Details</a>
+                        </li>
                     </ul>
                 </li>
                 <li class="menu-item-has-children">

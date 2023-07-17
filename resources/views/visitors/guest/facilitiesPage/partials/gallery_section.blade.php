@@ -14,92 +14,103 @@
             <div class="col-xl-3 col-lg-4 col-sm-6 filter-item cat4">
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="assets/img/gallery/gallery_1_1.png" alt="gallery image">
-                        <a href="assets/img/gallery/gallery_1_1.png" class="popup-image"><i class="fa-regular fa-magnifying-glass-plus"></i></a>
+                        <img src="/assets/img/gallery/gallery_1_1.png" alt="gallery image">
+                        <a href="assets/img/gallery/gallery_1_1.png" class="popup-image"><i
+                                class="fa-regular fa-magnifying-glass-plus"></i></a>
                     </div>
                 </div>
             </div>
             <div class="col-xl-6 col-lg-4 col-sm-6 filter-item cat4 cat2">
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="assets/img/gallery/gallery_1_3.png" alt="gallery image">
-                        <a href="assets/img/gallery/gallery_1_3.png" class="popup-image"><i class="fa-regular fa-magnifying-glass-plus"></i></a>
+                        <img src="/assets/img/gallery/gallery_1_3.png" alt="gallery image">
+                        <a href="assets/img/gallery/gallery_1_3.png" class="popup-image"><i
+                                class="fa-regular fa-magnifying-glass-plus"></i></a>
                     </div>
                 </div>
             </div>
             <div class="col-xl-3 col-lg-4 col-sm-6 filter-item cat4">
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="assets/img/gallery/gallery_1_2.png" alt="gallery image">
-                        <a href="assets/img/gallery/gallery_1_2.png" class="popup-image"><i class="fa-regular fa-magnifying-glass-plus"></i></a>
+                        <img src="/assets/img/gallery/gallery_1_2.png" alt="gallery image">
+                        <a href="assets/img/gallery/gallery_1_2.png" class="popup-image"><i
+                                class="fa-regular fa-magnifying-glass-plus"></i></a>
                     </div>
                 </div>
             </div>
             <div class="col-xl-3 col-lg-4 col-sm-6 filter-item cat3 cat1">
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="assets/img/gallery/gallery_1_4.png" alt="gallery image">
-                        <a href="assets/img/gallery/gallery_1_4.png" class="popup-image"><i class="fa-regular fa-magnifying-glass-plus"></i></a>
+                        <img src="/assets/img/gallery/gallery_1_4.png" alt="gallery image">
+                        <a href="assets/img/gallery/gallery_1_4.png" class="popup-image"><i
+                                class="fa-regular fa-magnifying-glass-plus"></i></a>
                     </div>
                 </div>
-            </div>                
+            </div>
             <div class="col-xl-3 col-lg-4 col-sm-6 filter-item cat2 cat4">
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="assets/img/gallery/gallery_1_7.png" alt="gallery image">
-                        <a href="assets/img/gallery/gallery_1_7.png" class="popup-image"><i class="fa-regular fa-magnifying-glass-plus"></i></a>
+                        <img src="/assets/img/gallery/gallery_1_7.png" alt="gallery image">
+                        <a href="assets/img/gallery/gallery_1_7.png" class="popup-image"><i
+                                class="fa-regular fa-magnifying-glass-plus"></i></a>
                     </div>
                 </div>
             </div>
             <div class="col-xl-3 col-lg-4 col-sm-6 filter-item cat3 cat1">
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="assets/img/gallery/gallery_1_5.png" alt="gallery image">
-                        <a href="assets/img/gallery/gallery_1_5.png" class="popup-image"><i class="fa-regular fa-magnifying-glass-plus"></i></a>
+                        <img src="/assets/img/gallery/gallery_1_5.png" alt="gallery image">
+                        <a href="assets/img/gallery/gallery_1_5.png" class="popup-image"><i
+                                class="fa-regular fa-magnifying-glass-plus"></i></a>
                     </div>
                 </div>
             </div>
             <div class="col-xl-3 col-lg-4 col-sm-6 filter-item cat3">
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="assets/img/gallery/gallery_1_6.png" alt="gallery image">
-                        <a href="assets/img/gallery/gallery_1_6.png" class="popup-image"><i class="fa-regular fa-magnifying-glass-plus"></i></a>
+                        <img src="/assets/img/gallery/gallery_1_6.png" alt="gallery image">
+                        <a href="assets/img/gallery/gallery_1_6.png" class="popup-image"><i
+                                class="fa-regular fa-magnifying-glass-plus"></i></a>
                     </div>
                 </div>
             </div>
             <div class="col-xl-3 col-lg-4 col-sm-6 filter-item cat4">
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="assets/img/gallery/gallery_1_8.png" alt="gallery image">
-                        <a href="assets/img/gallery/gallery_1_8.png" class="popup-image"><i class="fa-regular fa-magnifying-glass-plus"></i></a>
+                        <img src="/assets/img/gallery/gallery_1_8.png" alt="gallery image">
+                        <a href="assets/img/gallery/gallery_1_8.png" class="popup-image"><i
+                                class="fa-regular fa-magnifying-glass-plus"></i></a>
                     </div>
                 </div>
             </div>
             <div class="col-xl-3 col-lg-4 col-sm-6 filter-item cat4">
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="assets/img/gallery/gallery_1_9.png" alt="gallery image">
-                        <a href="assets/img/gallery/gallery_1_9.png" class="popup-image"><i class="fa-regular fa-magnifying-glass-plus"></i></a>
+                        <img src="/assets/img/gallery/gallery_1_9.png" alt="gallery image">
+                        <a href="assets/img/gallery/gallery_1_9.png" class="popup-image"><i
+                                class="fa-regular fa-magnifying-glass-plus"></i></a>
                     </div>
                 </div>
             </div>
             <div class="col-xl-3 col-lg-4 col-sm-6 filter-item cat4">
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="assets/img/gallery/gallery_1_10.png" alt="gallery image">
-                        <a href="assets/img/gallery/gallery_1_10.png" class="popup-image"><i class="fa-regular fa-magnifying-glass-plus"></i></a>
+                        <img src="/assets/img/gallery/gallery_1_10.png" alt="gallery image">
+                        <a href="assets/img/gallery/gallery_1_10.png" class="popup-image"><i
+                                class="fa-regular fa-magnifying-glass-plus"></i></a>
                     </div>
                 </div>
             </div>
             <div class="col-xl-3 col-lg-4 col-sm-6 filter-item cat4">
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="assets/img/gallery/gallery_1_11.png" alt="gallery image">
-                        <a href="assets/img/gallery/gallery_1_11.png" class="popup-image"><i class="fa-regular fa-magnifying-glass-plus"></i></a>
+                        <img src="/assets/img/gallery/gallery_1_11.png" alt="gallery image">
+                        <a href="assets/img/gallery/gallery_1_11.png" class="popup-image"><i
+                                class="fa-regular fa-magnifying-glass-plus"></i></a>
                     </div>
                 </div>
             </div>
-            
+
         </div>
         <div class="btn-group justify-content-center mt-50">
             <a class="as-btn" href="gallery.html#">Load More</a>

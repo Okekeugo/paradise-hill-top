@@ -33,14 +33,16 @@
     <meta name="theme-color" content="#ffffff">
 
     <!--==============================
-	  Google Fonts
-	============================== -->
+ Google Fonts
+ ============================== -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
 
     <!--==============================
-	    All CSS File
-	============================== -->
+ All CSS File
+ ============================== -->
     <!-- Bootstrap -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <!-- Fontawesome Icon -->
@@ -49,7 +51,7 @@
     <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
     <!-- Slick Slider -->
     <link rel="stylesheet" href="assets/css/slick.min.css">
-    
+
     <!-- Theme Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
 
@@ -59,14 +61,14 @@
 
 
     <!--[if lte IE 9]>
-    	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
     <![endif]-->
 
 
 
     <!--********************************
-   		Code Start From Here 
-	******************************** -->
+   Code Start From Here
+ ******************************** -->
 
 
 
@@ -94,7 +96,7 @@
         <div class="as-menu-area text-center">
             <button class="as-menu-toggle"><i class="fal fa-times"></i></button>
             <div class="mobile-logo">
-                <a href="home-child-care.html"><img src="assets/img/logo.svg" alt="Tayde"></a>
+                <a href="home-child-care.html"><img src="/assets/img/logo.svg" alt="Tayde"></a>
             </div>
             <div class="as-mobile-menu">
                 <ul>
@@ -126,9 +128,12 @@
                                     <li><a href="home-modern-kindergarten-rtl.html">Modern Kindergarten Rtl</a></li>
                                     <li><a href="home-kindergarten-rtl.html">New Kindergarten Rtl</a></li>
                                     <li><a href="home-child-care-onepage-rtl.html">Home Child Care Onepage Rtl</a></li>
-                                    <li><a href="home-child-care-center-onepage-rtl.html">Child Care Center Onepage Rtl</a></li>
-                                    <li><a href="home-modern-kindergarten-onepage-rtl.html">Modern Kindergarten Onepage Rtl</a></li>
-                                    <li><a href="home-kindergarten-rtl-onepage.html">New Kindergarten Onepage Rtl</a></li>
+                                    <li><a href="home-child-care-center-onepage-rtl.html">Child Care Center Onepage
+                                            Rtl</a></li>
+                                    <li><a href="home-modern-kindergarten-onepage-rtl.html">Modern Kindergarten Onepage
+                                            Rtl</a></li>
+                                    <li><a href="home-kindergarten-rtl-onepage.html">New Kindergarten Onepage Rtl</a>
+                                    </li>
                                 </ul>
                             </li>
                         </ul>
@@ -138,7 +143,8 @@
                         <a href="error.html#">Services</a>
                         <ul class="sub-menu">
                             <li><a href="https://angfuzsoft.com/html/tayde/demo/service.html">Services</a></li>
-                            <li><a href="https://angfuzsoft.com/html/tayde/demo/service-details.html">Services Details</a></li>
+                            <li><a href="https://angfuzsoft.com/html/tayde/demo/service-details.html">Services
+                                    Details</a></li>
                         </ul>
                     </li>
                     <li class="menu-item-has-children">
@@ -180,51 +186,53 @@
         </div>
     </div>
     <!--==============================
-    Error Area 
+    Error Area
     ==============================-->
-    <section class="space error-area" data-bg-src="assets/img/bg/error.png">
+    <section class="space error-area" data-bg-src="/assets/img/bg/error.png">
         <div class="container">
             <div class="error-content text-center">
-                <img src="assets/img/normal/error.png" alt="img">
+                <img src="/assets/img/normal/error.png" alt="img">
                 <h1 class="error-title mt-40">Page Not Found</h1>
-                <p class="error-text me-auto ms-auto">It looks like nothing was found at this location. Maybe try one of the links below or a search?</p>
+                <p class="error-text me-auto ms-auto">It looks like nothing was found at this location. Maybe try one
+                    of the links below or a search?</p>
                 <a href="home-child-care.html" class="as-btn"><i class="fal fa-home me-2"></i>Back To Home</a>
             </div>
         </div>
     </section>
 
     <!--********************************
-			Code End  Here 
-	******************************** -->
+   Code End  Here
+ ******************************** -->
 
     <!-- Scroll To Top -->
-    <a href="error.html#" class="scrollToTop scroll-btn"><img src="assets/img/icon/click-top-btn.png" alt="img"></a>
+    <a href="error.html#" class="scrollToTop scroll-btn"><img src="/assets/img/icon/click-top-btn.png"
+            alt="img"></a>
 
     <!--==============================
     All Js File
     ============================== -->
     <!-- Jquery -->
-    <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="/assets/js/vendor/jquery-3.6.0.min.js"></script>
     <!-- Slick Slider -->
-    <script src="assets/js/slick.min.js"></script>
+    <script src="/assets/js/slick.min.js"></script>
     <!-- Bootstrap -->
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
     <!-- Magnific Popup -->
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="/assets/js/jquery.magnific-popup.min.js"></script>
     <!-- Counter Up -->
-    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="/assets/js/jquery.counterup.min.js"></script>
     <!-- Range Slider -->
-    <script src="assets/js/jquery-ui.min.js"></script>
+    <script src="/assets/js/jquery-ui.min.js"></script>
     <!-- Isotope Filter -->
-    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
-    <script src="assets/js/isotope.pkgd.min.js"></script>
-    
-    <!-- Skill Counter File -->    
-    <script src="assets/js/counter.js"></script>
-    <!-- Tweenmax File -->    
-    <script src="assets/js/tweenmax.min.js"></script>
+    <script src="/assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="/assets/js/isotope.pkgd.min.js"></script>
+
+    <!-- Skill Counter File -->
+    <script src="/assets/js/counter.js"></script>
+    <!-- Tweenmax File -->
+    <script src="/assets/js/tweenmax.min.js"></script>
     <!-- Main Js File -->
-    <script src="assets/js/main.js"></script>
+    <script src="/assets/js/main.js"></script>
 
 </body>
 

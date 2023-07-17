@@ -1,4 +1,4 @@
-<div class="breadcumb-wrapper " data-bg-src="assets/img/breadcumb/breadcumb-bg.png">
+<div class="breadcumb-wrapper " data-bg-src="/assets/img/breadcumb/breadcumb-bg.png">
     <div class="container">
         <div class="breadcumb-content">
             <h1 class="breadcumb-title">About Us</h1>
@@ -9,6 +9,6 @@
         </div>
     </div>
     <div class="bottom-shape">
-        <img  src="assets/img/breadcumb/breadcumb-bg-bottom.png" alt="img">
+        <img src="/assets/img/breadcumb/breadcumb-bg-bottom.png" alt="img">
     </div>
 </div>

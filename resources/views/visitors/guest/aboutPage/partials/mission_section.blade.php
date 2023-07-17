@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-lg-6 order-lg-2 align-self-center">
                 <div class="about-thumb-3 mb-5 mb-lg-0">
-                    <img src="assets/img/normal/mission.png" alt="img">
+                    <img src="/assets/img/normal/mission.png" alt="img">
                 </div>
             </div>
             <div class="col-lg-6 order-lg-1 align-self-center">
@@ -13,7 +13,7 @@
                         <h2 class="sec-title uppercase">Mission statement</h2>
 
                         <p class="sec-text">
-                         <blockquote class="text-xl fw-300 px-3 text-white">
+                        <blockquote class="text-xl fw-300 px-3 text-white">
                             " To catch them young and provide a strong foundation for physical and intellectual growth
                             through balanced activities, child friendly relationship and qualitative interactive
                             learning "

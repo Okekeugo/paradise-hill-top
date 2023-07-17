@@ -33,14 +33,16 @@
     <meta name="theme-color" content="#ffffff">
 
     <!--==============================
-	  Google Fonts
-	============================== -->
+ Google Fonts
+ ============================== -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
 
     <!--==============================
-	    All CSS File
-	============================== -->
+ All CSS File
+ ============================== -->
     <!-- Bootstrap -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <!-- Fontawesome Icon -->
@@ -49,7 +51,7 @@
     <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
     <!-- Slick Slider -->
     <link rel="stylesheet" href="assets/css/slick.min.css">
-    
+
     <!-- Theme Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
 
@@ -59,14 +61,14 @@
 
 
     <!--[if lte IE 9]>
-    	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
     <![endif]-->
 
 
 
     <!--********************************
-   		Code Start From Here 
-	******************************** -->
+   Code Start From Here
+ ******************************** -->
 
 
 
@@ -94,7 +96,7 @@
         <div class="as-menu-area text-center">
             <button class="as-menu-toggle"><i class="fal fa-times"></i></button>
             <div class="mobile-logo">
-                <a href="home-child-care.html"><img src="assets/img/logo.svg" alt="Tayde"></a>
+                <a href="home-child-care.html"><img src="/assets/img/logo.svg" alt="Tayde"></a>
             </div>
             <div class="as-mobile-menu">
                 <ul>
@@ -104,11 +106,11 @@
                             <li class="menu-item-has-children">
                                 <a href="team-details.html#">Multipage</a>
                                 <ul class="sub-menu">
-                                                            <li><a href="home-child-care.html">Home Child Care</a></li>
-                                                            <li><a href="home-child-care-center.html">Child Care Center</a></li>
-                                                            <li><a href="home-modern-kindergarten.html">Modern Kindergarten</a></li>
-                                                            <li><a href="home-kindergarten.html">New Kindergarten</a></li>
-                                                        </ul>
+                                    <li><a href="home-child-care.html">Home Child Care</a></li>
+                                    <li><a href="home-child-care-center.html">Child Care Center</a></li>
+                                    <li><a href="home-modern-kindergarten.html">Modern Kindergarten</a></li>
+                                    <li><a href="home-kindergarten.html">New Kindergarten</a></li>
+                                </ul>
                             </li>
                             <li class="menu-item-has-children">
                                 <a href="team-details.html#">Onepage</a>
@@ -127,9 +129,12 @@
                                     <li><a href="home-modern-kindergarten-rtl.html">Modern Kindergarten Rtl</a></li>
                                     <li><a href="home-kindergarten-rtl.html">New Kindergarten Rtl</a></li>
                                     <li><a href="home-child-care-onepage-rtl.html">Home Child Care Onepage Rtl</a></li>
-                                    <li><a href="home-child-care-center-onepage-rtl.html">Child Care Center Onepage Rtl</a></li>
-                                    <li><a href="home-modern-kindergarten-onepage-rtl.html">Modern Kindergarten Onepage Rtl</a></li>
-                                    <li><a href="home-kindergarten-rtl-onepage.html">New Kindergarten Onepage Rtl</a></li>
+                                    <li><a href="home-child-care-center-onepage-rtl.html">Child Care Center Onepage
+                                            Rtl</a></li>
+                                    <li><a href="home-modern-kindergarten-onepage-rtl.html">Modern Kindergarten Onepage
+                                            Rtl</a></li>
+                                    <li><a href="home-kindergarten-rtl-onepage.html">New Kindergarten Onepage Rtl</a>
+                                    </li>
                                 </ul>
                             </li>
                         </ul>
@@ -143,7 +148,7 @@
                             <li><a href="course.html">Courses</a></li>
                         </ul>
                     </li>
-                    
+
                     <li class="menu-item-has-children">
                         <a href="team-details.html#">Classes</a>
                         <ul class="sub-menu">
@@ -195,40 +200,50 @@
                 <div class="widget_shopping_cart_content">
                     <ul class="woocommerce-mini-cart cart_list product_list_widget ">
                         <li class="woocommerce-mini-cart-item mini_cart_item">
-                            <a href="team-details.html#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
-                            <a href="team-details.html#"><img src="assets/img/product/product_thumb_1_1.png" alt="Cart Image">Wooden Bunny</a>
+                            <a href="team-details.html#" class="remove remove_from_cart_button"><i
+                                    class="far fa-times"></i></a>
+                            <a href="team-details.html#"><img src="/assets/img/product/product_thumb_1_1.png"
+                                    alt="Cart Image">Wooden Bunny</a>
                             <span class="quantity">1 ×
                                 <span class="woocommerce-Price-amount amount">
                                     <span class="woocommerce-Price-currencySymbol">$</span>940.00</span>
                             </span>
                         </li>
                         <li class="woocommerce-mini-cart-item mini_cart_item">
-                            <a href="team-details.html#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
-                            <a href="team-details.html#"><img src="assets/img/product/product_thumb_1_2.png" alt="Cart Image">Kids Dinosour</a>
+                            <a href="team-details.html#" class="remove remove_from_cart_button"><i
+                                    class="far fa-times"></i></a>
+                            <a href="team-details.html#"><img src="/assets/img/product/product_thumb_1_2.png"
+                                    alt="Cart Image">Kids Dinosour</a>
                             <span class="quantity">1 ×
                                 <span class="woocommerce-Price-amount amount">
                                     <span class="woocommerce-Price-currencySymbol">$</span>899.00</span>
                             </span>
                         </li>
                         <li class="woocommerce-mini-cart-item mini_cart_item">
-                            <a href="team-details.html#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
-                            <a href="team-details.html#"><img src="assets/img/product/product_thumb_1_3.png" alt="Cart Image">Small Truck</a>
+                            <a href="team-details.html#" class="remove remove_from_cart_button"><i
+                                    class="far fa-times"></i></a>
+                            <a href="team-details.html#"><img src="/assets/img/product/product_thumb_1_3.png"
+                                    alt="Cart Image">Small Truck</a>
                             <span class="quantity">1 ×
                                 <span class="woocommerce-Price-amount amount">
                                     <span class="woocommerce-Price-currencySymbol">$</span>756.00</span>
                             </span>
                         </li>
                         <li class="woocommerce-mini-cart-item mini_cart_item">
-                            <a href="team-details.html#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
-                            <a href="team-details.html#"><img src="assets/img/product/product_thumb_1_4.png" alt="Cart Image">Color Kid Truck</a>
+                            <a href="team-details.html#" class="remove remove_from_cart_button"><i
+                                    class="far fa-times"></i></a>
+                            <a href="team-details.html#"><img src="/assets/img/product/product_thumb_1_4.png"
+                                    alt="Cart Image">Color Kid Truck</a>
                             <span class="quantity">1 ×
                                 <span class="woocommerce-Price-amount amount">
                                     <span class="woocommerce-Price-currencySymbol">$</span>723.00</span>
                             </span>
                         </li>
                         <li class="woocommerce-mini-cart-item mini_cart_item">
-                            <a href="team-details.html#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
-                            <a href="team-details.html#"><img src="assets/img/product/product_thumb_1_5.png" alt="Cart Image">Dog Pupet</a>
+                            <a href="team-details.html#" class="remove remove_from_cart_button"><i
+                                    class="far fa-times"></i></a>
+                            <a href="team-details.html#"><img src="/assets/img/product/product_thumb_1_5.png"
+                                    alt="Cart Image">Dog Pupet</a>
                             <span class="quantity">1 ×
                                 <span class="woocommerce-Price-amount amount">
                                     <span class="woocommerce-Price-currencySymbol">$</span>1080.00</span>
@@ -249,7 +264,7 @@
         </div>
     </div>
     <!--==============================
-	Header Area
+ Header Area
     ==============================-->
     <header class="as-header header-layout1">
         <div class="navbar-top">
@@ -258,20 +273,21 @@
                     <div class="col-lg-8 d-none d-lg-block">
                         <div class="header-links">
                             <ul>
-                                <li><i class="fa-solid fa-phone"></i><a href="tel:+25625921589">+246 214 203 215</a></li>
+                                <li><i class="fa-solid fa-phone"></i><a href="tel:+25625921589">+246 214 203 215</a>
+                                </li>
                                 <li><i class="fa-solid fa-location-dot"></i>258 Helano Street, New York</li>
                                 <li><i class="fa-regular fa-clock"></i><span>Mon - Sat: 8:30 am - 6:00 pm</span>
                                 </li>
                             </ul>
                         </div>
-                        
+
                     </div>
                     <div class="col-lg-4 align-self-center text-lg-end text-center">
                         <ul class="navbar-top-right header-links">
                             <li>
                                 <i class="fa-regular fa-user"></i>
-                                    <a href="login.html">Login</a> <span>/</span>
-                                    <a href="signup.html">Register</a>
+                                <a href="login.html">Login</a> <span>/</span>
+                                <a href="signup.html">Register</a>
                             </li>
                             <li>
                                 <div class="header-social">
@@ -294,7 +310,8 @@
                         <div class="row align-items-center justify-content-between">
                             <div class="col-auto">
                                 <div class="header-logo">
-                                    <a href="home-child-care.html"><img src="assets/img/logo.svg" alt="Tayde"></a>
+                                    <a href="home-child-care.html"><img src="/assets/img/logo.svg"
+                                            alt="Tayde"></a>
                                 </div>
                             </div>
                             <div class="col-auto">
@@ -308,32 +325,47 @@
                                                         <a href="team-details.html#">Multipage</a>
                                                         <ul class="sub-menu">
                                                             <li><a href="home-child-care.html">Home Child Care</a></li>
-                                                            <li><a href="home-child-care-center.html">Child Care Center</a></li>
-                                                            <li><a href="home-modern-kindergarten.html">Modern Kindergarten</a></li>
-                                                            <li><a href="home-kindergarten.html">New Kindergarten</a></li>
+                                                            <li><a href="home-child-care-center.html">Child Care
+                                                                    Center</a></li>
+                                                            <li><a href="home-modern-kindergarten.html">Modern
+                                                                    Kindergarten</a></li>
+                                                            <li><a href="home-kindergarten.html">New Kindergarten</a>
+                                                            </li>
                                                         </ul>
                                                     </li>
                                                     <li class="menu-item-has-children">
                                                         <a href="team-details.html#">Onepage</a>
                                                         <ul class="sub-menu">
-                                    <li><a href="home-child-care-onepage.html">Home Child Care</a></li>
-                                    <li><a href="home-child-care-center-onepage.html">Child Care Center</a></li>
-                                    <li><a href="home-modern-kindergarten-onepage.html">Modern Kindergarten</a></li>
-                                    <li><a href="home-kindergarten-onepage.html">New Kindergarten</a></li>
-                                </ul>
+                                                            <li><a href="home-child-care-onepage.html">Home Child
+                                                                    Care</a></li>
+                                                            <li><a href="home-child-care-center-onepage.html">Child
+                                                                    Care Center</a></li>
+                                                            <li><a href="home-modern-kindergarten-onepage.html">Modern
+                                                                    Kindergarten</a></li>
+                                                            <li><a href="home-kindergarten-onepage.html">New
+                                                                    Kindergarten</a></li>
+                                                        </ul>
                                                     </li>
                                                     <li class="menu-item-has-children">
                                                         <a href="team-details.html#">RTL</a>
                                                         <ul class="sub-menu">
-                                    <li><a href="home-child-care-rtl.html">Home Child Care Rtl</a></li>
-                                    <li><a href="home-child-care-center-rtl.html">Child Care Center Rtl</a></li>
-                                    <li><a href="home-modern-kindergarten-rtl.html">Modern Kindergarten Rtl</a></li>
-                                    <li><a href="home-kindergarten-rtl.html">New Kindergarten Rtl</a></li>
-                                    <li><a href="home-child-care-onepage-rtl.html">Home Child Care Onepage Rtl</a></li>
-                                    <li><a href="home-child-care-center-onepage-rtl.html">Child Care Center Onepage Rtl</a></li>
-                                    <li><a href="home-modern-kindergarten-onepage-rtl.html">Modern Kindergarten Onepage Rtl</a></li>
-                                    <li><a href="home-kindergarten-rtl-onepage.html">New Kindergarten Onepage Rtl</a></li>
-                                </ul>
+                                                            <li><a href="home-child-care-rtl.html">Home Child Care
+                                                                    Rtl</a></li>
+                                                            <li><a href="home-child-care-center-rtl.html">Child Care
+                                                                    Center Rtl</a></li>
+                                                            <li><a href="home-modern-kindergarten-rtl.html">Modern
+                                                                    Kindergarten Rtl</a></li>
+                                                            <li><a href="home-kindergarten-rtl.html">New Kindergarten
+                                                                    Rtl</a></li>
+                                                            <li><a href="home-child-care-onepage-rtl.html">Home Child
+                                                                    Care Onepage Rtl</a></li>
+                                                            <li><a href="home-child-care-center-onepage-rtl.html">Child
+                                                                    Care Center Onepage Rtl</a></li>
+                                                            <li><a href="home-modern-kindergarten-onepage-rtl.html">Modern
+                                                                    Kindergarten Onepage Rtl</a></li>
+                                                            <li><a href="home-kindergarten-rtl-onepage.html">New
+                                                                    Kindergarten Onepage Rtl</a></li>
+                                                        </ul>
                                                     </li>
                                                 </ul>
                                             </li>
@@ -346,7 +378,7 @@
                                                     <li><a href="course.html">Courses</a></li>
                                                 </ul>
                                             </li>
-                                            
+
                                             <li class="menu-item-has-children">
                                                 <a href="team-details.html#">Classes</a>
                                                 <ul class="sub-menu">
@@ -385,13 +417,15 @@
                                             </li>
                                         </ul>
                                     </nav>
-                                    <button type="button" class="as-menu-toggle d-inline-block d-lg-none"><i class="far fa-bars"></i></button>
+                                    <button type="button" class="as-menu-toggle d-inline-block d-lg-none"><i
+                                            class="far fa-bars"></i></button>
                                 </div>
                             </div>
                             <div class="col-auto d-none d-lg-block">
                                 <div class="header-button">
-                                    
-                                    <button type="button" class="icon-btn searchBoxToggler"><i class="fa-regular fa-magnifying-glass"></i></button>
+
+                                    <button type="button" class="icon-btn searchBoxToggler"><i
+                                            class="fa-regular fa-magnifying-glass"></i></button>
                                     <button type="button" class="icon-btn bar-btn  sideMenuToggler">
                                         <i class="fa-regular fa-basket-shopping-simple"></i>
                                         <span class="badge">5</span>
@@ -402,16 +436,16 @@
                         </div>
                     </div>
                 </div>
-                <div class="menu-shape" data-bg-src="assets/img/bg/header_bg_1.png">
+                <div class="menu-shape" data-bg-src="/assets/img/bg/header_bg_1.png">
                 </div>
             </div>
-        </div> 
+        </div>
     </header>
 
     <!--==============================
         Breadcumb
     ============================== -->
-    <div class="breadcumb-wrapper " data-bg-src="assets/img/breadcumb/breadcumb-bg.png">
+    <div class="breadcumb-wrapper " data-bg-src="/assets/img/breadcumb/breadcumb-bg.png">
         <div class="container">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">Team Details</h1>
@@ -422,12 +456,12 @@
             </div>
         </div>
         <div class="bottom-shape">
-            <img  src="assets/img/breadcumb/breadcumb-bg-bottom.png" alt="img">
+            <img src="/assets/img/breadcumb/breadcumb-bg-bottom.png" alt="img">
         </div>
     </div>
 
     <!--==============================
-    Team Details Area  
+    Team Details Area
     ==============================-->
     <section class="bg-white space-extra2-top space-bottom">
         <div class="container">
@@ -435,25 +469,35 @@
                 <div class="row g-lg-0">
                     <div class="col-lg-6 order-lg-2">
                         <div class="about-card_img">
-                            <img class="w-100" src="assets/img/team/team-single.png" alt="team image">
+                            <img class="w-100" src="/assets/img/team/team-single.png" alt="team image">
                         </div>
                     </div>
                     <div class="col-lg-6 order-lg-1 align-self-center">
                         <div class="about-card_box">
                             <h2 class="about-card_title">Angela Kwang</h2>
                             <span class="about-card_desig">Full Time Teacher</span>
-                            <p class="about-card_text">Kids care dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis care ultrices gravida. Risus commodo viverra maecenas.</p>
+                            <p class="about-card_text">Kids care dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis care ultrices gravida.
+                                Risus commodo viverra maecenas.</p>
                             <p class="about-card_info"><strong>Experience: </strong> 10 Years</p>
-                            <p class="about-card_info"><strong>Experience At: </strong>   Kid’s Training, Kid’s Caring.</p>
+                            <p class="about-card_info"><strong>Experience At: </strong> Kid’s Training, Kid’s Caring.
+                            </p>
                             <p class="about-card_info"><strong>Email: </strong> member@domain.com</p>
-                            <p class="about-card_info"><strong>Mobile: </strong> <a href="tel:+1536549874">+820-123-456-78</a></p>
+                            <p class="about-card_info"><strong>Mobile: </strong> <a
+                                    href="tel:+1536549874">+820-123-456-78</a></p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="space-extra2-top space-extra2-bottom">
                 <h3 class="default-title">Diversity of Experiences</h3>
-                <p class="mb-40">Completely customize stand-alone infomediaries and intuitive leadership. Dramatically transition an expanded array of products via 2.0 alignments. Completely leverage existing excellent schemas with team building synergy. Credibly maximize backward-compatible opportunities for global ideas. Conveniently generate diverse services without quality sources. Interactively unleash magnetic outsourcing for integrated mindshare. Professionally build cross-unit infrastructures for fully tested bandwidth. Seamlessly fabricate bricks-and-clicks methodologies before collaborative information. Appropriately reinvent plug-and-play synergy and market positioning platforms.</p>
+                <p class="mb-40">Completely customize stand-alone infomediaries and intuitive leadership. Dramatically
+                    transition an expanded array of products via 2.0 alignments. Completely leverage existing excellent
+                    schemas with team building synergy. Credibly maximize backward-compatible opportunities for global
+                    ideas. Conveniently generate diverse services without quality sources. Interactively unleash
+                    magnetic outsourcing for integrated mindshare. Professionally build cross-unit infrastructures for
+                    fully tested bandwidth. Seamlessly fabricate bricks-and-clicks methodologies before collaborative
+                    information. Appropriately reinvent plug-and-play synergy and market positioning platforms.</p>
                 <div class="skills-area">
                     <div class="row gy-4 justify-content-center">
                         <div class="col-md-4 col-sm-6">
@@ -469,7 +513,7 @@
                                     <p class="content">Psum dolor sit amet, elit, sed do eiusmod tempor
                                         viverra maecena</p>
                                 </div>
-                            </div>                                
+                            </div>
                         </div>
                         <div class="col-md-4 col-sm-6">
                             <div class="single-skill-wrap">
@@ -484,7 +528,7 @@
                                     <p class="content">Psum dolor sit amet, elit, sed do eiusmod tempor
                                         viverra maecena</p>
                                 </div>
-                            </div>                                
+                            </div>
                         </div>
                         <div class="col-md-4 col-sm-6">
                             <div class="single-skill-wrap">
@@ -499,13 +543,14 @@
                                     <p class="content">Psum dolor sit amet, elit, sed do eiusmod tempor
                                         viverra maecena</p>
                                 </div>
-                            </div>                                
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             <h3 class="default-title mb-4">All Event By Angela Kwang</h3>
-            <div class="row as-carousel" data-slide-show="3" data-lg-slide-show="2" data-md-slide-show="2" data-sm-slide-show="1" data-xs-slide-show="1" data-dots="false" data-md-dots="true">
+            <div class="row as-carousel" data-slide-show="3" data-lg-slide-show="2" data-md-slide-show="2"
+                data-sm-slide-show="1" data-xs-slide-show="1" data-dots="false" data-md-dots="true">
                 <div class="col-lg-4">
                     <div class="team_evnet-box-wrap">
                         <div class="date">
@@ -515,7 +560,7 @@
                             <h4 class="box_title"><a href="event-details.html">Kids Day Playing</a></h4>
                             <div class="meta">Oct 25, 2023 @ 8:00 am</div>
                         </div>
-                    </div>                    
+                    </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="team_evnet-box-wrap">
@@ -526,7 +571,7 @@
                             <h4 class="box_title"><a href="event-details.html">Happy Monday</a></h4>
                             <div class="meta">Nov 22, 2023 @ 8:00 am</div>
                         </div>
-                    </div>                    
+                    </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="team_evnet-box-wrap">
@@ -537,7 +582,7 @@
                             <h4 class="box_title"><a href="event-details.html">Birthday Party</a></h4>
                             <div class="meta">Dec 05, 2023 @ 8:00 am</div>
                         </div>
-                    </div>                    
+                    </div>
                 </div>
             </div>
         </div>
@@ -546,9 +591,9 @@
     <!--==============================
         Footer Area
     ==============================-->
-    <footer class="footer-wrapper footer-layout1" data-bg-src="assets/img/bg/footer_bg_1.png">
+    <footer class="footer-wrapper footer-layout1" data-bg-src="/assets/img/bg/footer_bg_1.png">
         <div class="bg-shape-top">
-            <img src="assets/img/bg/header_bg_1.png" alt="img">
+            <img src="/assets/img/bg/header_bg_1.png" alt="img">
         </div>
         <div class="footer-top">
             <div class="container">
@@ -556,7 +601,7 @@
                     <li>
                         <div class="footer-contact-wrap">
                             <div class="icon">
-                                <img src="assets/img/icon/phone.svg" alt="img">
+                                <img src="/assets/img/icon/phone.svg" alt="img">
                             </div>
                             <div class="details">
                                 <p class="title">Give us a Call</p>
@@ -567,7 +612,7 @@
                     <li>
                         <div class="footer-contact-wrap">
                             <div class="icon">
-                                <img src="assets/img/icon/envelope.svg" alt="img">
+                                <img src="/assets/img/icon/envelope.svg" alt="img">
                             </div>
                             <div class="details">
                                 <p class="title">Send us a Message</p>
@@ -578,7 +623,7 @@
                     <li>
                         <div class="footer-contact-wrap">
                             <div class="icon">
-                                <img src="assets/img/icon/home.svg" alt="img">
+                                <img src="/assets/img/icon/home.svg" alt="img">
                             </div>
                             <div class="details">
                                 <p class="title">Visit our Office</p>
@@ -596,12 +641,16 @@
                         <div class="widget footer-widget">
                             <div class="as-widget-about">
                                 <h3 class="widget_title">About Us</h3>
-                                <p class="about-text">Atem nesciunt obcaecati, natus, eius quas ut vel dicta aliquid praesentium laboriosam consequuntur ipsa maiores.</p>
+                                <p class="about-text">Atem nesciunt obcaecati, natus, eius quas ut vel dicta aliquid
+                                    praesentium laboriosam consequuntur ipsa maiores.</p>
                                 <div class="as-social">
-                                    <a class="facebook" href="team-details.html#"><i class="fab fa-facebook-f"></i></a>
-                                    <a class="goggle" href="team-details.html#"><i class="fab fa-google-plus-g"></i></a>
+                                    <a class="facebook" href="team-details.html#"><i
+                                            class="fab fa-facebook-f"></i></a>
+                                    <a class="goggle" href="team-details.html#"><i
+                                            class="fab fa-google-plus-g"></i></a>
                                     <a class="twitter" href="team-details.html#"><i class="fab fa-twitter"></i></a>
-                                    <a class="pinterest" href="team-details.html#"><i class="fab fa-pinterest-p"></i></a>
+                                    <a class="pinterest" href="team-details.html#"><i
+                                            class="fab fa-pinterest-p"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -626,24 +675,30 @@
                             <div class="recent-post-wrap">
                                 <div class="recent-post">
                                     <div class="media-img">
-                                        <a href="blog-details.html"><img src="assets/img/widget/1.png" alt="Blog Image"></a>
+                                        <a href="blog-details.html"><img src="/assets/img/widget/1.png"
+                                                alt="Blog Image"></a>
                                     </div>
                                     <div class="media-body">
                                         <div class="recent-post-meta">
-                                            <a href="blog.html"><i class="fal fa-calendar-days"></i>25th March, 2023</a>
+                                            <a href="blog.html"><i class="fal fa-calendar-days"></i>25th March,
+                                                2023</a>
                                         </div>
-                                        <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Prepare Users Using Story Guide Yes</a></h4>
+                                        <h4 class="post-title"><a class="text-inherit"
+                                                href="blog-details.html">Prepare Users Using Story Guide Yes</a></h4>
                                     </div>
                                 </div>
                                 <div class="recent-post">
                                     <div class="media-img">
-                                        <a href="blog-details.html"><img src="assets/img/widget/2.png" alt="Blog Image"></a>
+                                        <a href="blog-details.html"><img src="/assets/img/widget/2.png"
+                                                alt="Blog Image"></a>
                                     </div>
                                     <div class="media-body">
                                         <div class="recent-post-meta">
                                             <a href="blog.html"><i class="fal fa-calendar-days"></i>22 June, 2023</a>
                                         </div>
-                                        <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Mission critical action life items rather</a></h4>                                        
+                                        <h4 class="post-title"><a class="text-inherit"
+                                                href="blog-details.html">Mission critical action life items rather</a>
+                                        </h4>
                                     </div>
                                 </div>
                             </div>
@@ -660,52 +715,55 @@
                                     <input type="text" placeholder="Enter Your Email">
                                     <button class="as-btn"><i class="far fa-envelope-open"></i></button>
                                 </div>
-                                <p class="info"><i class="fa-regular fa-circle-info"></i> We Never Publish Your Data</p>
+                                <p class="info"><i class="fa-regular fa-circle-info"></i> We Never Publish Your Data
+                                </p>
                             </div>
                         </div>
-                    </div>                    
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="copyright-wrap" data-bg-src="assets/img/bg/copyright_bg.png">
+        <div class="copyright-wrap" data-bg-src="/assets/img/bg/copyright_bg.png">
             <div class="container">
-                <p class="copyright-text text-center">Copyright <i class="fal fa-copyright"></i> 2023 By <a href="team-details.html#">Tayde</a>. All Rights Reserved.</p>
+                <p class="copyright-text text-center">Copyright <i class="fal fa-copyright"></i> 2023 By <a
+                        href="team-details.html#">Tayde</a>. All Rights Reserved.</p>
             </div>
         </div>
     </footer>
 
     <!--********************************
-			Code End  Here 
-	******************************** -->
+   Code End  Here
+ ******************************** -->
 
     <!-- Scroll To Top -->
-    <a href="team-details.html#" class="scrollToTop scroll-btn"><img src="assets/img/icon/click-top-btn.png" alt="img"></a>
+    <a href="team-details.html#" class="scrollToTop scroll-btn"><img src="/assets/img/icon/click-top-btn.png"
+            alt="img"></a>
 
     <!--==============================
     All Js File
     ============================== -->
     <!-- Jquery -->
-    <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="/assets/js/vendor/jquery-3.6.0.min.js"></script>
     <!-- Slick Slider -->
-    <script src="assets/js/slick.min.js"></script>
+    <script src="/assets/js/slick.min.js"></script>
     <!-- Bootstrap -->
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
     <!-- Magnific Popup -->
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="/assets/js/jquery.magnific-popup.min.js"></script>
     <!-- Counter Up -->
-    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="/assets/js/jquery.counterup.min.js"></script>
     <!-- Range Slider -->
-    <script src="assets/js/jquery-ui.min.js"></script>
+    <script src="/assets/js/jquery-ui.min.js"></script>
     <!-- Isotope Filter -->
-    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
-    <script src="assets/js/isotope.pkgd.min.js"></script>
-    
-    <!-- Skill Counter File -->    
-    <script src="assets/js/counter.js"></script>
-    <!-- Tweenmax File -->    
-    <script src="assets/js/tweenmax.min.js"></script>
+    <script src="/assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="/assets/js/isotope.pkgd.min.js"></script>
+
+    <!-- Skill Counter File -->
+    <script src="/assets/js/counter.js"></script>
+    <!-- Tweenmax File -->
+    <script src="/assets/js/tweenmax.min.js"></script>
     <!-- Main Js File -->
-    <script src="assets/js/main.js"></script>
+    <script src="/assets/js/main.js"></script>
 
 </body>
 

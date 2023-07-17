@@ -4,13 +4,13 @@
             <div class="col-lg-6">
                 <div class="wcu-thumb col-lg-11">
                     <span class="anime-img-1 shape-mockup jump">
-                        <img class="img-1" src="assets/img/wcu/cctv.png" alt="img">
+                        <img class="img-1" src="/assets/img/wcu/cctv.png" alt="img">
                     </span>
                     <span class="anime-img-2 jump2">
-                        <img class="img-2" src="assets/img/wcu/child_security.png" alt="img">
+                        <img class="img-2" src="/assets/img/wcu/child_security.png" alt="img">
                     </span>
-                    <img class="img-3" src="assets/img/wcu/anime-img.png" alt="img">
-                    <img class="img-4" src="assets/img/wcu/anime-img-2.png" alt="img">
+                    <img class="img-3" src="/assets/img/wcu/anime-img.png" alt="img">
+                    <img class="img-4" src="/assets/img/wcu/anime-img-2.png" alt="img">
                 </div>
             </div>
             <div class="col-lg-6">
@@ -26,14 +26,15 @@
                                 <br>
                                 We also utilize cutting-edge surveillance technology, including CCTV, to implement a
                                 "God's Eye" vision on your
-                                children, providing an extra layer of protection and peace of mind. 
+                                children, providing an extra layer of protection and peace of mind.
                                 <br>
                                 With our
                                 state-of-the-art security measures, you can trust that your children are 100% safe and
                                 secure in our care.
                                 <br>
-                                You can feel safe knowing that our eyes will always be on your kids watching them throughout, 
-                                keeping them safe at all times and preventing any harm from coming their way    .
+                                You can feel safe knowing that our eyes will always be on your kids watching them
+                                throughout,
+                                keeping them safe at all times and preventing any harm from coming their way .
                             </small>
                         </p>
                     </div>

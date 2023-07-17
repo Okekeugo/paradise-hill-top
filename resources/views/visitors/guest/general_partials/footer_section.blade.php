@@ -1,6 +1,6 @@
-<footer class="footer-wrapper footer-layout1 remi" data-bg-src="assets/img/bg/footer_bg_1.png">
+<footer class="footer-wrapper footer-layout1 remi" data-bg-href="/assets/img/bg/footer_bg_1.png">
     <div class="bg-shape-top">
-        <img src="assets/img/bg/header_bg_1.png" alt="img">
+        <img href="/assets/img/bg/header_bg_1.png" alt="img">
     </div>
     <div class="footer-top">
         <div class="container">
@@ -8,7 +8,7 @@
                 <li>
                     <div class="footer-contact-wrap">
                         <div class="icon">
-                            <img src="assets/img/icon/phone.svg" alt="img">
+                            <img href="/assets/img/icon/phone.svg" alt="img">
                         </div>
                         <div class="details">
                             <p class="title">Give us a Call</p>
@@ -19,7 +19,7 @@
                 <li>
                     <div class="footer-contact-wrap">
                         <div class="icon">
-                            <img src="assets/img/icon/envelope.svg" alt="img">
+                            <img href="/assets/img/icon/envelope.svg" alt="img">
                         </div>
                         <div class="details">
                             <p class="title">Send us a Message</p>
@@ -30,7 +30,7 @@
                 <li>
                     <div class="footer-contact-wrap">
                         <div class="icon">
-                            <img src="assets/img/icon/home.svg" alt="img">
+                            <img href="/assets/img/icon/home.svg" alt="img">
                         </div>
                         <div class="details">
                             <p class="title">Visit our Office</p>
@@ -79,7 +79,7 @@
                         <div class="recent-post-wrap">
                             <div class="recent-post">
                                 <div class="media-img">
-                                    <a href="blog-details.html"><img src="assets/img/widget/1.png" alt="Blog Image"></a>
+                                    <a href="blog-details.html"><img href="/assets/img/widget/1.png" alt="Blog Image"></a>
                                 </div>
                                 <div class="media-body">
                                     <div class="recent-post-meta">
@@ -93,7 +93,7 @@
                             </div>
                             <div class="recent-post">
                                 <div class="media-img">
-                                    <a href="blog-details.html"><img src="assets/img/widget/2.png" alt="Blog Image"></a>
+                                    <a href="blog-details.html"><img href="/assets/img/widget/2.png" alt="Blog Image"></a>
                                 </div>
                                 <div class="media-body">
                                     <div class="recent-post-meta">
@@ -125,7 +125,7 @@
             </div>
         </div>
     </div>
-    <div class="copyright-wrap" data-bg-src="assets/img/bg/copyright_bg.png">
+    <div class="copyright-wrap" data-bg-href="/assets/img/bg/copyright_bg.png">
         <div class="container">
             <p class="copyright-text text-center">Copyright <i class="fal fa-copyright"></i> 2023 By <a
                     href="home-child-care.html#">{{ env('SCHOOL_NAME') }}</a>. All Rights Reserved.</p>

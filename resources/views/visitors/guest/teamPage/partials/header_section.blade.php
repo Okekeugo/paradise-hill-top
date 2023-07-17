@@ -11,14 +11,14 @@
                                 </li>
                             </ul>
                         </div>
-                        
+
                     </div>
                     <div class="col-lg-4 align-self-center text-lg-end text-center">
                         <ul class="navbar-top-right header-links">
                             <li>
                                 <i class="fa-regular fa-user"></i>
-                                    <a href="login.html">Login</a> <span>/</span>
-                                    <a href="signup.html">Register</a>
+                                <a href="login.html">Login</a> <span>/</span>
+                                <a href="signup.html">Register</a>
                             </li>
                             <li>
                                 <div class="header-social">
@@ -41,7 +41,7 @@
                         <div class="row align-items-center justify-content-between">
                             <div class="col-auto">
                                 <div class="header-logo">
-                                    <a href="home-child-care.html"><img src="assets/img/logo.svg" alt="Tayde"></a>
+                                    <a href="home-child-care.html"><img src="/assets/img/logo.svg" alt="Tayde"></a>
                                 </div>
                             </div>
                             <div class="col-auto">
@@ -55,32 +55,47 @@
                                                         <a href="team.html#">Multipage</a>
                                                         <ul class="sub-menu">
                                                             <li><a href="home-child-care.html">Home Child Care</a></li>
-                                                            <li><a href="home-child-care-center.html">Child Care Center</a></li>
-                                                            <li><a href="home-modern-kindergarten.html">Modern Kindergarten</a></li>
-                                                            <li><a href="home-kindergarten.html">New Kindergarten</a></li>
+                                                            <li><a href="home-child-care-center.html">Child Care
+                                                                    Center</a></li>
+                                                            <li><a href="home-modern-kindergarten.html">Modern
+                                                                    Kindergarten</a></li>
+                                                            <li><a href="home-kindergarten.html">New Kindergarten</a>
+                                                            </li>
                                                         </ul>
                                                     </li>
                                                     <li class="menu-item-has-children">
                                                         <a href="team.html#">Onepage</a>
                                                         <ul class="sub-menu">
-                                    <li><a href="home-child-care-onepage.html">Home Child Care</a></li>
-                                    <li><a href="home-child-care-center-onepage.html">Child Care Center</a></li>
-                                    <li><a href="home-modern-kindergarten-onepage.html">Modern Kindergarten</a></li>
-                                    <li><a href="home-kindergarten-onepage.html">New Kindergarten</a></li>
-                                </ul>
+                                                            <li><a href="home-child-care-onepage.html">Home Child
+                                                                    Care</a></li>
+                                                            <li><a href="home-child-care-center-onepage.html">Child Care
+                                                                    Center</a></li>
+                                                            <li><a href="home-modern-kindergarten-onepage.html">Modern
+                                                                    Kindergarten</a></li>
+                                                            <li><a href="home-kindergarten-onepage.html">New
+                                                                    Kindergarten</a></li>
+                                                        </ul>
                                                     </li>
                                                     <li class="menu-item-has-children">
                                                         <a href="team.html#">RTL</a>
                                                         <ul class="sub-menu">
-                                    <li><a href="home-child-care-rtl.html">Home Child Care Rtl</a></li>
-                                    <li><a href="home-child-care-center-rtl.html">Child Care Center Rtl</a></li>
-                                    <li><a href="home-modern-kindergarten-rtl.html">Modern Kindergarten Rtl</a></li>
-                                    <li><a href="home-kindergarten-rtl.html">New Kindergarten Rtl</a></li>
-                                    <li><a href="home-child-care-onepage-rtl.html">Home Child Care Onepage Rtl</a></li>
-                                    <li><a href="home-child-care-center-onepage-rtl.html">Child Care Center Onepage Rtl</a></li>
-                                    <li><a href="home-modern-kindergarten-onepage-rtl.html">Modern Kindergarten Onepage Rtl</a></li>
-                                    <li><a href="home-kindergarten-rtl-onepage.html">New Kindergarten Onepage Rtl</a></li>
-                                </ul>
+                                                            <li><a href="home-child-care-rtl.html">Home Child Care
+                                                                    Rtl</a></li>
+                                                            <li><a href="home-child-care-center-rtl.html">Child Care
+                                                                    Center Rtl</a></li>
+                                                            <li><a href="home-modern-kindergarten-rtl.html">Modern
+                                                                    Kindergarten Rtl</a></li>
+                                                            <li><a href="home-kindergarten-rtl.html">New Kindergarten
+                                                                    Rtl</a></li>
+                                                            <li><a href="home-child-care-onepage-rtl.html">Home Child
+                                                                    Care Onepage Rtl</a></li>
+                                                            <li><a href="home-child-care-center-onepage-rtl.html">Child
+                                                                    Care Center Onepage Rtl</a></li>
+                                                            <li><a href="home-modern-kindergarten-onepage-rtl.html">Modern
+                                                                    Kindergarten Onepage Rtl</a></li>
+                                                            <li><a href="home-kindergarten-rtl-onepage.html">New
+                                                                    Kindergarten Onepage Rtl</a></li>
+                                                        </ul>
                                                     </li>
                                                 </ul>
                                             </li>
@@ -93,7 +108,7 @@
                                                     <li><a href="course.html">Courses</a></li>
                                                 </ul>
                                             </li>
-                                            
+
                                             <li class="menu-item-has-children">
                                                 <a href="team.html#">Classes</a>
                                                 <ul class="sub-menu">
@@ -132,13 +147,15 @@
                                             </li>
                                         </ul>
                                     </nav>
-                                    <button type="button" class="as-menu-toggle d-inline-block d-lg-none"><i class="far fa-bars"></i></button>
+                                    <button type="button" class="as-menu-toggle d-inline-block d-lg-none"><i
+                                            class="far fa-bars"></i></button>
                                 </div>
                             </div>
                             <div class="col-auto d-none d-lg-block">
                                 <div class="header-button">
-                                    
-                                    <button type="button" class="icon-btn searchBoxToggler"><i class="fa-regular fa-magnifying-glass"></i></button>
+
+                                    <button type="button" class="icon-btn searchBoxToggler"><i
+                                            class="fa-regular fa-magnifying-glass"></i></button>
                                     <button type="button" class="icon-btn bar-btn  sideMenuToggler">
                                         <i class="fa-regular fa-basket-shopping-simple"></i>
                                         <span class="badge">5</span>
@@ -149,8 +166,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="menu-shape" data-bg-src="assets/img/bg/header_bg_1.png">
+                <div class="menu-shape" data-bg-src="/assets/img/bg/header_bg_1.png">
                 </div>
             </div>
-        </div> 
+        </div>
     </header>

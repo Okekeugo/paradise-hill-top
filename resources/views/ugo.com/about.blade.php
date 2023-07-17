@@ -96,7 +96,7 @@
         <div class="as-menu-area text-center">
             <button class="as-menu-toggle"><i class="fal fa-times"></i></button>
             <div class="mobile-logo">
-                <a href="home-child-care.html"><img src="assets/img/logo.svg" alt="Tayde"></a>
+                <a href="home-child-care.html"><img src="/assets/img/logo.svg" alt="Tayde"></a>
             </div>
             <div class="as-mobile-menu">
                 <ul>
@@ -202,7 +202,7 @@
                         <li class="woocommerce-mini-cart-item mini_cart_item">
                             <a href="about.html#" class="remove remove_from_cart_button"><i
                                     class="far fa-times"></i></a>
-                            <a href="about.html#"><img src="assets/img/product/product_thumb_1_1.png"
+                            <a href="about.html#"><img src="/assets/img/product/product_thumb_1_1.png"
                                     alt="Cart Image">Wooden Bunny</a>
                             <span class="quantity">1 ×
                                 <span class="woocommerce-Price-amount amount">
@@ -212,7 +212,7 @@
                         <li class="woocommerce-mini-cart-item mini_cart_item">
                             <a href="about.html#" class="remove remove_from_cart_button"><i
                                     class="far fa-times"></i></a>
-                            <a href="about.html#"><img src="assets/img/product/product_thumb_1_2.png"
+                            <a href="about.html#"><img src="/assets/img/product/product_thumb_1_2.png"
                                     alt="Cart Image">Kids Dinosour</a>
                             <span class="quantity">1 ×
                                 <span class="woocommerce-Price-amount amount">
@@ -222,7 +222,7 @@
                         <li class="woocommerce-mini-cart-item mini_cart_item">
                             <a href="about.html#" class="remove remove_from_cart_button"><i
                                     class="far fa-times"></i></a>
-                            <a href="about.html#"><img src="assets/img/product/product_thumb_1_3.png"
+                            <a href="about.html#"><img src="/assets/img/product/product_thumb_1_3.png"
                                     alt="Cart Image">Small Truck</a>
                             <span class="quantity">1 ×
                                 <span class="woocommerce-Price-amount amount">
@@ -232,7 +232,7 @@
                         <li class="woocommerce-mini-cart-item mini_cart_item">
                             <a href="about.html#" class="remove remove_from_cart_button"><i
                                     class="far fa-times"></i></a>
-                            <a href="about.html#"><img src="assets/img/product/product_thumb_1_4.png"
+                            <a href="about.html#"><img src="/assets/img/product/product_thumb_1_4.png"
                                     alt="Cart Image">Color Kid Truck</a>
                             <span class="quantity">1 ×
                                 <span class="woocommerce-Price-amount amount">
@@ -242,7 +242,7 @@
                         <li class="woocommerce-mini-cart-item mini_cart_item">
                             <a href="about.html#" class="remove remove_from_cart_button"><i
                                     class="far fa-times"></i></a>
-                            <a href="about.html#"><img src="assets/img/product/product_thumb_1_5.png"
+                            <a href="about.html#"><img src="/assets/img/product/product_thumb_1_5.png"
                                     alt="Cart Image">Dog Pupet</a>
                             <span class="quantity">1 ×
                                 <span class="woocommerce-Price-amount amount">
@@ -310,7 +310,8 @@
                         <div class="row align-items-center justify-content-between">
                             <div class="col-auto">
                                 <div class="header-logo">
-                                    <a href="home-child-care.html"><img src="assets/img/logo.svg" alt="Tayde"></a>
+                                    <a href="home-child-care.html"><img src="/assets/img/logo.svg"
+                                            alt="Tayde"></a>
                                 </div>
                             </div>
                             <div class="col-auto">
@@ -435,7 +436,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="menu-shape" data-bg-src="assets/img/bg/header_bg_1.png">
+                <div class="menu-shape" data-bg-src="/assets/img/bg/header_bg_1.png">
                 </div>
             </div>
         </div>
@@ -444,7 +445,7 @@
     <!--==============================
         Breadcumb
     ============================== -->
-    <div class="breadcumb-wrapper " data-bg-src="assets/img/breadcumb/breadcumb-bg.png">
+    <div class="breadcumb-wrapper " data-bg-src="/assets/img/breadcumb/breadcumb-bg.png">
         <div class="container">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">About Us</h1>
@@ -455,7 +456,7 @@
             </div>
         </div>
         <div class="bottom-shape">
-            <img src="assets/img/breadcumb/breadcumb-bg-bottom.png" alt="img">
+            <img src="/assets/img/breadcumb/breadcumb-bg-bottom.png" alt="img">
         </div>
     </div>
 
@@ -467,7 +468,7 @@
             <div class="row">
                 <div class="col-lg-6 order-lg-2 align-self-center">
                     <div class="about-thumb-3 mb-5 mb-lg-0">
-                        <img src="assets/img/normal/about_3.png" alt="img">
+                        <img src="/assets/img/normal/about_3.png" alt="img">
                     </div>
                 </div>
                 <div class="col-lg-6 order-lg-1 align-self-center">
@@ -490,16 +491,18 @@
     <!--==============================
     Service Area
     ==============================-->
-    <section class="service-area-4 space" id="service-sec" data-bg-src="assets/img/bg/team_bg_2.png">
+    <section class="service-area-4 space" id="service-sec" data-bg-src="/assets/img/bg/team_bg_2.png">
         <!-- bg animated image -->
         <div class="service-4-anime-img-1 shape-mockup d-none d-lg-block" data-top="17px" data-left="0%"><img
-                class="img-1" src="assets/img/activites/shape_2_1.png" alt="img"></div>
+                class="img-1" src="/assets/img/activites/shape_2_1.png" alt="img"></div>
         <div class="service-4-anime-img-2 shape-mockup jump1 d-none d-lg-block" data-top="20%" data-right="6%"><img
-                src="assets/img/service/service-3_1.png" alt="img"></div>
+                src="/assets/img/service/service-3_1.png" alt="img"></div>
         <div class="service-4-anime-img-3 shape-mockup jump2 d-none d-xxl-block" data-bottom="16%" data-left="5%">
-            <img src="assets/img/blog/shape-2_1.png" alt="img"></div>
+            <img src="/assets/img/blog/shape-2_1.png" alt="img">
+        </div>
         <div class="service-4-anime-img-4 shape-mockup jump3 d-none d-xxl-block" data-bottom="17%" data-right="0%">
-            <img src="assets/img/service/service-3_5.png" alt="img"></div>
+            <img src="/assets/img/service/service-3_5.png" alt="img">
+        </div>
         <!-- bg animated image/ -->
         <div class="container space-extra">
             <div class="row justify-content-center">
@@ -517,12 +520,12 @@
 
                 <div class="col-lg-4 col-md-6">
                     <div class="service-wrap-2">
-                        <div class="service-thumb" data-bg-src="assets/img/service/service-4-mask-2.png">
+                        <div class="service-thumb" data-bg-src="/assets/img/service/service-4-mask-2.png">
                             <span class="number">01</span>
-                            <div class="thumbnail" data-mask-src="assets/img/service/service-4-mask.png"
-                                data-bg-src="assets/img/service/service-4-1.png">
+                            <div class="thumbnail" data-mask-src="/assets/img/service/service-4-mask.png"
+                                data-bg-src="/assets/img/service/service-4-1.png">
                             </div>
-                            <img class="arrow" src="assets/img/icon/arrow-1.png" alt="img">
+                            <img class="arrow" src="/assets/img/icon/arrow-1.png" alt="img">
                         </div>
                         <h3 class="h4 title"><a href="team.html">Expert Instructor</a></h3>
                         <p>Kids care dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -532,11 +535,11 @@
 
                 <div class="col-lg-4 col-md-6">
                     <div class="service-wrap-2">
-                        <div class="service-thumb" data-bg-src="assets/img/service/service-4-mask-2.png">
+                        <div class="service-thumb" data-bg-src="/assets/img/service/service-4-mask-2.png">
                             <span class="number">02</span>
-                            <div class="thumbnail" data-mask-src="assets/img/service/service-4-mask.png"
-                                data-bg-src="assets/img/service/service-4-2.png"></div>
-                            <img class="arrow" src="assets/img/icon/arrow-2.png" alt="img">
+                            <div class="thumbnail" data-mask-src="/assets/img/service/service-4-mask.png"
+                                data-bg-src="/assets/img/service/service-4-2.png"></div>
+                            <img class="arrow" src="/assets/img/icon/arrow-2.png" alt="img">
                         </div>
                         <h3 class="h4 title"><a href="about.html">Get All Information</a></h3>
                         <p>Kids care dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -546,10 +549,10 @@
 
                 <div class="col-lg-4 col-md-6">
                     <div class="service-wrap-2">
-                        <div class="service-thumb" data-bg-src="assets/img/service/service-4-mask-2.png">
+                        <div class="service-thumb" data-bg-src="/assets/img/service/service-4-mask-2.png">
                             <span class="number">03</span>
-                            <div class="thumbnail" data-mask-src="assets/img/service/service-4-mask.png"
-                                data-bg-src="assets/img/service/service-4-3.png"></div>
+                            <div class="thumbnail" data-mask-src="/assets/img/service/service-4-mask.png"
+                                data-bg-src="/assets/img/service/service-4-3.png"></div>
                         </div>
                         <h3 class="h4 title"><a href="gallery.html">Ideal Children</a></h3>
                         <p>Kids care dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -580,7 +583,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="team-block" data-theme-color="#fe5a86">
                         <div class="team-img">
-                            <img src="assets/img/team/team-3.png" alt="Team">
+                            <img src="/assets/img/team/team-3.png" alt="Team">
                             <div class="team-social">
                                 <button class="icon-btn"><i class="fa-regular fa-plus"></i></button>
                                 <div class="as-social">
@@ -601,7 +604,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="team-block" data-theme-color="#FE5D37">
                         <div class="team-img">
-                            <img src="assets/img/team/team-5.png" alt="Team">
+                            <img src="/assets/img/team/team-5.png" alt="Team">
                             <div class="team-social">
                                 <button class="icon-btn"><i class="fa-regular fa-plus"></i></button>
                                 <div class="as-social">
@@ -622,7 +625,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="team-block" data-theme-color="#786ACF">
                         <div class="team-img">
-                            <img src="assets/img/team/team-4.png" alt="Team">
+                            <img src="/assets/img/team/team-4.png" alt="Team">
                             <div class="team-social">
                                 <button class="icon-btn"><i class="fa-regular fa-plus"></i></button>
                                 <div class="as-social">
@@ -643,7 +646,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="team-block" data-theme-color="#AED139">
                         <div class="team-img">
-                            <img src="assets/img/team/team-6.png" alt="Team">
+                            <img src="/assets/img/team/team-6.png" alt="Team">
                             <div class="team-social">
                                 <button class="icon-btn"><i class="fa-regular fa-plus"></i></button>
                                 <div class="as-social">
@@ -664,7 +667,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="team-block" data-theme-color="#fd9a23">
                         <div class="team-img">
-                            <img src="assets/img/team/team-7.png" alt="Team">
+                            <img src="/assets/img/team/team-7.png" alt="Team">
                             <div class="team-social">
                                 <button class="icon-btn"><i class="fa-regular fa-plus"></i></button>
                                 <div class="as-social">
@@ -688,16 +691,16 @@
     <!--==============================
     Activites Area
     ==============================-->
-    <section class="activites-area space" data-bg-src="assets/img/bg/activities_bg.png">
+    <section class="activites-area space" data-bg-src="/assets/img/bg/activities_bg.png">
         <!-- bg animated image -->
         <div class="activites-anime-img-1 shape-mockup jump d-none d-lg-block" data-top="17%" data-left="4%"><img
-                src="assets/img/activites/bg_anime_2_1.png" alt="img"></div>
+                src="/assets/img/activites/bg_anime_2_1.png" alt="img"></div>
         <div class="activites-anime-img-3 shape-mockup jump3 d-none d-lg-block" data-top="25%" data-right="4%"><img
-                src="assets/img/activites/bg_anime_2_3.png" alt="img"></div>
+                src="/assets/img/activites/bg_anime_2_3.png" alt="img"></div>
         <div class="activites-anime-img-4 shape-mockup jump2 d-none d-xl-block" data-bottom="18%" data-left="3%"><img
-                src="assets/img/activites/bg_anime_2_2.png" alt="img"></div>
+                src="/assets/img/activites/bg_anime_2_2.png" alt="img"></div>
         <div class="activites-anime-img-5 shape-mockup jump d-none d-xl-block" data-bottom="15%" data-right="2%"><img
-                src="assets/img/activites/bg_anime_3_1.png" alt="img"></div>
+                src="/assets/img/activites/bg_anime_3_1.png" alt="img"></div>
         <!-- bg animated image/-->
         <div class="container space-extra">
             <div class="row g-0 justify-content-center">
@@ -716,7 +719,7 @@
 
                 <div class="col-xl-4 col-md-6 align-self-center">
                     <div class="activities-thumb-2">
-                        <img src="assets/img/activites/baby-2.png" alt="img">
+                        <img src="/assets/img/activites/baby-2.png" alt="img">
                     </div>
                 </div>
 
@@ -724,7 +727,7 @@
                     <ul class="activities-list right-list ms-lg-3 ms-0">
                         <li class="single-list">
                             <div class="icon align-self-start">
-                                <img src="assets/img/activites/icon_3_1.svg" alt="">
+                                <img src="/assets/img/activites/icon_3_1.svg" alt="">
                             </div>
                             <div class="media-body">
                                 <h4 class="title">Full Day Care Services</h4>
@@ -736,7 +739,7 @@
                         </li>
                         <li class="single-list ms-0 mt-4">
                             <div class="icon align-self-start">
-                                <img src="assets/img/activites/icon_3_2.svg" alt="">
+                                <img src="/assets/img/activites/icon_3_2.svg" alt="">
                             </div>
                             <div class="media-body">
                                 <h4 class="title">Summer Camp Facility</h4>
@@ -748,7 +751,7 @@
                         </li>
                         <li class="single-list mt-4">
                             <div class="icon align-self-start">
-                                <img src="assets/img/activites/icon_3_3.svg" alt="">
+                                <img src="/assets/img/activites/icon_3_3.svg" alt="">
                             </div>
                             <div class="media-body">
                                 <h4 class="title">Pre School Services</h4>
@@ -787,42 +790,42 @@
                     data-md-slide-show="3" data-sm-slide-show="1" data-xs-slide-show="1" data-arrows="false">
                     <div class="col-auto">
                         <div class="brand-box">
-                            <img src="assets/img/brand/brand_1_1.png" alt="Brand Logo">
+                            <img src="/assets/img/brand/brand_1_1.png" alt="Brand Logo">
                         </div>
                     </div>
                     <div class="col-auto">
                         <div class="brand-box">
-                            <img src="assets/img/brand/brand_1_2.png" alt="Brand Logo">
+                            <img src="/assets/img/brand/brand_1_2.png" alt="Brand Logo">
                         </div>
                     </div>
                     <div class="col-auto">
                         <div class="brand-box">
-                            <img src="assets/img/brand/brand_1_3.png" alt="Brand Logo">
+                            <img src="/assets/img/brand/brand_1_3.png" alt="Brand Logo">
                         </div>
                     </div>
                     <div class="col-auto">
                         <div class="brand-box">
-                            <img src="assets/img/brand/brand_1_4.png" alt="Brand Logo">
+                            <img src="/assets/img/brand/brand_1_4.png" alt="Brand Logo">
                         </div>
                     </div>
                     <div class="col-auto">
                         <div class="brand-box">
-                            <img src="assets/img/brand/brand_1_1.png" alt="Brand Logo">
+                            <img src="/assets/img/brand/brand_1_1.png" alt="Brand Logo">
                         </div>
                     </div>
                     <div class="col-auto">
                         <div class="brand-box">
-                            <img src="assets/img/brand/brand_1_2.png" alt="Brand Logo">
+                            <img src="/assets/img/brand/brand_1_2.png" alt="Brand Logo">
                         </div>
                     </div>
                     <div class="col-auto">
                         <div class="brand-box">
-                            <img src="assets/img/brand/brand_1_3.png" alt="Brand Logo">
+                            <img src="/assets/img/brand/brand_1_3.png" alt="Brand Logo">
                         </div>
                     </div>
                     <div class="col-auto">
                         <div class="brand-box">
-                            <img src="assets/img/brand/brand_1_4.png" alt="Brand Logo">
+                            <img src="/assets/img/brand/brand_1_4.png" alt="Brand Logo">
                         </div>
                     </div>
                 </div>
@@ -833,9 +836,9 @@
     <!--==============================
         Footer Area
     ==============================-->
-    <footer class="footer-wrapper footer-layout1" data-bg-src="assets/img/bg/footer_bg_1.png">
+    <footer class="footer-wrapper footer-layout1" data-bg-src="/assets/img/bg/footer_bg_1.png">
         <div class="bg-shape-top">
-            <img src="assets/img/bg/header_bg_1.png" alt="img">
+            <img src="/assets/img/bg/header_bg_1.png" alt="img">
         </div>
         <div class="footer-top">
             <div class="container">
@@ -843,7 +846,7 @@
                     <li>
                         <div class="footer-contact-wrap">
                             <div class="icon">
-                                <img src="assets/img/icon/phone.svg" alt="img">
+                                <img src="/assets/img/icon/phone.svg" alt="img">
                             </div>
                             <div class="details">
                                 <p class="title">Give us a Call</p>
@@ -854,7 +857,7 @@
                     <li>
                         <div class="footer-contact-wrap">
                             <div class="icon">
-                                <img src="assets/img/icon/envelope.svg" alt="img">
+                                <img src="/assets/img/icon/envelope.svg" alt="img">
                             </div>
                             <div class="details">
                                 <p class="title">Send us a Message</p>
@@ -865,7 +868,7 @@
                     <li>
                         <div class="footer-contact-wrap">
                             <div class="icon">
-                                <img src="assets/img/icon/home.svg" alt="img">
+                                <img src="/assets/img/icon/home.svg" alt="img">
                             </div>
                             <div class="details">
                                 <p class="title">Visit our Office</p>
@@ -914,7 +917,7 @@
                             <div class="recent-post-wrap">
                                 <div class="recent-post">
                                     <div class="media-img">
-                                        <a href="blog-details.html"><img src="assets/img/widget/1.png"
+                                        <a href="blog-details.html"><img src="/assets/img/widget/1.png"
                                                 alt="Blog Image"></a>
                                     </div>
                                     <div class="media-body">
@@ -929,7 +932,7 @@
                                 </div>
                                 <div class="recent-post">
                                     <div class="media-img">
-                                        <a href="blog-details.html"><img src="assets/img/widget/2.png"
+                                        <a href="blog-details.html"><img src="/assets/img/widget/2.png"
                                                 alt="Blog Image"></a>
                                     </div>
                                     <div class="media-body">
@@ -962,7 +965,7 @@
                 </div>
             </div>
         </div>
-        <div class="copyright-wrap" data-bg-src="assets/img/bg/copyright_bg.png">
+        <div class="copyright-wrap" data-bg-src="/assets/img/bg/copyright_bg.png">
             <div class="container">
                 <p class="copyright-text text-center">Copyright <i class="fal fa-copyright"></i> 2023 By <a
                         href="about.html#">Tayde</a>. All Rights Reserved.</p>
@@ -976,34 +979,34 @@
 
     <!-- Scroll To Top -->
     <a href="about.html#" class="scrollToTop scroll-btn">
-        <img src="assets/img/icon/click-top-btn.png" alt="img">
+        <img src="/assets/img/icon/click-top-btn.png" alt="img">
     </a>
 
     <!--==============================
     All Js File
     ============================== -->
     <!-- Jquery -->
-    <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="/assets/js/vendor/jquery-3.6.0.min.js"></script>
     <!-- Slick Slider -->
-    <script src="assets/js/slick.min.js"></script>
+    <script src="/assets/js/slick.min.js"></script>
     <!-- Bootstrap -->
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
     <!-- Magnific Popup -->
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="/assets/js/jquery.magnific-popup.min.js"></script>
     <!-- Counter Up -->
-    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="/assets/js/jquery.counterup.min.js"></script>
     <!-- Range Slider -->
-    <script src="assets/js/jquery-ui.min.js"></script>
+    <script src="/assets/js/jquery-ui.min.js"></script>
     <!-- Isotope Filter -->
-    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
-    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="/assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="/assets/js/isotope.pkgd.min.js"></script>
 
     <!-- Skill Counter File -->
-    <script src="assets/js/counter.js"></script>
+    <script src="/assets/js/counter.js"></script>
     <!-- Tweenmax File -->
-    <script src="assets/js/tweenmax.min.js"></script>
+    <script src="/assets/js/tweenmax.min.js"></script>
     <!-- Main Js File -->
-    <script src="assets/js/main.js"></script>
+    <script src="/assets/js/main.js"></script>
 
 </body>
 

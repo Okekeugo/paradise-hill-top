@@ -2,7 +2,7 @@
     <div class="as-menu-area text-center">
         <button class="as-menu-toggle"><i class="fal fa-times"></i></button>
         <div class="mobile-logo">
-            <a href="home-child-care.html"><img src="assets/logo/logo_white.jpeg" alt="paradise" width="100"></a>
+            <a href="home-child-care.html"><img src="/assets/logo/logo_white.jpeg" alt="paradise" width="100"></a>
         </div>
         <div class="as-mobile-menu">
             <ul>

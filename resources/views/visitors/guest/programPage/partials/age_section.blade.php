@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-lg-6 order-lg-2 align-self-center">
                 <div class="about-thumb-3 mb-5 mb-lg-0">
-                    <img src="assets/img/normal/3_years_baby.png" alt="img">
+                    <img src="/assets/img/normal/3_years_baby.png" alt="img">
                 </div>
             </div>
             <div class="col-lg-6 order-lg-1 align-self-center">
@@ -14,7 +14,8 @@
 
                         <p class="sec-text">
                             Our creche provides a nurturing environment for young children between the ages of 6 and 24
-                            Months old. We understand the importance of quality care during these formative years and are
+                            Months old. We understand the importance of quality care during these formative years and
+                            are
                             committed to providing a safe and engaging space for your child to learn and grow.
                         </p>
 

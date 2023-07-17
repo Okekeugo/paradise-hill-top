@@ -1,15 +1,15 @@
-<div class="service-area space" id="service-sec" data-bg-src="assets/img/service/service_1_bg.png">
+<div class="service-area space" id="service-sec" data-bg-src="/assets/img/service/service_1_bg.png">
     <!-- bg animated image -->
     <div class="service-anime-img-1 shape-mockup jump d-none d-lg-block" data-top="15%" data-right="8%"><img
-            src="assets/img/service/service_1_1.png" alt="img"></div>
+            src="/assets/img/service/service_1_1.png" alt="img"></div>
     <div class="service-anime-img-2 shape-mockup jump1 d-none d-xl-block" data-bottom="17%" data-right="12%"><img
-            src="assets/img/service/service_1_2.png" alt="img"></div>
+            src="/assets/img/service/service_1_2.png" alt="img"></div>
     <div class="service-anime-img-3 shape-mockup jump2 d-none d-lg-block" data-top="16%" data-left="21%"><img
-            src="assets/img/service/service_1_3.png" alt="img"></div>
+            src="/assets/img/service/service_1_3.png" alt="img"></div>
     <div class="service-anime-img-4 shape-mockup jump3 d-none d-lg-block" data-top="17%" data-left="5%"><img
-            src="assets/img/service/service_1_4.png" alt="img"></div>
+            src="/assets/img/service/service_1_4.png" alt="img"></div>
     <div class="service-anime-img-5 shape-mockup jump2 d-none d-xl-block" data-bottom="12%" data-left="3%"><img
-            src="assets/img/service/service_1_5.png" alt="img"></div>
+            src="/assets/img/service/service_1_5.png" alt="img"></div>
     <!-- bg animated image/ -->
     <div class="container space-extra">
         <div class="title-area text-center">
@@ -23,7 +23,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="service-card">
                     <div class="service-icon">
-                        <img src="assets/img/service/service_1_1.svg" alt="img">
+                        <img src="/assets/img/service/service_1_1.svg" alt="img">
                     </div>
                     <h4 class="title"><a href="course-details.html">Pre School ( 1-3 Years)</a></h4>
                     <p>Through a variety of age-appropriate activities and programs, we help children develop
@@ -36,7 +36,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="service-card">
                     <div class="service-icon">
-                        <img src="assets/img/service/service_1_2.svg" alt="img">
+                        <img src="/assets/img/service/service_1_2.svg" alt="img">
                     </div>
                     <h4 class="title"><a href="course-details.html">Infants (3 - 6 years)</a></h4>
                     <p>At this stage, kids are developing important cognitive, social, and emotional skills through
@@ -51,7 +51,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="service-card">
                     <div class="service-icon">
-                        <img src="assets/img/service/service_1_3.svg" alt="img">
+                        <img src="/assets/img/service/service_1_3.svg" alt="img">
                     </div>
                     <h4 class="title"><a href="course-details.html">Kindergarten (6 – 9 years)</a></h4>
                     <p>We believe that kindergarten is a crucial stepping stone in a child's academic journey and strive
@@ -64,7 +64,7 @@
             {{-- <div class="col-lg-4 col-md-6">
                 <div class="service-card">
                     <div class="service-icon">
-                        <img src="assets/img/service/service_1_2.svg" alt="img">
+                        <img src="/assets/img/service/service_1_2.svg" alt="img">
                     </div>
                     <h4 class="title"><a href="course-details.html">Insfants (3 - 6 years)</a></h4>
                     <p>Kids care dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore

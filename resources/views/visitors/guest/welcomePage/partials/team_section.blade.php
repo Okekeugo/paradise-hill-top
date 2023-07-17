@@ -1,12 +1,12 @@
  <div class="team-area space">
-     <img class="bg-top-shape" src="assets/img/team/team_bg_1.png" alt="img">
+     <img class="bg-top-shape" src="/assets/img/team/team_bg_1.png" alt="img">
      <!-- bg animated image -->
      <div class="team-anime-img-1 shape-mockup jump1 d-none d-lg-block" data-top="13%" data-left="10%"><img
-             src="assets/img/team/shape-1.png" alt="img"></div>
+             src="/assets/img/team/shape-1.png" alt="img"></div>
      <div class="team-anime-img-2 shape-mockup jump3 d-none d-lg-block" data-bottom="10%" data-left="5%"><img
-             src="assets/img/team/shape-2.png" alt="img"></div>
+             src="/assets/img/team/shape-2.png" alt="img"></div>
      <div class="team-anime-img-3 shape-mockup jump2 d-none d-xl-block" data-top="14%" data-right="5%"><img
-             src="assets/img/team/shape-3.png" alt="img"></div>
+             src="/assets/img/team/shape-3.png" alt="img"></div>
      <!-- bg animated image/ -->
      <div class="container">
          <div class="row">
@@ -29,7 +29,7 @@
                      <div class="col-lg-3 col-sm-6">
                          <div class="team-card">
                              <div class="team-img">
-                                 <img src="assets/img/team/team-1.png" alt="Team">
+                                 <img src="/assets/img/team/team-1.png" alt="Team">
                              </div>
                              <div class="team-content">
                                  <h4 class="team-title"><a href="team-details.html">David Smith</a></h4>
@@ -49,7 +49,7 @@
                      <div class="col-lg-3 col-sm-6">
                          <div class="team-card">
                              <div class="team-img">
-                                 <img src="assets/img/team/team-2.png" alt="Team">
+                                 <img src="/assets/img/team/team-2.png" alt="Team">
                              </div>
                              <div class="team-content">
                                  <h4 class="team-title"><a href="team-details.html">Melina Delou</a></h4>
