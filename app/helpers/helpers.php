@@ -7,8 +7,8 @@ function presentRouteName()
 {
   $routeName = Route::currentRouteName();
 
-  if (Str::contains($routeName, '.show', true)) {
+  if (Str::contains($routeName, '.show', true))
     return $newString =  Str::replace('.show', ' Details', $routeName, false);
-  }
+
   return $routeName;
 }

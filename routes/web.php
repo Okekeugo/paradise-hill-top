@@ -64,12 +64,18 @@ Route::get('/blog', function () {
 
 
 
-Route::get('blog/1/show', function () {
+Route::get('blog/{slug}', function () {
     // dd('fufu');
     $blog = 1;
     return view('pages.blog_details');
 })->name('blog.show');
 
+
+Route::get('blog/1/show', function () {
+    // dd('fufu');
+    $blog = 1;
+    return view('pages.blog_details');
+})->name('blog.show');
 
 
 
