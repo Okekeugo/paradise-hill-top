@@ -63,6 +63,7 @@ Route::get('/blog', function () {
 // })->name('blog.show');
 
 
+// paradisehilltop.com/blog/how-to-care-for-baby
 
 Route::get('blog/{slug}', function () {
     // dd('fufu');
@@ -71,11 +72,11 @@ Route::get('blog/{slug}', function () {
 })->name('blog.show');
 
 
-Route::get('blog/1/show', function () {
-    // dd('fufu');
-    $blog = 1;
-    return view('pages.blog_details');
-})->name('blog.show');
+// Route::get('blog/1/show', function () {
+//     // dd('fufu');
+//     $blog = 1;
+//     return view('pages.blog_details');
+// })->name('blog.show');
 
 
 
