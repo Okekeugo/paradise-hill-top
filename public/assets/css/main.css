@@ -54,3 +54,22 @@ Version: 1.0.0
   .fw-300{
     font-weight: 300;
   }
+.txt-tiny {
+  font-size: xx-small;
+}
+
+.txt-smallest {
+  font-size: x-small;
+}
+
+.txt-smaller{
+  font-size: smaller;
+}
+
+.txt-small {
+  font-size: small;
+}
+
+.txt-sm{
+  font-size: .7em;
+}

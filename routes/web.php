@@ -56,14 +56,24 @@ Route::get('/blog', function () {
 })->name('blog');
 
 
-
-// Route::get('/blog2}', function () {
-//     $blog = 1;
-//     return view('pages.blog_details', compact('blog'));
-// })->name('blog.show');
+Route::get('/contact', function () {
+    return view('pages.contact');
+})->name('contact us');
 
 
-// paradisehilltop.com/blog/how-to-care-for-baby
+
+// routes for working with posts
+
+// display form for creating a post
+Route::get('/posts/create', function () {
+    return view('pages.create-post');
+})->name('Create Post');
+
+
+// store a post in db
+Route::post('/posts', function () {
+    return view('pages.contact');
+})->name('blog');
 
 Route::get('blog/{slug}', function () {
     // dd('fufu');

@@ -12,7 +12,11 @@
                         </div>
                         <div class="details">
                             <p class="title">Give us a Call</p>
-                            <h6 class="info"><a href="tel:+598654132152153"><small>+234 706 556 944</small></a></h6>
+                            <p class="info">
+                                <span class="txt-sm">
+                                    <a href="tel:+234706556944">+234 706 556 944</a>
+                                </span>
+                            </p>
                         </div>
                     </div>
                 </li>
@@ -23,9 +27,12 @@
                         </div>
                         <div class="details">
                             <p class="title">Send us a Message</p>
-                            <h6 class="info"><a
-                                    href="mailto:info@paradisehilltop.com"><small><small>info@paradisehilltop.com</small></small></a>
-                            </h6>
+                            <p class="info">
+                                <span class="txt-sm">
+                                    <a href="mailto:info@paradisehilltop.com">info@paradisehilltop.com</a>
+                                </span>
+
+                            </p>
                         </div>
                     </div>
                 </li>
@@ -36,7 +43,11 @@
                         </div>
                         <div class="details">
                             <p class="title">Visit our Office</p>
-                            <h6 class="info"><small><small>St. Peter's Church, Guzape</small></small></h6>
+                            <p class="info">
+                                <span class="txt-sm">
+                                    St. Peter's Church, Guzape
+                                </span>
+                            </p>
                         </div>
                     </div>
                 </li>
