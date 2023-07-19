@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('posts', function (Blueprint $table) {
             $table->id();
             $table->string('title', 200);
-            $table->string('slug', 200);
+            $table->string('slug', 200)->nullable();
 
             // main post content
             $table->text('pg1');
@@ -25,13 +25,14 @@ return new class extends Migration
 
 
             // media files related to post
-            $table->string('display_img');
-            $table->string('img1');
-            $table->string('img2');
+            $table->string('default_img')->nullable();
+            $table->string('img1')->nullable();
+            $table->string('img2')->nullable();
+            $table->string('img3')->nullable();
 
-            $table->string('tags');
+            $table->string('tags')->nullable();
             
-            $table->string('author', 20)->default('admin');
+            $table->string('author', 20)->default('editor');
 
 
             // foreign keys

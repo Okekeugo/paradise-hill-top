@@ -13,7 +13,7 @@
                         <div class="details">
                             <p class="title">Give us a Call</p>
                             <p class="info">
-                                <span class="txt-sm">
+                                <span class="text-sm">
                                     <a href="tel:+234706556944">+234 706 556 944</a>
                                 </span>
                             </p>
@@ -28,7 +28,7 @@
                         <div class="details">
                             <p class="title">Send us a Message</p>
                             <p class="info">
-                                <span class="txt-sm">
+                                <span class="text-sm">
                                     <a href="mailto:info@paradisehilltop.com">info@paradisehilltop.com</a>
                                 </span>
 
@@ -44,7 +44,7 @@
                         <div class="details">
                             <p class="title">Visit our Office</p>
                             <p class="info">
-                                <span class="txt-sm">
+                                <span class="text-sm">
                                     St. Peter's Church, Guzape
                                 </span>
                             </p>

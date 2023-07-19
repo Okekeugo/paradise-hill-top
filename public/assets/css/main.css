@@ -54,22 +54,31 @@ Version: 1.0.0
   .fw-300{
     font-weight: 300;
   }
-.txt-tiny {
+.text-tiny {
   font-size: xx-small;
 }
 
-.txt-smallest {
+.text-smallest {
   font-size: x-small;
 }
 
-.txt-smaller{
+.text-smaller{
   font-size: smaller;
 }
 
-.txt-small {
+.text-small {
   font-size: small;
 }
 
-.txt-sm{
+.text-sm{
   font-size: .7em;
+}
+
+.text-lg{
+  font-size: large;
+}
+
+
+.cursor-pointer{
+  cursor: pointer;
 }

@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\PostController;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -61,33 +63,50 @@ Route::get('/contact', function () {
 })->name('contact us');
 
 
+/*
+|--------------------------------------------------------------------------
+| Admin Routes For Managing Posts
+|--------------------------------------------------------------------------
+|
+*/
 
-// routes for working with posts
-
-// display form for creating a post
-Route::get('/posts/create', function () {
-    return view('pages.create-post');
-})->name('Create Post');
 
 
 // store a post in db
-Route::post('/posts', function () {
-    return view('pages.contact');
-})->name('blog');
+Route::post('/blog', [PostController::class, 'store'])->name('posts.store');
 
+
+// display form for creating a post
+Route::get('/posts/create', [PostController::class, 'create'])->name('Create Post');
+
+
+// Route to edit a single blog post (display form to edit post)
+Route::get('posts/{slug}/edit', [PostController::class, 'edit'])->name('posts.edit');
+
+// Route to update a single blog post
+Route::patch('posts/{slug}', [PostController::class, 'update'])->name('posts.update');
+
+// delete images for a particular post
+Route::get('img/del/{post_id}/{imgkey}', [PostController::class, 'deleteImg'])->name('img.delete');
+
+// Route to delete a single blog post
+Route::get('posts/del/{post_id}', [PostController::class, 'destroy'])->name('posts.destroy');
+
+
+
+
+
+##########################################
+####EOL Admin Routes For Managing Posts###
+##########################################
+
+
+// route to view a single blog post
 Route::get('blog/{slug}', function () {
     // dd('fufu');
     $blog = 1;
     return view('pages.blog_details');
 })->name('blog.show');
-
-
-// Route::get('blog/1/show', function () {
-//     // dd('fufu');
-//     $blog = 1;
-//     return view('pages.blog_details');
-// })->name('blog.show');
-
 
 
 

@@ -4,103 +4,109 @@
     <!-- Theme Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css"> --}}
 @section('main_content')
+
+
     <!--==============================
-        Contact Area
-        ==============================-->
+                    Contact Area
+                    ==============================-->
     <div class="space-extra2-top contact-area space-bottom">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-xl-5 col-lg-4 order-lg-2">
-                    <div class="contact-info-wrap mb-50 mb-lg-0">
-                        <h2 class="fw-extrabold h3">Stay Connected</h2>
-                        <p>Easily reach us via our address and available platforms both online and offline</p>
-                        <div class="contact-info mt-30">
-                            <div class="contact-info_icon">
-                                <i class="fa-solid fa-location-dot"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="contact-info_title h5">Our Address</h4>
-                                <span class="contact-info_text">St. Peter's Church, Guzape, Abuja, NG</span>
-                            </div>
-                        </div>
-                        <div class="contact-info">
-                            <div class="contact-info_icon">
-                                <i class="fa fa-envelope"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="contact-info_title h5">Our Email</h4>
-                                <span class="contact-info_text">
-                                    <a href="mailto:info.example@gmail.com">info@paradisehilltop.com</a>
-                                </span>
-                            </div>
-                        </div>
-                        <div class="contact-info">
-                            <div class="contact-info_icon">
-                                <i class="fa fa-phone"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="contact-info_title h5">Our Phone</h4>
-                                <span class="contact-info_text">
-                                    <a href="tel:+65485965789">+234 706 556 944</a>
-                                </span>
-                            </div>
-                        </div>
+                @if (session('success'))
+                    <div class="success alert alert-success">
+                        {{ session('success') }}
                     </div>
-                </div>
+                @endif
+
                 <div class="col-xl-7 col-lg-8 order-lg-1">
-                    <form action="https://angfuzsoft.com/html/tayde/demo/mail.php" method="POST"
-                        class="contact-form ajax-contact">
-                        <h2 class="fw-extrabold h3">How Can We Help?</h2>
-                        <p>For enquiries, kindly fill the form below and send us a message.
-                            Our team is available 24/7 to respond to your requests
+                    <form action="{{ route('posts.store') }}" method="POST" enctype="multipart/form-data"
+                        class=""> @csrf
+                        <h2 class="fw-extrabold h3">Create New Post</h2>
+                        <p>Fill the form below to Create a new blog post
                         </p>
                         <div class="row mt-35">
-                            <div class="col-md-6">
+                            <div class="col-md-12">
                                 <div class="form-group">
-                                    <input type="text" class="form-control style2" name="name" id="name"
-                                        placeholder="First Name">
+                                    <input type="text" class="form-control style2" name="title" id="name"
+                                        placeholder="Post title">
                                 </div>
                             </div>
-                            <div class="col-md-6">
+
+                            <div class="col-md-12">
                                 <div class="form-group">
-                                    <input type="text" class="form-control style2" name="lastname" id="last_name"
-                                        placeholder="Last Name">
+                                    <input type="text" class="form-control style2" name="tags" id="tags"
+                                        placeholder="Tags : Comma separated list eg. fashion, kids, learning, education, knowledge etc.">
                                 </div>
                             </div>
-                            <div class="form-group col-12">
-                                <input type="email" class="form-control style2" name="email" id="email"
-                                    placeholder="Email Address">
+
+
+                            <div class="media-files my-5">
+
+                                <h5 class="">Media Files</h5>
+
+                                <h6>Main Hero Image</h6>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="file" class="form-control style2" name="default_img" id="default_img">
+                                    </div>
+                                </div>
+
+                                <h6>Other Images</h6>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="file" class="form-control style2" name="img1" id="img1">
+                                    </div>
+                                </div>
+
+
+                                 <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="file" class="form-control style2" name="img2" id="img2">
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="file" class="form-control style2" name="img3" id="img3">
+                                    </div>
+                                </div>
+
                             </div>
-                            <div class="form-group col-12">
-                                <select name="classes" id="classselect" class="single-select nice-select style2">
-                                    <option value="" disabled="disabled" selected="selected" hidden>Select Subject
-                                    </option>
-                                    <option value="enquiries">Enquiries</option>
-                                    <option value="complaints">Complaints</option>
-                                    <option value="languageclass">Language Class</option>
-                                    <option value="mathematicsclass">Mathematics Class</option>
-                                    <option value="kidsonlineclass">Kids Online Class</option>
-                                    <option value="practicalclasses">Practical Classes</option>
-                                </select>
+
+                            <div class="post-content my-4">
+
+                                <h5>Post Content</h5>
+
+                                <div class="form-group col-12">
+                                    <textarea required placeholder="Paragraph 1" id="pg1" class="form-control style2" name="pg1"></textarea>
+                                </div>
+
+                                <div class="form-group col-12">
+                                    <textarea required placeholder="Paragraph 2" id="pg2" class="form-control style2" name="pg2"></textarea>
+                                </div>
+
+                                <div class="form-group col-12">
+                                    <textarea placeholder="Paragraph 3 (Optional)" id="pg3" class="form-control style2 capitalize" name="pg3"></textarea>
+                                </div>
+
+                                <div class="form-group col-12">
+                                    <textarea placeholder="Paragraph 4 (Optional)" id="pg4" class="form-control style2 " name="pg4"></textarea>
+                                </div>
+
+                                <div class="form-group col-12">
+                                    <textarea placeholder="Paragraph 5 (Optional)" id="pg5" class="form-control style2 " name="pg5"></textarea>
+                                </div>
                             </div>
-                            <div class="form-group col-12">
-                                <textarea placeholder="Type Your Message" id="contactForm" class="form-control style2"></textarea>
-                            </div>
+
+
                             <div class="form-btn col-12">
-                                <button class="as-btn">Send Message</button>
+                                <button class="as-btn capitalize">create post</button>
                             </div>
                         </div>
                         <p class="form-messages mb-0 mt-3"></p>
                     </form>
                 </div>
 
-            </div>
-            <div class="map-sec space-top">
-                {{-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3644.7310056272386!2d89.2286059153658!3d24.00527418490799!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fe9b97badc6151%3A0x30b048c9fb2129bc!2sTayde!5e0!3m2!1sen!2sbd!4v1651028958211!5m2!1sen!2sbd" allowfullscreen="" loading="lazy"></iframe> --}}
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.687704380171!2d7.497801099999999!3d9.000856599999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e0d29e83d491d%3A0x56ef0a09f0a1f438!2sSt.%20Peter&#39;s%20Anglican%20Church%20Guzape!5e0!3m2!1sen!2sng!4v1689153711623!5m2!1sen!2sng"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     </div>
