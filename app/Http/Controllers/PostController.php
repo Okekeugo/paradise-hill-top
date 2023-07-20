@@ -13,7 +13,9 @@ class PostController extends Controller
      */
     public function index()
     {
-        //
+        $all_posts = DB::table('posts')->get();
+        // dd($all_posts);
+        return view('pages.posts-index', compact('all_posts'));
     }
 
     /**
@@ -97,15 +99,12 @@ class PostController extends Controller
 
     public function deleteImg($post_id, $imgkey)
     {
-
         $relatedPost = DB::table('posts')->find($post_id);
 
         $fileToDelete = $relatedPost->$imgkey; //returns file path stored in db
 
         // delete from server
-        if (!(file_exists(public_path($fileToDelete)) and unlink(public_path($fileToDelete)))) {
-            dd('Oops! file not found in public driver');
-        }
+        $this->delFile($fileToDelete);
 
         // remove from db records
         DB::table('posts')->whereId($post_id)->update([$imgkey => null]);
@@ -116,24 +115,27 @@ class PostController extends Controller
 
     /**
      * Remove the specified resource from storage.
+     * 
      */
-    public function destroy(string $id)
+    public function destroy(string $post_id)
     {
-        dd(request()->all(), request()->post_id);
+        $relatedPost = DB::table('posts')->find($post_id);
 
+        // grab columns that contain file links in the db
+        $imgColumns = ['default_img', 'img1', 'img2', 'img3'];
+
+        foreach ($imgColumns as $column) {
+            $imgFilePath = $relatedPost->$column; // 1. get the assoc files
+
+            if (isset($imgFilePath)) $this->delFile($imgFilePath);  // 2. delete assoc files (if exist)
+        }
         // delete the post from the db
+        DB::table('posts')->where('id', $post_id)->delete();
 
-
-        // delete associated files
-
-
+        return redirect()->route('posts.index')->with('success', 'Post Deleted');
     }
 
-
-
     // helpers
-
-
     /**
      * Stores images from a request to the server (public driver)
      * and returns an array of paths for all images saved
@@ -221,12 +223,12 @@ class PostController extends Controller
     }
 
     /**
-     * Delete a file from public path using raw php
+     * Delete a file from public_path() using raw php
      */
-    public function delFile($fileToDelete, $disk = 'public')
+    public function delFile($fileToDelete,)
     {
         if (!(file_exists(public_path($fileToDelete)) and unlink(public_path($fileToDelete))))
-            dd('Oops! file not found in public driver');
+            dd('Oops! file not found in public_path()');
     }
 
     public function returnPostCreationResponse($newPostID, $updatedPostWithImages)

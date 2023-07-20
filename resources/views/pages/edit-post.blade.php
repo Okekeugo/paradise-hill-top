@@ -11,8 +11,8 @@
         <div class="container">
             <div class="row justify-content-center">
                 @if (session('success'))
-                    <div class="success alert alert-success">
-                        {{ session('success') }}
+                     <div class="woocommerce-notices-wrapper">
+                        <div class="woocommerce-message"> {{ session('success') }}</div>
                     </div>
                 @endif
                 <div class="col-xl-7 col-lg-8 order-lg-1">

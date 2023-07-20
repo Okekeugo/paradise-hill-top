@@ -2,6 +2,34 @@
     <div class="container">
         <div class="row">
             <div class="col-xxl-8 col-lg-7">
+                @foreach ($all_posts as $post)
+                    <div class="as-blog blog-single has-post-thumbnail">
+                        <div class="blog-img">
+                            <a href="{{ route('blog.show', 'blog_id') }}">
+                                <img src="{{ $post->default_img }}" alt="Blog Image">
+                            </a>
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <a href="{{ route('blog') }}"><i class="fa-regular fa-user"></i>Tayde </a>
+                                <a href="{{ route('blog.show', 'blog_id') }}"><i
+                                        class="fa-regular fa-tags"></i>Children</a>
+                                <a href="{{ route('blog') }}"><i class="fal fa-calendar-alt"></i>22 June, 2023</a>
+                            </div>
+                            <h2 class="blog-title"><a href="{{ route('blog.show', 'blog_id') }}">Monetize Models
+                                    Effectively
+                                    Sources that are
+                                    open Reformulate Distributed Services</a>
+                            </h2>
+                            <p class="blog-text">In today’s world, building a business also means you’ll need a strong
+                                website and social media presence. These can help you learn your customers better. With
+                                them, you can even request customers’ email addresses so you can reach</p>
+                            <a href="{{ route('blog.show', 'blog_id') }}" class="read-more-btn">Read More <i
+                                    class="fa fa-long-arrow-right"></i></a>
+                        </div>
+                    </div>
+                @endforeach
+
                 <div class="as-blog blog-single has-post-thumbnail">
                     <div class="blog-img">
                         <a href="{{ route('blog.show', 'blog_id') }}"><img src="/assets/img/blog/blog-s-1-1.png"
@@ -13,7 +41,8 @@
                             <a href="{{ route('blog.show', 'blog_id') }}"><i class="fa-regular fa-tags"></i>Children</a>
                             <a href="{{ route('blog') }}"><i class="fal fa-calendar-alt"></i>22 June, 2023</a>
                         </div>
-                        <h2 class="blog-title"><a href="{{ route('blog.show', 'blog_id') }}">Monetize Models Effectively
+                        <h2 class="blog-title"><a href="{{ route('blog.show', 'blog_id') }}">Monetize Models
+                                Effectively
                                 Sources that are
                                 open Reformulate Distributed Services</a>
                         </h2>
@@ -25,6 +54,7 @@
                     </div>
                 </div>
 
+
                 <div class="as-blog blog-single has-post-thumbnail">
                     <div class="blog-img">
                         <a href="{{ route('blog.show', 'blog_id') }}"><img src="/assets/img/blog/blog-s-1-2.png"
@@ -35,7 +65,8 @@
                     <div class="blog-content">
                         <div class="blog-meta">
                             <a href="{{ route('blog') }}"><i class="fa-regular fa-user"></i>Tayde </a>
-                            <a href="{{ route('blog.show', 'blog_id') }}"><i class="fa-regular fa-tags"></i>Children</a>
+                            <a href="{{ route('blog.show', 'blog_id') }}"><i
+                                    class="fa-regular fa-tags"></i>Children</a>
                             <a href="{{ route('blog') }}"><i class="fal fa-calendar-alt"></i>22 June, 2023</a>
                         </div>
                         <h2 class="blog-title"><a href="{{ route('blog.show', 'blog_id') }}">Child education always

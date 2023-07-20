@@ -20,7 +20,7 @@
                                 <a href="blog-details.html"><i class="fa-regular fa-comments"></i>Comments(3)</a>
                             </div>
                             <h2 class="blog-title">Education Knowledge Always Grow
-                                Ideas For Child</h2>
+                                Ideas For Child :: {{ $post->title }}</h2>
                             <p>Can get a better understanding of what already exists in your industry by analyzing competing
                                 goods or services. This can direct you toward ways to strengthen your concept. Before
                                 investing time and money in its creation, it can also help you identify its weak points.

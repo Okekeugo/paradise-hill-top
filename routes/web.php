@@ -54,8 +54,17 @@ Route::get('/program', function () {
 
 
 Route::get('/blog', function () {
-    return view('pages.blog');
+    $all_posts = DB::table('posts')->get();
+    return view('pages.blog', compact('all_posts'));
 })->name('blog');
+
+// route to view a single blog post
+Route::get('blog/{post_id}', function ($post_id) {
+    // dd('fufu');
+    $post = DB::table('posts')->find($post_id);
+    // $blog = 1;
+    return view('pages.blog_details', compact('post'));
+})->name('blog.show');
 
 
 Route::get('/contact', function () {
@@ -72,13 +81,15 @@ Route::get('/contact', function () {
 
 
 
+// view all posts in db
+Route::get('/posts/index', [PostController::class, 'index'])->name('posts.index');
+
 // store a post in db
-Route::post('/blog', [PostController::class, 'store'])->name('posts.store');
+Route::post('/posts/store', [PostController::class, 'store'])->name('posts.store');
 
 
 // display form for creating a post
 Route::get('/posts/create', [PostController::class, 'create'])->name('Create Post');
-
 
 // Route to edit a single blog post (display form to edit post)
 Route::get('posts/{slug}/edit', [PostController::class, 'edit'])->name('posts.edit');
@@ -93,21 +104,9 @@ Route::get('img/del/{post_id}/{imgkey}', [PostController::class, 'deleteImg'])->
 Route::get('posts/del/{post_id}', [PostController::class, 'destroy'])->name('posts.destroy');
 
 
-
-
-
 ##########################################
 ####EOL Admin Routes For Managing Posts###
 ##########################################
-
-
-// route to view a single blog post
-Route::get('blog/{slug}', function () {
-    // dd('fufu');
-    $blog = 1;
-    return view('pages.blog_details');
-})->name('blog.show');
-
 
 
 /*

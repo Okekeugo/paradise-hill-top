@@ -4,23 +4,21 @@
     <!-- Theme Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css"> --}}
 @section('main_content')
-
-
     <!--==============================
-                    Contact Area
-                    ==============================-->
+                                Contact Area
+                                ==============================-->
     <div class="space-extra2-top contact-area space-bottom">
         <div class="container">
             <div class="row justify-content-center">
                 @if (session('success'))
-                    <div class="success alert alert-success">
-                        {{ session('success') }}
+                    <div class="woocommerce-notices-wrapper">
+                        <div class="woocommerce-message"> {{ session('success') }}</div>
                     </div>
                 @endif
 
                 <div class="col-xl-7 col-lg-8 order-lg-1">
-                    <form action="{{ route('posts.store') }}" method="POST" enctype="multipart/form-data"
-                        class=""> @csrf
+                    <form action="{{ route('posts.store') }}" method="POST" enctype="multipart/form-data" class="">
+                        @csrf
                         <h2 class="fw-extrabold h3">Create New Post</h2>
                         <p>Fill the form below to Create a new blog post
                         </p>
@@ -47,7 +45,8 @@
                                 <h6>Main Hero Image</h6>
                                 <div class="col-md-12">
                                     <div class="form-group">
-                                        <input type="file" class="form-control style2" name="default_img" id="default_img">
+                                        <input type="file" class="form-control style2" name="default_img"
+                                            id="default_img">
                                     </div>
                                 </div>
 
@@ -59,7 +58,7 @@
                                 </div>
 
 
-                                 <div class="col-md-12">
+                                <div class="col-md-12">
                                     <div class="form-group">
                                         <input type="file" class="form-control style2" name="img2" id="img2">
                                     </div>
