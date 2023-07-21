@@ -37,7 +37,9 @@ return new class extends Migration
 
             // foreign keys
             // $table->foreignIdFor(Comment::class)
-            $table->timestamps();
+            $table->timestamp('created_at')->default(now());
+            $table->timestamp('updated_at')->default(now());
+
         });
     }
 

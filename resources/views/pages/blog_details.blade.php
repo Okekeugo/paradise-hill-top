@@ -2,13 +2,13 @@
 
 @section('main_content')
     <!--==============================
-                        Blog Area
-                    ==============================-->
+                                                                        Blog Area
+                                                                    ==============================-->
     <section class="as-blog-wrapper blog-details space-extra2-top space-bottom">
         <div class="container">
             <div class="row">
                 <div class="col-xxl-8 col-lg-7">
-                    <div class="as-blog blog-single">
+                    {{-- <div class="as-blog blog-single">
                         <div class="blog-img">
                             <img src="/assets/img/blog/blog_inner_1.png" alt="Blog Image">
                         </div>
@@ -100,7 +100,107 @@
                                 </div>
                             </div>
                         </div>
+                    </div> --}}
+
+                    <div class="as-blog blog-single">
+                        <div class="blog-img">
+                            <img src="{{ $post->default_img }}" alt="Blog Image">
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <a href="blog.html"><i class="fa-regular fa-user"></i>By Thomas</a>
+                                <a href="blog.html"><i class="fa-light fa-calendar-days"></i>{{ $post->created_at }}</a>
+                                <a href="blog.html"><i class="fa-regular fa-tags"></i>{{ $post->tags }} </a>
+                                <a href="blog-details.html"><i class="fa-regular fa-comments"></i>Comments(3)</a>
+                            </div>
+                            <h2 class="blog-title">{{ $post->title }}</h2>
+                            <p>{{ $post->pg1 }}</p>
+                            <p>{{ $post->pg2 }}</p>
+                            <p>{{ $post->pg3 }}</p>
+
+                            @if ($post->img1 or $post->img2)
+                                <div class="row mt-30">
+                                    @if ($post->img1 && !$post->img2 or !$post->img1 && $post->img2)
+                                        <div class="col-lg-12">
+                                            <div class="blog-img">
+                                                <img src="{{ $post->img1 ?? $post->img2 }}" alt="Blog Image">
+                                            </div>
+                                        </div>
+                                    @else
+                                        <div class="col-lg-6">
+                                            <div class="blog-img">
+                                                <img src="{{ $post->img1 }}" alt="Blog Image">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="blog-img">
+                                                <img src="{{ $post->img2 }}" alt="Blog Image">
+                                            </div>
+                                        </div>
+                                    @endif
+
+                                </div>
+                            @endif
+                            <p>{{ $post->pg4 }}</p>
+                            @if ($post->img3)
+                                <div class="row mt-30">
+                                    <div class="col-lg-12">
+                                        <div class="blog-img">
+                                            <img src="{{ $post->img3 }}" alt="Blog Image">
+                                        </div>
+                                    </div>
+                                </div>
+                            @endif
+                            <p>{{ $post->pg5 }}</p>
+
+                            {{-- <blockquote>
+                                <p>You can get a sense of what already exists in your industry by examining similar goods or
+                                    services. Finding ways to strengthen your mental image can help.</p>
+                                <cite><span>Written by </span>
+                                    Md. Amiruzzaman</cite>
+                                <img class="quote-icon" src="/assets/img/blog/quote.png" alt="quote">
+                            </blockquote> --}}
+
+                        </div>
+                        <div class="share-links clearfix ">
+                            <div class="row justify-content-between">
+                                <div class="col-sm-auto">
+                                    <span class="share-links-title">Related Tags:</span>
+                                    <div class="tagcloud">
+                                        <a href="blog.html">Business</a>
+                                        <a href="blog.html">Growth</a>
+                                        <a href="blog.html">Focus</a>
+                                    </div>
+                                </div>
+                                <div class="col-sm-auto text-md-end">
+                                    <span class="share-links-title">Share:</span>
+                                    <div class="as-social">
+                                        <a class="facebook" href="blog-details.html#"><i class="fab fa-facebook-f"></i></a>
+                                        <a class="twitter" href="blog-details.html#"><i class="fab fa-twitter"></i></a>
+                                        <a class="linkedin" href="blog-details.html#"><i class="fab fa-linkedin-in"></i></a>
+                                        <a class="instagram" href="blog-details.html#"><i
+                                                class="fa-brands fa-instagram"></i></a>
+                                    </div><!-- End Social Share -->
+                                </div><!-- Share Links Area end -->
+                            </div>
+                        </div>
+                        <div class="as-blog-author">
+                            <div class="media">
+                                <div class="media-left">
+                                    <img src="/assets/img/blog/author_1.png" alt="img">
+                                </div>
+                                <div class="media-body">
+                                    <span class="cite">Written by</span>
+                                    <h3 class="name">David Young</h3>
+                                    <p class="content">Transparent architectures are delayed monotonectally in favor of
+                                        viable parallel opportunities. Throughout this process, work in progressively
+                                        parallel with mindshare-based, 24/7/365 online markets to provide you.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+
+
                     <div class="as-comments-wrap ">
                         <h2 class="blog-inner-title fw-extrabold h3">3 Comments</h2>
                         <ul class="comment-list">

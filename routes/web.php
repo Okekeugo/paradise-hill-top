@@ -31,6 +31,7 @@ Route::get('/contact', function () {
 })->name('contact us');
 
 
+
 Route::get('/about', function () {
     return view('pages.about');
 })->name('about us');
@@ -66,10 +67,6 @@ Route::get('blog/{post_id}', function ($post_id) {
     return view('pages.blog_details', compact('post'));
 })->name('blog.show');
 
-
-Route::get('/contact', function () {
-    return view('pages.contact');
-})->name('contact us');
 
 
 /*
