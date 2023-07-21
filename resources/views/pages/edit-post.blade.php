@@ -35,6 +35,7 @@
                         <div class="row mt-35">
                             <div class="col-md-12">
                                 <div class="form-group">
+                                    <label for="name">Post Title:</label>
                                     <input type="text" class="form-control style2" name="title" id="name"
                                         placeholder="Post title" value="{{ $post->title }}">
                                 </div>
@@ -42,6 +43,7 @@
 
                             <div class="col-md-12">
                                 <div class="form-group">
+                                    <label for="tags">Tags:</label>
                                     <input type="text" class="form-control style2" name="tags" id="tags"
                                         value="{{ $post->tags }}"
                                         placeholder="Tags : Comma separated list eg. fashion, kids, learning, education, knowledge etc.">
