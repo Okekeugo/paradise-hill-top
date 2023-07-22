@@ -12,7 +12,7 @@
             <div class="row justify-content-center">
                 @if (session('success') or session('failed'))
                     <div class="woocommerce-notices-wrapper">
-                        <div class="woocommerce-message"> {{ session('success') ?? session('failed')}}</div>
+                        <div class="{{ session('success') ? 'woocommerce-message' : 'alert alert-danger'}}"> {{ session('success') ?? session('failed')}}</div>
                     </div>
                 @endif
 
