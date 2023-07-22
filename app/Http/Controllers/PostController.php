@@ -31,22 +31,28 @@ class PostController extends Controller
      */
     public function store(Request $request)
     {
-        // NB: all images are optional
-        // 1. store post to db
-        $newPostID = $this->createNewPost();
+        $EditorPassword = 'Paradise@Admin2023';
+        if ($request->password === $EditorPassword) {
 
-        ##########################################
-        ###Process All Images From HTTP Request###
-        ##########################################
+            // NB: all images are optional
+            // 1. store post to db
+            $newPostID = $this->createNewPost();
 
-        $allImages = request()->only(['default_img', 'img1', 'img2', 'img3']);
+            ##########################################
+            ###Process All Images From HTTP Request###
+            ##########################################
 
-        $filenames = $this->storeImagesToServer($allImages);
+            $allImages = request()->only(['default_img', 'img1', 'img2', 'img3']);
 
-        $updatedPostWithImages = $this->linkImagesToPostInDB($newPostID, $filenames);
-        ################## EOL PROCESSING ########################
+            $filenames = $this->storeImagesToServer($allImages);
 
-        return $this->returnPostCreationResponse($newPostID, $updatedPostWithImages);
+            $updatedPostWithImages = $this->linkImagesToPostInDB($newPostID, $filenames);
+            ################## EOL PROCESSING ########################
+
+            return $this->returnPostCreationResponse($newPostID, $updatedPostWithImages);
+        } else {
+            return back()->with('failed', 'Oops! Invalid Password : Try Again...');
+        }
     }
 
     /**
@@ -72,28 +78,33 @@ class PostController extends Controller
      */
     public function update(Request $request, string $id)
     {
-        // NB: all images are optional
+        $EditorPassword = 'Paradise@Admin2023';
+        if ($request->password === $EditorPassword) {
+            // NB: all images are optional
 
-        $requestWithoutImages = $request->except(['default_img', 'img0', '_token', '_method']);
+            $requestWithoutImages = $request->except(['default_img', 'img0', '_token', '_method']);
 
-        $relatedPost = DB::table('posts')->find($id); // get related post
+            $relatedPost = DB::table('posts')->find($id); // get related post
 
-        DB::table('posts')->whereId($id)->update($requestWithoutImages); // 1. update post in db
+            DB::table('posts')->whereId($id)->update($requestWithoutImages); // 1. update post in db
 
-        ##########################################
-        ###Process All Images From HTTP Request###
-        ##########################################
+            ##########################################
+            ###Process All Images From HTTP Request###
+            ##########################################
 
-        $newkey = $this->lookForSlot($request, $relatedPost);
+            $newkey = $this->lookForSlot($request, $relatedPost);
 
-        $allImages = $newkey ? $request->only(['default_img', $newkey]) : $request->only('default_img');
+            $allImages = $newkey ? $request->only(['default_img', $newkey]) : $request->only('default_img');
 
-        $filenames = $this->storeImagesToServer($allImages);
+            $filenames = $this->storeImagesToServer($allImages);
 
-        $updatedPostWithImages = $this->linkImagesToPostInDB($id, $filenames);
-        ################## EOL IMage PROCESSING ########################
+            $updatedPostWithImages = $this->linkImagesToPostInDB($id, $filenames);
+            ################## EOL IMage PROCESSING ########################
 
-        return $this->returnPostUpdateResponse($id, $updatedPostWithImages);
+            return $this->returnPostUpdateResponse($id, $updatedPostWithImages);
+        } else {
+            return back()->with('failed', 'Oops! Invalid Password : Try Again...');
+        }
     }
 
 

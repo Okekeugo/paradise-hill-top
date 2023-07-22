@@ -5,14 +5,14 @@
     <link rel="stylesheet" href="assets/css/style.css"> --}}
 @section('main_content')
     <!--==============================
-                                Contact Area
-                                ==============================-->
+                                    Contact Area
+                                    ==============================-->
     <div class="space-extra2-top contact-area space-bottom">
         <div class="container">
             <div class="row justify-content-center">
-                @if (session('success'))
+                @if (session('success') or session('failed'))
                     <div class="woocommerce-notices-wrapper">
-                        <div class="woocommerce-message"> {{ session('success') }}</div>
+                        <div class="woocommerce-message"> {{ session('success') ?? session('failed')}}</div>
                     </div>
                 @endif
 
@@ -99,7 +99,12 @@
                                 </div>
                             </div>
 
-
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="password">Enter Password:</label>
+                                    <input type="password" id="password" name="password" required>
+                                </div>
+                            </div>
                             <div class="form-btn col-12">
                                 <button class="as-btn capitalize">create post</button>
                             </div>
