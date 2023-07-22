@@ -1,3 +1,4 @@
+<?php use Carbon\Carbon; ?>
 <section class="as-blog-wrapper space-extra2-top space-bottom">
     <div class="container">
         <div class="row">
@@ -11,51 +12,26 @@
                         </div>
                         <div class="blog-content">
                             <div class="blog-meta">
-                                <a href="{{ route('blog') }}"><i class="fa-regular fa-user"></i>Tayde </a>
+                                <a href="{{ route('blog') }}"><i class="fa-regular fa-user"></i>Admin </a>
                                 <a href="{{ route('blog.show', 'blog_id') }}"><i
-                                        class="fa-regular fa-tags"></i>Children</a>
-                                <a href="{{ route('blog') }}"><i class="fal fa-calendar-alt"></i>22 June, 2023</a>
+                                        class="fa-regular fa-tags"></i>{{ $post->tags }}</a>
+                                <a href="{{ route('blog') }}"><i
+                                        class="fal fa-calendar-alt"></i>{{ ($post->created_at) }}</a>
                             </div>
                             <h2 class="blog-title"><a href="{{ route('blog.show', 'blog_id') }}">Monetize Models
                                     Effectively
                                     Sources that are
                                     open Reformulate Distributed Services</a>
                             </h2>
-                            <p class="blog-text">In today’s world, building a business also means you’ll need a strong
-                                website and social media presence. These can help you learn your customers better. With
-                                them, you can even request customers’ email addresses so you can reach</p>
+                            <p class="blog-text">{{ $post->pg1 }}</p>
                             <a href="{{ route('blog.show', 'blog_id') }}" class="read-more-btn">Read More <i
                                     class="fa fa-long-arrow-right"></i></a>
                         </div>
                     </div>
                 @endforeach
 
-                <div class="as-blog blog-single has-post-thumbnail">
-                    <div class="blog-img">
-                        <a href="{{ route('blog.show', 'blog_id') }}"><img src="/assets/img/blog/blog-s-1-1.png"
-                                alt="Blog Image"></a>
-                    </div>
-                    <div class="blog-content">
-                        <div class="blog-meta">
-                            <a href="{{ route('blog') }}"><i class="fa-regular fa-user"></i>Tayde </a>
-                            <a href="{{ route('blog.show', 'blog_id') }}"><i class="fa-regular fa-tags"></i>Children</a>
-                            <a href="{{ route('blog') }}"><i class="fal fa-calendar-alt"></i>22 June, 2023</a>
-                        </div>
-                        <h2 class="blog-title"><a href="{{ route('blog.show', 'blog_id') }}">Monetize Models
-                                Effectively
-                                Sources that are
-                                open Reformulate Distributed Services</a>
-                        </h2>
-                        <p class="blog-text">In today’s world, building a business also means you’ll need a strong
-                            website and social media presence. These can help you learn your customers better. With
-                            them, you can even request customers’ email addresses so you can reach</p>
-                        <a href="{{ route('blog.show', 'blog_id') }}" class="read-more-btn">Read More <i
-                                class="fa fa-long-arrow-right"></i></a>
-                    </div>
-                </div>
-
-
-                <div class="as-blog blog-single has-post-thumbnail">
+                {{-- Youtube link video --}}
+                {{-- <div class="as-blog blog-single has-post-thumbnail">
                     <div class="blog-img">
                         <a href="{{ route('blog.show', 'blog_id') }}"><img src="/assets/img/blog/blog-s-1-2.png"
                                 alt="Blog Image"></a>
@@ -80,59 +56,12 @@
                         <a href="{{ route('blog.show', 'blog_id') }}" class="read-more-btn">Read More <i
                                 class="fa fa-long-arrow-right"></i></a>
                     </div>
-                </div>
-
-                <div class="as-blog blog-single has-post-thumbnail">
-                    <div class="blog-img as-carousel" data-arrows="true" data-slide-show="1" data-fade="true">
-                        <a href="{{ route('blog.show', 'blog_id') }}"><img src="/assets/img/blog/blog-s-1-3.png"
-                                alt="Blog Image"></a>
-                        <a href="{{ route('blog.show', 'blog_id') }}"><img src="/assets/img/blog/blog-s-1-4.png"
-                                alt="Blog Image"></a>
-                    </div>
-                    <div class="blog-content">
-                        <div class="blog-meta">
-                            <a href="{{ route('blog') }}"><i class="fa-regular fa-user"></i>Tayde </a>
-                            <a href="{{ route('blog.show', 'blog_id') }}"><i
-                                    class="fa-regular fa-tags"></i>Children</a>
-                            <a href="{{ route('blog') }}"><i class="fal fa-calendar-alt"></i>12 July, 2023</a>
-                        </div>
-                        <h2 class="blog-title"><a href="{{ route('blog.show', 'blog_id') }}">Always Grow
-                                Ideas For Child Education Knowledge models transparent sources
-                            </a>
-                        </h2>
-                        <p class="blog-text">Always grow in today’s world, building a business also means you’ll need a
-                            strong website and social media presence. These can help you learn your customers better.
-                            Which upon sad wight concubines. With them, you can even request customers’ email addresses
-                            so you can reach</p>
-                        <a href="{{ route('blog.show', 'blog_id') }}" class="read-more-btn">Read More <i
-                                class="fa fa-long-arrow-right"></i></a>
-                    </div>
-                </div>
-
-                <div class="as-blog blog-single">
-                    <div class="blog-content">
-                        <div class="blog-meta">
-                            <a href="{{ route('blog') }}"><i class="fa-regular fa-user"></i>Tayde </a>
-                            <a href="{{ route('blog.show', 'blog_id') }}"><i
-                                    class="fa-regular fa-tags"></i>Children</a>
-                            <a href="{{ route('blog') }}"><i class="fal fa-calendar-alt"></i>22 June, 2023</a>
-                        </div>
-                        <h2 class="blog-title"><a href="{{ route('blog.show', 'blog_id') }}">Education Knowledge Always
-                                Grow Ideas For
-                                Child sources
-                                redefine distributed services</a>
-                        </h2>
-                        <p class="blog-text">Child education in today’s world, building a business also means you’ll
-                            need a strong website and media presence. These can help you learn your customers better.
-                            With them, you can even request customers’ email addresses so you can reach</p>
-                        <a href="{{ route('blog.show', 'blog_id') }}" class="read-more-btn">Read More <i
-                                class="fa fa-long-arrow-right"></i></a>
-                    </div>
-                </div>
+                </div> --}}
 
 
 
-                <div class="as-blog blog-single has-post-thumbnail">
+                {{-- Link to soundcloud(audio) --}}
+                {{-- <div class="as-blog blog-single has-post-thumbnail">
                     <div class="blog-audio">
                         <iframe title="Tell Me U Luv Me (with Trippie Redd) by Juice WRLD"
                             src="https://w.soundcloud.com/player/?visual=true&amp;url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F830279092&amp;show_artwork=true&amp;maxwidth=751&amp;maxheight=1000&amp;dnt=1"></iframe>
@@ -155,7 +84,9 @@
                         <a href="{{ route('blog.show', 'blog_id') }}" class="read-more-btn">Read More <i
                                 class="fa fa-long-arrow-right"></i></a>
                     </div>
-                </div>
+                </div> --}}
+
+
                 <div class="as-pagination text-center pt-20">
                     <ul>
                         <li><a href="{{ route('blog') }}"><i class="fa-regular fa-angles-left"></i></a></li>
