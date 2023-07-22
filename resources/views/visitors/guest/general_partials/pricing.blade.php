@@ -29,7 +29,7 @@
                     <div class="top-dots">
                         <img src="/assets/img/icon/circle.png" alt="img">
                     </div>
-                    <h3 class="title">Monthly</h3>
+                    <h3 class="title">Weekly</h3>
                     <h4 class="price">₦17,000</h4>
                     <p class="content">We look after your kids for a whole week and guarantee their security and
                         wellbeing while you're busy or at work</p>
@@ -45,7 +45,7 @@
                     <div class="top-dots">
                         <img src="/assets/img/icon/circle.png" alt="img">
                     </div>
-                    <h3 class="title">Yearly</h3>
+                    <h3 class="title">Monthly</h3>
                     <h4 class="price">₦50,000</h4>
                     <p class="content">We look after your kids for a whole month and guarantee their security and
                         wellbeing while you're busy or at work</p>
