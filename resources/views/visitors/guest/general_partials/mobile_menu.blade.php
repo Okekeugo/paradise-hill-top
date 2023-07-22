@@ -89,18 +89,22 @@
                     <a href="{{ route('welcome') }}" class="uppercase">home</a>
                 </li>
                 <li>
+                    <a href="{{ route('program') }}">Programs</a>
+                </li>
+                <li>
+                    <a href="{{ route('blog') }}">Blog</a>
+                </li>
+                <li>
                     {{-- <a href="{{ route('gallery') }}">Gallery</a> --}}
+                </li>
+
+                <li>
+                    <a href="{{ route('about us') }}">About Us</a>
                 </li>
                 <li>
                     <a href="{{ route('contact us') }}">Contact Us</a>
                 </li>
-                <li>
-                    <a href="{{ route('about us') }}">About Us</a>
-                </li>
 
-                <li>
-                    <a href="{{ route('program') }}">Programs</a>
-                </li>
 
             </ul>
         </div>

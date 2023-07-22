@@ -6,7 +6,7 @@
                     <div class="header-links">
                         <ul>
                             <li><i class="fa-solid fa-phone"></i><a href="tel:+25625921589">+234 706 556 944</a></li>
-                            <li><i class="fa-solid fa-location-dot"></i>St. Peter's Church, Guzape</li>
+                            <li><i class="fa-solid fa-location-dot"></i><a href="https://goo.gl/maps/i2rghksVmoiwokDaA">St. Peter's Church, Guzape</a></li>
                             <li><i class="fa-regular fa-clock"></i><span>Mon - Sat: 8:30 am - 6:00 pm</span>
                             </li>
                         </ul>

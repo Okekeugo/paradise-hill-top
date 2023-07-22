@@ -83,7 +83,7 @@
         </div>
         <div class="map-sec space-top">
             {{-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3644.7310056272386!2d89.2286059153658!3d24.00527418490799!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fe9b97badc6151%3A0x30b048c9fb2129bc!2sTayde!5e0!3m2!1sen!2sbd!4v1651028958211!5m2!1sen!2sbd" allowfullscreen="" loading="lazy"></iframe> --}}
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.687704380171!2d7.497801099999999!3d9.000856599999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e0d29e83d491d%3A0x56ef0a09f0a1f438!2sSt.%20Peter&#39;s%20Anglican%20Church%20Guzape!5e0!3m2!1sen!2sng!4v1689153711623!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15762.750817520684!2d7.4978011!3d9.0008566!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e0d1057351edb%3A0x8b79fd6e1760498d!2sParadise%20Hill%20Top%20Academy!5e0!3m2!1sen!2sng!4v1690040392222!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </div>
 </div>
