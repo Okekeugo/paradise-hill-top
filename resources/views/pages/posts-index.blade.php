@@ -2,8 +2,8 @@
 
 @section('main_content')
     <!--==============================
-                            Cart Area
-                            ==============================-->
+                                        Admin Posts Area
+                                        ==============================-->
     <div class="as-cart-wrapper space-extra2-top space-bottom">
         <div class="container">
             @if (session('success'))
@@ -11,7 +11,12 @@
                     <div class="woocommerce-message"> {{ session('success') }}</div>
                 </div>
             @endif
-            <div class="bg-success text-white p-3 h4">All Posts</div>
+            <div class="bg-success text-white p-3 h6 d-flex justify-content-between">
+                <div class="left">All Posts</div>
+                <a class="right text-white" href="{{ route('Create Post') }}">
+                    <i class="fa fa-plus"></i> Add New Post
+                </a>
+            </div>
             {{-- <form action="#" class="woocommerce-cart-form"> --}}
             <table class="cart_table">
                 <thead>
@@ -27,7 +32,6 @@
                 </thead>
                 <tbody>
                     @foreach ($all_posts as $post)
-                        {{-- {{ dd($post->default_img) }} --}}
                         <tr class="cart_item">
                             <td data-title="Post">
                                 <a class="cart-postimage" href="shop-details.html"><img width="91" height="91"
@@ -37,7 +41,6 @@
                                 <a class="cart-posttitle" href="shop-details.html">{{ $post->title }}</a>
                             </td>
 
-
                             {{-- View Post Link --}}
                             <td data-title="View">
                                 <a href="{{ route('blog.show', $post->id) }}" class="amount">
@@ -45,23 +48,12 @@
                                 </a>
                             </td>
 
-
                             {{-- Edit Post Link --}}
                             <td data-title="Edit">
                                 <a href="{{ route('posts.edit', $post->id) }}" class="amount">
                                     <i class="fa fa-edit"></i>
                                 </a>
                             </td>
-
-                            {{-- Post Tags --}}
-                            {{-- <td data-title="Quantity">
-                                    <span>{{ substr($post->tags, 0, 20) }}</span>
-                                </td> --}}
-
-                            {{-- images count --}}
-                            {{-- <td data-title="Total">
-                                    <span class="amount"><bdi><span>$</span>18</bdi></span>
-                                </td> --}}
 
                             <td data-title="Remove">
                                 <a href="{{ route('posts.destroy', $post->id) }}" class="remove"><i

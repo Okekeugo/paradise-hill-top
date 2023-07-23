@@ -142,7 +142,7 @@
     <div class="copyright-wrap" data-bg-href="/assets/img/bg/copyright_bg.png">
         <div class="container">
             <p class="copyright-text text-center">Copyright <i class="fal fa-copyright"></i> 2023 By <a
-                    href="{{ route('welcome') }}#">{{ env('SCHOOL_NAME') }}</a>. All Rights Reserved.</p>
+                    href="{{ route('posts.index') }}#">{{ env('SCHOOL_NAME') }}</a>. All Rights Reserved.</p>
         </div>
     </div>
 </footer>

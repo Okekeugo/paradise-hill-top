@@ -2,8 +2,8 @@
 
 @section('main_content')
     <!--==============================
-                                                                        Blog Area
-                                                                    ==============================-->
+                                                                                Blog Area
+                                                                            ==============================-->
     <section class="as-blog-wrapper blog-details space-extra2-top space-bottom">
         <div class="container">
             <div class="row">
@@ -108,10 +108,10 @@
                         </div>
                         <div class="blog-content">
                             <div class="blog-meta">
-                                <a href="blog.html"><i class="fa-regular fa-user"></i>By Thomas</a>
+                                <a href="blog.html"><i class="fa-regular fa-user"></i>By Admin</a>
                                 <a href="blog.html"><i class="fa-light fa-calendar-days"></i>{{ $post->created_at }}</a>
                                 <a href="blog.html"><i class="fa-regular fa-tags"></i>{{ $post->tags }} </a>
-                                <a href="blog-details.html"><i class="fa-regular fa-comments"></i>Comments(3)</a>
+                                {{-- <a href="blog-details.html"><i class="fa-regular fa-comments"></i>Comments(3)</a> --}}
                             </div>
                             <h2 class="blog-title">{{ $post->title }}</h2>
                             <p>{{ $post->pg1 }}</p>
@@ -167,12 +167,16 @@
                                 <div class="col-sm-auto">
                                     <span class="share-links-title">Related Tags:</span>
                                     <div class="tagcloud">
-                                        <a href="blog.html">Business</a>
+                                        {{-- <a href="blog.html">Business</a>
                                         <a href="blog.html">Growth</a>
-                                        <a href="blog.html">Focus</a>
+                                        <a href="blog.html">Focus</a> --}}
+                                        @foreach (explode(',', $post->tags) as $tag)
+                                            <a href="blog.html">{{ $tag }}</a>
+                                        @endforeach
                                     </div>
                                 </div>
-                                <div class="col-sm-auto text-md-end">
+                                {{-- share post to other social media platforms --}}
+                                {{-- <div class="col-sm-auto text-md-end">
                                     <span class="share-links-title">Share:</span>
                                     <div class="as-social">
                                         <a class="facebook" href="blog-details.html#"><i class="fab fa-facebook-f"></i></a>
@@ -181,10 +185,12 @@
                                         <a class="instagram" href="blog-details.html#"><i
                                                 class="fa-brands fa-instagram"></i></a>
                                     </div><!-- End Social Share -->
-                                </div><!-- Share Links Area end -->
+                                </div><!-- Share Links Area end --> --}}
                             </div>
                         </div>
-                        <div class="as-blog-author">
+
+                        {{-- section for blog author --}}
+                        {{-- <div class="as-blog-author">
                             <div class="media">
                                 <div class="media-left">
                                     <img src="/assets/img/blog/author_1.png" alt="img">
@@ -197,11 +203,12 @@
                                         parallel with mindshare-based, 24/7/365 online markets to provide you.</p>
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
 
+                    {{-- futures : comment functionality --}}
 
-                    <div class="as-comments-wrap ">
+                    {{-- <div class="as-comments-wrap ">
                         <h2 class="blog-inner-title fw-extrabold h3">3 Comments</h2>
                         <ul class="comment-list">
                             <li class="as-comment-item">
@@ -261,9 +268,9 @@
                                 </div>
                             </li>
                         </ul>
-                    </div> <!-- Comment end -->
+                    </div> <!-- Comment end --> --}}
                     <!-- Comment Form -->
-                    <div class="as-comment-form mt-50">
+                    {{-- <div class="as-comment-form mt-50">
                         <div class="form-title">
                             <h3 class="blog-inner-title fw-extrabold mb-3"> Leave A Comment</h3>
                         </div>
@@ -288,18 +295,20 @@
                                 <button class="as-btn"><i class="fa-light fa-paper-plane me-2"></i>Post Comment</button>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
                 <div class="col-xxl-4 col-lg-5">
                     <aside class="sidebar-area">
-                        <div class="widget widget_search">
+
+                        {{-- search widget --}}
+                        {{-- <div class="widget widget_search">
                             <form class="search-form">
                                 <input type="text" placeholder="Search...">
                                 <button type="submit"><i class="far fa-search"></i></button>
                             </form>
-                        </div>
+                        </div> --}}
 
-                        <div class="widget widget_categories  ">
+                        {{-- <div class="widget widget_categories  ">
                             <h3 class="widget_title">Categories</h3>
                             <ul>
                                 <li>
@@ -323,7 +332,7 @@
                                     <span>02</span>
                                 </li>
                             </ul>
-                        </div>
+                        </div> --}}
 
                         <div class="widget  ">
                             <h3 class="widget_title">Popular Posts</h3>
@@ -375,7 +384,7 @@
                         <div class="widget widget_tag_cloud   ">
                             <h3 class="widget_title">Tags</h3>
                             <div class="tagcloud">
-                                <a href="blog.html">UI/UX</a>
+                                {{-- <a href="blog.html">UI/UX</a>
                                 <a href="blog.html">Services</a>
                                 <a href="blog.html">Tools</a>
                                 <a href="blog.html">Product</a>
@@ -383,11 +392,15 @@
                                 <a href="blog.html">Combo</a>
                                 <a href="blog.html">Car</a>
                                 <a href="blog.html">Repair</a>
-                                <a href="blog.html">Tools</a>
+                                <a href="blog.html">Tools</a> --}}
+                                @foreach (explode(',', $post->tags) as $tag)
+                                    <a href="blog.html">{{ $tag }}</a>
+                                @endforeach
                             </div>
                         </div>
 
-                        <div class="widget widget_banner">
+                        {{-- promo section --}}
+                        {{-- <div class="widget widget_banner">
                             <div class="banner">
                                 <img class="w-100" src="/assets/img/blog/widget-banner.png" alt="banner">
                             </div>
@@ -396,7 +409,7 @@
                                 <h3>Get 20% Off</h3>
                             </div>
                             <a href="contact.html" class="as-btn">Appointment</a>
-                        </div>
+                        </div> --}}
                     </aside>
                 </div>
             </div>

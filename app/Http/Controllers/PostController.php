@@ -24,7 +24,6 @@ class PostController extends Controller
     public function create()
     {
         return view('pages.create-post');
-        
     }
 
     /**
@@ -32,6 +31,14 @@ class PostController extends Controller
      */
     public function store(Request $request)
     {
+        $request->validate(
+            [
+                'default_img' => 'required',
+                'pg1' => 'required',
+                'pg2' => 'required',
+                'password' => 'required'
+            ]
+        );
         $EditorPassword = 'Paradise@Admin2023';
         if ($request->password === $EditorPassword) {
 
@@ -82,7 +89,7 @@ class PostController extends Controller
         $EditorPassword = 'Paradise@Admin2023';
         if ($request->password === $EditorPassword) {
             // NB: all images are optional
-
+            unset($request->password, $request['password']);
             $requestWithoutImages = $request->except(['default_img', 'img0', '_token', '_method']);
 
             $relatedPost = DB::table('posts')->find($id); // get related post

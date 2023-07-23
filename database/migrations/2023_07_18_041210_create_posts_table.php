@@ -19,7 +19,7 @@ return new class extends Migration
             // main post content
             $table->text('pg1');
             $table->text('pg2');
-            $table->text('pg3')->nullalbe();
+            $table->text('pg3')->nullable();
             $table->text('pg4')->nullable();
             $table->text('pg5')->nullable();
 

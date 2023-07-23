@@ -11,7 +11,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 @if (session('success') or session('failed'))
-                    <div class="woocommerce-notices-wrapper">
+                    <div class="woocommerce-notices-wrapper mb-5">
                         <div class="{{ session('success') ? 'woocommerce-message' : 'alert alert-danger'}}"> {{ session('success') ?? session('failed')}}</div>
                     </div>
                 @endif
@@ -23,15 +23,15 @@
                             <h2 class="fw-extrabold h3">Edit Post</h2>
                             <h2 class="fw-extrabold h4 text-danger">
                                 <a href="{{ route('posts.destroy', $post->id) }}" class="text-danger">
-                                    Delete Post
-                                    <i class="fa fa-skull "></i>
+                                    <i class="fa fa-trash"></i>
+                                    {{-- <i class="fa fa-skull "></i> --}}
                                 </a>
                             </h2>
                         </div>
 
-                        <p>Modify the Contents of your post here</p>
-                        <p class="text-center">You're currently editing : </p>
-                        <h3 class="text-center"> {{ $post->title }}</h3>
+                        <p class="my-5">Modify the Contents of your post here</p>
+                        <p class="text-center my-5">You're currently editing : </p>
+                        <h3 class="text-center my-5"> {{ $post->title }}</h3>
                         <div class="row mt-35">
                             <div class="col-md-12">
                                 <div class="form-group">

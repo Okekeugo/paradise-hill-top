@@ -5,14 +5,15 @@
     <link rel="stylesheet" href="assets/css/style.css"> --}}
 @section('main_content')
     <!--==============================
-                                    Contact Area
-                                    ==============================-->
+                                            Contact Area
+                                            ==============================-->
     <div class="space-extra2-top contact-area space-bottom">
         <div class="container">
             <div class="row justify-content-center">
                 @if (session('success') or session('failed'))
                     <div class="woocommerce-notices-wrapper">
-                        <div class="{{ session('success') ? 'woocommerce-message' : 'alert alert-danger'}}"> {{ session('success') ?? session('failed')}}</div>
+                        <div class="{{ session('success') ? 'woocommerce-message' : 'alert alert-danger' }}">
+                            {{ session('success') ?? session('failed') }}</div>
                     </div>
                 @endif
 
@@ -49,7 +50,11 @@
                                     <div class="form-group">
                                         <input type="file" class="form-control style2" name="default_img"
                                             id="default_img">
+                                        @error('default_img')
+                                            <p class="text-danger">{{ $message }}</p>
+                                        @enderror
                                     </div>
+
                                 </div>
 
                                 <h6>Other Images</h6>
@@ -80,10 +85,16 @@
 
                                 <div class="form-group col-12">
                                     <textarea required placeholder="Paragraph 1" id="pg1" class="form-control style2" name="pg1"></textarea>
+                                    @error('pg1')
+                                        <p class="text-danger">{{ $message }}</p>
+                                    @enderror
                                 </div>
 
                                 <div class="form-group col-12">
                                     <textarea required placeholder="Paragraph 2" id="pg2" class="form-control style2" name="pg2"></textarea>
+                                 @error('pg2')
+                                        <p class="text-danger">{{ $message }}</p>
+                                    @enderror
                                 </div>
 
                                 <div class="form-group col-12">
@@ -101,8 +112,11 @@
 
                             <div class="col-md-12">
                                 <div class="form-group">
-                                    <label for="password">Enter Password:</label>
+                                    <label for="password">Editor (Admin) Password:</label>
                                     <input type="password" id="password" name="password" required>
+                                 @error('pg1')
+                                        <p class="text-danger">{{ $message }}</p>
+                                    @enderror
                                 </div>
                             </div>
                             <div class="form-btn col-12">
