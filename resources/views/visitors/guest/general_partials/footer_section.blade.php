@@ -78,8 +78,8 @@
                         <div class="menu-all-pages-container">
                             <ul class="menu">
                                 <li><a href="{{ route('about us') }}">About Us</a></li>
-                                <li><a href="#">Careers</a></li>
-                                <li><a href="{{ route('gallery') }}">Gallery</a></li>
+                                {{-- <li><a href="#">Careers</a></li> --}}
+                                {{-- <li><a href="{{ route('gallery') }}">Gallery</a></li> --}}
                                 {{-- <li><a href="{{ route('team') }}">teachers</a></li> --}}
                                 <li><a href="{{ route('contact us') }}">Contact Us</a></li>
                                 {{-- <li><a href="event.html">Resource Center</a></li> --}}
@@ -142,7 +142,7 @@
     <div class="copyright-wrap" data-bg-href="/assets/img/bg/copyright_bg.png">
         <div class="container">
             <p class="copyright-text text-center">Copyright <i class="fal fa-copyright"></i> 2023 By <a
-                    href="{{ route('posts.index') }}#">{{ env('SCHOOL_NAME') }}</a>. All Rights Reserved.</p>
+                    href="{{ route('welcome') }}#">{{ env('SCHOOL_NAME') }}</a>. All Rights Reserved.</p>
         </div>
     </div>
 </footer>
