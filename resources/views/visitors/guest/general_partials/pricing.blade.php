@@ -17,7 +17,7 @@
                     <h4 class="price">₦4,000</h4>
                     <p class="content">We look after your kids for a whole day and guarantee their security and
                         wellbeing while you're busy or at work</p>
-                    <a class="as-btn style2" href="login.html">Choose Plan</a>
+                    <a class="as-btn style2" href="{{ route('contact us') }}">Choose Plan</a>
                     {{-- <p class="note">All Price Exclude 25% VAT</p> --}}
                     <div class="bottom-dots">
                         <img src="/assets/img/icon/circle.png" alt="img">
@@ -33,7 +33,7 @@
                     <h4 class="price">₦17,000</h4>
                     <p class="content">We look after your kids for a whole week and guarantee their security and
                         wellbeing while you're busy or at work</p>
-                    <a class="as-btn style4" href="login.html">Choose Plan</a>
+                    <a class="as-btn style4" href="{{ route('contact us') }}">Choose Plan</a>
                     {{-- <p class="note">All Price Exclude 25% VAT</p> --}}
                     <div class="bottom-dots">
                         <img src="/assets/img/icon/circle.png" alt="img">
@@ -49,7 +49,7 @@
                     <h4 class="price">₦50,000</h4>
                     <p class="content">We look after your kids for a whole month and guarantee their security and
                         wellbeing while you're busy or at work</p>
-                    <a class="as-btn style2" href="login.html">Choose Plan</a>
+                    <a class="as-btn style2" href="{{ route('contact us') }}">Choose Plan</a>
                     {{-- <p class="note">All Price Exclude 25% VAT</p> --}}
                     <div class="bottom-dots">
                         <img src="/assets/img/icon/circle.png" alt="img">

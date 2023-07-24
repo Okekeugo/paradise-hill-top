@@ -45,7 +45,7 @@
                             <p class="title">Visit our Office</p>
                             <p class="info">
                                 <span class="text-sm">
-                                    St. Peter's Church, Guzape
+                                    <a href="https://goo.gl/maps/i2rghksVmoiwokDaA"><p style="color: white;"> Ground floor<br> St. Peter's Church Guzape</p>
                                 </span>
                             </p>
                         </div>
