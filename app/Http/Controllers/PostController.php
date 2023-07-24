@@ -8,6 +8,19 @@ use Illuminate\Support\Facades\Storage;
 
 class PostController extends Controller
 {
+
+
+    /**
+     * Display a listing of the resource.
+     */
+    public function blog()
+    {
+        $all_posts = DB::table('posts')->get();
+        return view('pages.blog', compact('all_posts'));
+    }
+
+
+
     /**
      * Display a listing of the resource.
      */
@@ -17,6 +30,7 @@ class PostController extends Controller
         // dd($all_posts);
         return view('pages.posts-index', compact('all_posts'));
     }
+
 
     /**
      * Show the form for creating a new resource.
@@ -66,9 +80,10 @@ class PostController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(string $id)
+    public function show(string $post_id)
     {
-        return view('pages.blog_details');
+        $post = DB::table('posts')->find($post_id);
+        return view('pages.blog_details', compact('post'));
     }
 
     /**

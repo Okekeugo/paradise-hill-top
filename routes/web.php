@@ -53,21 +53,10 @@ Route::get('/program', function () {
     return view('pages.programs');
 })->name('program');
 
-
-Route::get('/blog', function () {
-    $all_posts = DB::table('posts')->get();
-    return view('pages.blog', compact('all_posts'));
-})->name('blog');
+Route::get('blog', [PostController::class, 'blog'])->name('blog');
 
 // route to view a single blog post
-Route::get('blog/{post_id}', function ($post_id) {
-    // dd('fufu');
-    $post = DB::table('posts')->find($post_id);
-    // $blog = 1;
-    return view('pages.blog_details', compact('post'));
-})->name('blog.show');
-
-
+Route::get('blog/{post_id}', [PostController::class, 'show'])->name('blog.show');
 
 /*
 |--------------------------------------------------------------------------
