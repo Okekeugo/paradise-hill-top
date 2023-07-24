@@ -7,7 +7,7 @@
                         <img class="img-1" src="/assets/img/wcu/cctv.png" alt="img">
                     </span>
                     <span class="anime-img-2 jump2">
-                        <img class="img-2" src="/assets/img/wcu/child_security.png" alt="img">
+                        <img class="img-2" src="/assets/img/wcu/secure1.png" alt="img">
                     </span>
                     <img class="img-3" src="/assets/img/wcu/anime-img.png" alt="img">
                     <img class="img-4" src="/assets/img/wcu/anime-img-2.png" alt="img">

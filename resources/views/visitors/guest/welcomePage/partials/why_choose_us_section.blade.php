@@ -4,10 +4,10 @@
             <div class="col-lg-6">
                 <div class="wcu-thumb">
                     <span class="anime-img-1 shape-mockup jump">
-                        <img class="img-1" src="/assets/img/wcu/1.png" alt="img">
+                        <img class="img-1" src="/assets/img/wcu/r1.png" alt="img">
                     </span>
                     <span class="anime-img-2 jump2">
-                        <img class="img-2" src="/assets/img/wcu/2.png" alt="img">
+                        <img class="img-2" src="/assets/img/wcu/R.png" alt="img">
                     </span>
                     <img class="img-3" src="/assets/img/wcu/anime-img.png" alt="img">
                     <img class="img-4" src="/assets/img/wcu/anime-img-2.png" alt="img">

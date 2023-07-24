@@ -5,7 +5,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="event-card">
                     <div class="thumb">
-                        <img src="/assets/img/event/event_1.png" alt="img">
+                        <img src="/assets/img/event/R.png" alt="img">
                     </div>
                     <div class="details">
                         <h4 class="event-title"><a href="event-details.html">Day Care Services</a></h4>
@@ -20,7 +20,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="event-card">
                     <div class="thumb">
-                        <img src="/assets/img/event/event_5.png" alt="img">
+                        <img src="/assets/img/event/r1.png" alt="img">
                     </div>
                     <div class="details">
                         <h4 class="event-title"><a href="event-details.html">After School Care</a></h4>
@@ -36,7 +36,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="event-card">
                     <div class="thumb">
-                        <img src="/assets/img/event/event_3.png" alt="img">
+                        <img src="/assets/img/event/event6.png" alt="img">
                     </div>
                     <div class="details">
                         <h4 class="event-title"><a href="event-details.html">Special Care Services</a></h4>
