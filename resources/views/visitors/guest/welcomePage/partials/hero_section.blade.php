@@ -3,7 +3,7 @@
          <div class="row justify-content-center">
              <div class="col-lg-5 col-md-6">
                  <div class="hero-thumbnail">
-                     <img src="/assets/img/hero/1.png" alt="img">
+                     <img src="/assets/img/hero/heros_pic1.png" alt="img">
                  </div>
              </div>
              <div class="col-lg-7">
