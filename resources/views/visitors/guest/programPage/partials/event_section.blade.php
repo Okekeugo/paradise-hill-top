@@ -56,8 +56,7 @@
                     <div class="details">
                         <h4 class="event-title"><a href="event-details.html">TV/Video Player - Kids Programs</a></h4>
                         <div class="meta">
-                            Kids' programs are special TV shows designed for children to enjoy and learn from. These
-                            programs include cartoons, animated shows, science shows.
+                            Kids' programs are special TV shows designed for children to enjoy and learn from, such as cartoons and science shows.
                         </div>
 
                     </div>
