@@ -8,7 +8,7 @@
                         <img src="/assets/img/event/event.png" alt="img">
                     </div>
                     <div class="details">
-                        <h4 class="event-title"><a href="event-details.html">Nature/Sensory Learning</a></h4>
+                        <h4 class="event-title"><a href="#">Nature/Sensory Learning</a></h4>
                         <div class="meta">
                             This type of play allows children to explore their environment using their senses, engage in
                             physical activity, and develop their problem-solving skills.
@@ -38,7 +38,7 @@
                         <img src="/assets/img/event/event3.png" alt="img">
                     </div>
                     <div class="details">
-                        <h4 class="event-title"><a href="event-details.html">Stretch and giggle time</a></h4>
+                        <h4 class="event-title"><a href='#'>Stretch and giggle time</a></h4>
                         <div class="meta">
                             Stretching/Tickle time is a fun and engaging activity for kids that helps them wake up, get
                             energized, and ready for the day via stretching exercises.
@@ -54,7 +54,7 @@
                         <img src="/assets/img/event/event5.png" alt="img">
                     </div>
                     <div class="details">
-                        <h4 class="event-title"><a href="event-details.html">TV/Video Player - Kids Programs</a></h4>
+                        <h4 class="event-title"><a href="#">TV/Video Player - Kids Programs</a></h4>
                         <div class="meta">
                             Kids' programs are special TV shows designed for children to enjoy and learn from, such as cartoons and science shows.
                         </div>
@@ -68,7 +68,7 @@
                         <img src="/assets/img/event/event4.png" alt="img">
                     </div>
                     <div class="details">
-                        <h4 class="event-title"><a href="event-details.html">Circle session</a></h4>
+                        <h4 class="event-title"><a href="#">Circle session</a></h4>
                         <div class="meta">
                             Circle time is when kids sit together in a circle to learn and play games, sing songs, and
                             share stories.
@@ -99,7 +99,7 @@
                         <img src="/assets/img/event/event_2.png" alt="img">
                     </div>
                     <div class="details">
-                        <h4 class="event-title"><a href="event-details.html"> Walk through Nature</a></h4>
+                        <h4 class="event-title"><a href="#"> Walk through Nature</a></h4>
                         <div class="meta">
                             A nature walk for kids is an excellent way to explore the great outdoors and learn about the
                             natural world around us.
@@ -115,7 +115,7 @@
                         <img src="/assets/img/event/event2.png" alt="img">
                     </div>
                     <div class="details">
-                        <h4 class="event-title"><a href="event-details.html">Free Play Activities</a></h4>
+                        <h4 class="event-title"><a href="#">Free Play Activities</a></h4>
                         <div class="meta">
                             Free play is a type of unstructured play that allows children to explore, create, and learn
                             through self-directed activities.
