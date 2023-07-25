@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+use App\Services\ImageStorageService;
 use Illuminate\Support\Facades\Storage;
 
 class PostController extends Controller
@@ -66,12 +67,13 @@ class PostController extends Controller
 
             $allImages = request()->only(['default_img', 'img1', 'img2', 'img3']);
 
-            $filenames = $this->storeImagesToServer($allImages);
+            // $filenames = $this->storeImagesToServer($allImages); //former code
+            $filenames = (new ImageStorageService)->storeImagesToServer($allImages, 'posts'); //refactored code
 
             $updatedPostWithImages = $this->linkImagesToPostInDB($newPostID, $filenames);
             ################## EOL PROCESSING ########################
 
-            return $this->returnPostCreationResponse($newPostID, $updatedPostWithImages);
+            return $this->postCreationResponse($newPostID, $updatedPostWithImages);
         } else {
             return back()->with('failed', 'Oops! Invalid Password : Try Again...');
         }
@@ -119,12 +121,14 @@ class PostController extends Controller
 
             $allImages = $newkey ? $request->only(['default_img', $newkey]) : $request->only('default_img');
 
-            $filenames = $this->storeImagesToServer($allImages);
+            // $filenames = $this->storeImagesToServer($allImages); //former code
+            $filenames = (new ImageStorageService)->storeImagesToServer($allImages, 'posts'); //refactored code
+
 
             $updatedPostWithImages = $this->linkImagesToPostInDB($id, $filenames);
             ################## EOL IMage PROCESSING ########################
 
-            return $this->returnPostUpdateResponse($id, $updatedPostWithImages);
+            return $this->postUpdateResponse($id, $updatedPostWithImages);
         } else {
             return back()->with('failed', 'Oops! Invalid Password : Try Again...');
         }
@@ -170,39 +174,42 @@ class PostController extends Controller
     }
 
     // helpers
-    /**
-     * Stores images from a request to the server (public driver)
-     * and returns an array of paths for all images saved
-     * 
-     * @return Array Assoc Array of paths for all images saved
-     */
-    public function storeImagesToServer(array $allImages)
-    {
-        // dd('jej', $allImages);
-        $destinationPath = 'posts/images';
-        $processedImages = array();
-        foreach ($allImages as $key => $image) {
-
-            if (isset($image)) {
-                $myimageOriginalName = request($key)->getClientOriginalName();
-
-                // remove spaces from filename
-                $myimageNewName = str_replace(' ', '_', $myimageOriginalName);
-
-                $myImgPath = request($key)->move(public_path($destinationPath), $myimageNewName);
-
-                // obtain the processed image relative path
-                $resultPathArray = explode('public', $myImgPath, 2);
-                $filenameInDB = $resultPathArray[1];
-                $processedImages[$key] = $filenameInDB;
-            }
 
 
-            // post creation
-            // make slug for post
-        }
-        return $processedImages;
-    }
+    // {udo: lecture}leaving this to teach Ugo sth about refactoring and DRY principle
+    // /**
+    //  * Stores images from a request to the server (public driver)
+    //  * and returns an array of paths for all images saved
+    //  * 
+    //  * @return Array Assoc Array of paths for all images saved
+    //  */
+    // public function storeImagesToServer(array $allImages)
+    // {
+    //     // dd('jej', $allImages);
+    //     $destinationPath = 'posts/images';
+    //     $processedImages = array();
+    //     foreach ($allImages as $key => $image) {
+
+    //         if (isset($image)) {
+    //             $myimageOriginalName = request($key)->getClientOriginalName();
+
+    //             // remove spaces from filename
+    //             $myimageNewName = str_replace(' ', '_', $myimageOriginalName);
+
+    //             $myImgPath = request($key)->move(public_path($destinationPath), $myimageNewName);
+
+    //             // obtain the processed image relative path
+    //             $resultPathArray = explode('public', $myImgPath, 2);
+    //             $filenameInDB = $resultPathArray[1];
+    //             $processedImages[$key] = $filenameInDB;
+    //         }
+
+
+    //         // post creation
+    //         // make slug for post
+    //     }
+    //     return $processedImages;
+    // }
 
     /**
      * Searches for an available slot to store new image to post in db
@@ -246,7 +253,11 @@ class PostController extends Controller
 
             //  verify that any old data that exists is deleted
             foreach ($itemsToBeReplaced as $key) {
-                if (isset($relatedPost->$key) and $fileToDelete = $relatedPost->$key)
+                if (
+                    isset($relatedPost->$key) 
+                    and $fileToDelete = $relatedPost->$key
+                    and file_exists(public_path($fileToDelete))
+                )
                     $this->delFile($fileToDelete); # code...delete the old data
             }
 
@@ -265,7 +276,7 @@ class PostController extends Controller
             dd('Oops! file not found in public_path()');
     }
 
-    public function returnPostCreationResponse($newPostID, $updatedPostWithImages)
+    public function postCreationResponse($newPostID, $updatedPostWithImages)
     {
 
         if ($newPostID and $updatedPostWithImages)
@@ -277,7 +288,7 @@ class PostController extends Controller
         return back()->with('failed', 'Oops! Error Occured : Try Again...');
     }
 
-    public function returnPostUpdateResponse($newPostID, $updatedPostWithImages)
+    public function postUpdateResponse($newPostID, $updatedPostWithImages)
     {
 
         if ($newPostID and $updatedPostWithImages)

@@ -39,7 +39,8 @@
                 </div>
             </div>
             <div class="col-xl-7 col-lg-8 order-lg-1">
-                <form action="https://angfuzsoft.com/html/tayde/demo/mail.php" method="POST" class="contact-form ajax-contact">
+                {{-- give this form a class of 'ajax-contact' to implement ajax/api validation --}}
+                <form action="{{ route('send-contact-mail') }}" method="POST" class="contact-form"> @csrf
                     <h2 class="fw-extrabold h3">How Can We Help?</h2>
                     <p>For enquiries, kindly fill the form below and send us a message.
                          Our team is available 24/7 to respond to your requests
@@ -59,7 +60,7 @@
                             <input type="email" class="form-control style2" name="email" id="email" placeholder="Email Address">
                         </div>
                         <div class="form-group col-12">
-                            <select name="classes" id="classselect" class="single-select nice-select style2">
+                            <select name="enquiry_type" id="classselect" class="single-select nice-select style2">
                                 <option value="" disabled="disabled" selected="selected" hidden>Select Subject</option>
                                 <option value="enquiries">Enquiries</option>
                                 <option value="complaints">Complaints</option>
@@ -73,7 +74,7 @@
                             <textarea placeholder="Type Your Message" id="contactForm" class="form-control style2"></textarea>
                         </div>
                         <div class="form-btn col-12">
-                            <button class="as-btn">Send Message</button>
+                            <button class="as-btn" type="submit">Send Message</button>
                         </div>
                     </div>
                     <p class="form-messages mb-0 mt-3"></p>

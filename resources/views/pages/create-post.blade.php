@@ -5,8 +5,8 @@
     <link rel="stylesheet" href="assets/css/style.css"> --}}
 @section('main_content')
     <!--==============================
-                                            Contact Area
-                                            ==============================-->
+                                                Contact Area
+                                                ==============================-->
     <div class="space-extra2-top contact-area space-bottom">
         <div class="container">
             <div class="row justify-content-center">
@@ -27,8 +27,11 @@
                             <div class="col-md-12">
                                 <div class="form-group">
                                     <label for="name">Post Title:</label>
-                                    <input type="text" class="form-control style2" name="title" id="name"
+                                    <input type="text" class="form-control style2" name="title" id="title"
                                         placeholder="Post title">
+                                    @error('title')
+                                        <p class="text-danger">{{ $message }}</p>
+                                    @enderror
                                 </div>
                             </div>
 
@@ -37,6 +40,9 @@
                                     <label for="tags">Tags:</label>
                                     <input type="text" class="form-control style2" name="tags" id="tags"
                                         placeholder="Tags : Comma separated list eg. fashion, kids, learning, education, knowledge etc.">
+                                    @error('tags')
+                                        <p class="text-danger">{{ $message }}</p>
+                                    @enderror
                                 </div>
                             </div>
 
@@ -92,7 +98,7 @@
 
                                 <div class="form-group col-12">
                                     <textarea required placeholder="Paragraph 2" id="pg2" class="form-control style2" name="pg2"></textarea>
-                                 @error('pg2')
+                                    @error('pg2')
                                         <p class="text-danger">{{ $message }}</p>
                                     @enderror
                                 </div>
@@ -114,7 +120,7 @@
                                 <div class="form-group">
                                     <label for="password">Editor (Admin) Password:</label>
                                     <input type="password" id="password" name="password" required>
-                                 @error('pg1')
+                                    @error('pg1')
                                         <p class="text-danger">{{ $message }}</p>
                                     @enderror
                                 </div>

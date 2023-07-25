@@ -1,4 +1,4 @@
-<div class="testiomonial-area space-top pb-105">
+<div class="testiomonial-area space-top pb-105" id="testimonial_section">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-6">
@@ -11,7 +11,16 @@
         </div>
         <div class="testi-slide-wrap">
             <div class="testimonial-slider-nav">
-                <div>
+                @foreach ($testimonials->take(4) as $key => $testimony)
+                    <div class="">
+                        <div class="thumb">
+                            <img src="{{ $testimony->client_img }}" alt="img">
+                        </div>
+                    </div>
+                @endforeach
+
+
+                {{-- <div>
                     <div class="thumb">
                         <img src="/assets/img/testimonial/testi_1_1.png" alt="img">
                     </div>
@@ -35,20 +44,36 @@
                     <div class="thumb">
                         <img src="/assets/img/testimonial/testi_1_05.png" alt="img">
                     </div>
-                </div>
+                </div> --}}
             </div>
             <div class="action">
-                <a class="testi-indicator-2" href="home-child-care.html#" data-slide="2"><img
+                @foreach ($testimonials->take(4) as $key => $testimony)
+                    <a class="testi-indicator-{{ $key  }}" href="#" data-slide="{{ $key }}"><img
+                            width="150" src="{{ $testimony->client_img }}" alt="client img"></a>
+                @endforeach
+                {{-- <a class="testi-indicator-2" href="#" data-slide="2"><img
                         src="/assets/img/testimonial/testi_1_2.png" alt="img"></a>
-                <a class="testi-indicator-3" href="home-child-care.html#" data-slide="3"><img
+                <a class="testi-indicator-3" href="#" data-slide="3"><img
                         src="/assets/img/testimonial/testi_1_3.png" alt="img"></a>
-                <a class="testi-indicator-4" href="home-child-care.html#" data-slide="4"><img
+                <a class="testi-indicator-4" href="#" data-slide="4"><img
                         src="/assets/img/testimonial/testi_1_4.png" alt="img"></a>
-                <a class="testi-indicator-5" href="home-child-care.html#" data-slide="5"><img
+                <a class="testi-indicator-5" href="#" data-slide="5"><img
                         src="/assets/img/testimonial/testi_1_5.png" alt="img"></a>
+                         <a class="testi-indicator-5" href="#" data-slide="5"><img
+                        src="/assets/img/testimonial/testi_1_5.png" alt="img"></a> --}}
             </div>
             <div class="testimonial-slider">
-                <div class="testi-box">
+                @foreach ($testimonials->take(4) as $testimony)
+                    <div class="testi-box">
+                        <p class="testi-box_text">“{{ $testimony->client_message }}.” </p>
+                        <div class="testi-box_profile">
+                            <h4 class="testi-box_name">{{ "$testimony->client_fname $testimony->client_lname" }}</h4>
+                            <span class="testi-box_desig">{{ $testimony->client_role }}</span>
+                        </div>
+                    </div>
+                @endforeach
+
+                {{-- <div class="testi-box">
                     <p class="testi-box_text">“Our daughter has been attending Paradise Hilltop Creche for several
                         months now, and we couldn't be happier with the care she receives. The staff is incredibly warm
                         and welcoming, and they genuinely care about our daughter's well-being. We're confident that
@@ -57,8 +82,10 @@
                         <h4 class="testi-box_name">Sowat Ahsan</h4>
                         <span class="testi-box_desig">Parents</span>
                     </div>
-                </div>
-                <div class="testi-box">
+                </div> --}}
+
+                {{-- data slide 2 --}}
+                {{-- <div class="testi-box">
                     <p class="testi-box_text">“Paradise Hilltop Creche is truly a gem in our community. Our son has been
                         attending for over a year, and we've watched him grow and develop under the guidance of the
                         caring and knowledgeable staff. He loves going to 'school' every day and has made some great
@@ -68,6 +95,8 @@
                         <span class="testi-box_desig">Parents</span>
                     </div>
                 </div>
+
+                <!--data slide 3 -->
                 <div class="testi-box">
                     <p class="testi-box_text">“I was nervous about sending my son to a creche, but Paradise Hilltop put
                         my mind at ease from day one. They have a clean and bright facility, and the staff is always
@@ -98,7 +127,7 @@
                         <h3 class="testi-box_name h6">John Derry</h3>
                         <span class="testi-box_desig">Parents</span>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
     </div>
