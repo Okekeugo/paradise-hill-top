@@ -17,7 +17,7 @@
                             </div>
                             <div class="media-body">
                                 <h4 class="contact-info_title h5">Our Address</h4>
-                                <span class="contact-info_text">St. Peter's Church, Guzape, Abuja, NG</span>
+                                <span class="contact-info_text">Ground floor, St. Peter's Anglican Church Guzape, Paradise hills estate, Asokoro Extension Abuja, NG</span>
                             </div>
                         </div>
                         <div class="contact-info">
@@ -38,7 +38,7 @@
                             <div class="media-body">
                                 <h4 class="contact-info_title h5">Our Phone</h4>
                                 <span class="contact-info_text">
-                                    <a href="tel:+65485965789">+234 706 556 944</a>
+                                    <a href="tel:+2348164148950">+234 816 414 8950</a>
                                 </span>
                             </div>
                         </div>
