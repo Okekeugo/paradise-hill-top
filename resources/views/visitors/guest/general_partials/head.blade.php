@@ -4,9 +4,9 @@
     </title>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="author" content="Tayde">
-    <meta name="description" content="Tayde - Modern Kindergarten & Baby Care HTML Template">
-    <meta name="keywords" content="Tayde - Modern Kindergarten & Baby Care HTML Template">
+    <meta name="author" content="Paradise Hilltop Academy">
+    <meta name="description" content="Paradise Hilltop - Modern Kindergarten & Baby Care Service">
+    <meta name="keywords" content="Paradise Hilltop - Modern Kindergarten & Baby Care Service">
     <meta name="robots" content="INDEX,FOLLOW">
 
     <!-- Mobile Specific Metas -->

