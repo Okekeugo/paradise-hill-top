@@ -63,12 +63,12 @@
                             <h3 class="widget_title">About Us</h3>
                             <p class="about-text">{{ env('CRECHE_COY') }} aims to bring out the best in your baby. We
                                 give a high priority to the safety and security of our children.</p>
-                            {{-- <div class="as-social">
+                            <div class="as-social">
                                 <a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a>
                                 <a class="goggle" href="#"><i class="fab fa-google-plus-g"></i></a>
                                 <a class="twitter" href="#"><i class="fab fa-twitter"></i></a>
                                 <a class="pinterest" href="#"><i class="fab fa-pinterest-p"></i></a>
-                            </div> --}}
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -122,8 +122,7 @@
                 </div> --}}
                 <div class="col-md-6 col-xl-3">
                     <div class="widget footer-widget">
-                        {{-- <h3 class="widget_title">Contact Now</h3> --}}
-                        <h3 class="widget_title">Join our news Letter</h3>
+                        <h3 class="widget_title">Contact Now</h3>
                         <div class="newsletter-widget">
                             <p class="footer-text">Be the first one to receive latest updates
                                 very easy and fastest
