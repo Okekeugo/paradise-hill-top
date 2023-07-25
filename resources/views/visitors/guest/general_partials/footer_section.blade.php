@@ -120,9 +120,9 @@
                         </div>
                     </div>
                 </div> --}}
-                {{-- <div class="col-md-6 col-xl-3">
+                <div class="col-md-6 col-xl-3">
                     <div class="widget footer-widget">
-                        <h3 class="widget_title">Contact Now</h3>
+                        {{-- <h3 class="widget_title">Contact Now</h3> --}}
                         <h3 class="widget_title">Join our news Letter</h3>
                         <div class="newsletter-widget">
                             <p class="footer-text">Be the first one to receive latest updates
@@ -136,7 +136,7 @@
                             </p>
                         </div>
                     </div>
-                </div> --}}
+                </div>
             </div>
         </div>
     </div>

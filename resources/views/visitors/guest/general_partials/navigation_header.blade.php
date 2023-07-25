@@ -19,14 +19,14 @@
                             {{-- <i class="fa-regular fa-user"></i>
                                     <a href="login.html">Login</a> <span>/</span>
                                     <a href="signup.html">Register</a> --}}
-                            <a href="signup.html">Follow us</a>
+                            <a href="{{ route('contact us') }}">Follow us</a>
                         </li>
                         <li>
                             <div class="header-social">
-                                <a href="home-child-care.html#"><i class="fab fa-facebook-f"></i></a>
-                                <a href="home-child-care.html#"><i class="fab fa-twitter"></i></a>
-                                <a href="home-child-care.html#"><i class="fab fa-linkedin-in"></i></a>
-                                <a href="home-child-care.html#"><i class="fab fa-instagram"></i></a>
+                                <a href="{{ route('welcome') }}#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="{{ route('welcome') }}#"><i class="fab fa-twitter"></i></a>
+                                <a href="{{ route('welcome') }}#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="{{ route('welcome') }}#"><i class="fab fa-instagram"></i></a>
                             </div>
                         </li>
                     </ul>
