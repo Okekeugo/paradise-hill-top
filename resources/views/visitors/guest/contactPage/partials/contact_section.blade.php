@@ -70,14 +70,11 @@
                             </div>
                             <div class="form-group col-12">
                                 <select name="enquiry_type" id="classselect" class="single-select nice-select style2">
-                                    <option value="" disabled="disabled" selected="selected" hidden>Select Subject
-                                    </option>
+                                    <option value="" disabled="disabled" selected="selected" hidden>---Category---</option>
                                     <option value="enquiries">Enquiries</option>
                                     <option value="complaints">Complaints</option>
-                                    <option value="languageclass">Language Class</option>
-                                    <option value="mathematicsclass">Mathematics Class</option>
-                                    <option value="kidsonlineclass">Kids Online Class</option>
-                                    <option value="practicalclasses">Practical Classes</option>
+                                    <option value="book_a_tour">Book a Tour</option>
+                                    <option value="suggestions">Suggestions</option>
                                 </select>
                             </div>
                             <div class="form-group col-12">

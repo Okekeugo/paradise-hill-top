@@ -45,7 +45,8 @@
                             <p class="title">Visit our Office</p>
                             <p class="info">
                                 <span class="text-sm">
-                                    <a href="https://goo.gl/maps/i2rghksVmoiwokDaA"><p style="color: white;"> Ground floor<br> St. Peter's Church Guzape</p>
+                                    <a href="https://goo.gl/maps/i2rghksVmoiwokDaA">
+                                        <small class="text-white"> Ground floor St. Peter's Church Guzape</small>
                                 </span>
                             </p>
                         </div>
