@@ -19,14 +19,14 @@
                             {{-- <i class="fa-regular fa-user"></i>
                                     <a href="login.html">Login</a> <span>/</span>
                                     <a href="signup.html">Register</a> --}}
-                            <a href="{{ route('contact us') }}">Follow us</a>
+                            <a href="#">Follow us</a>
                         </li>
                         <li>
                             <div class="header-social">
                                 <a href="{{ route('welcome') }}#"><i class="fab fa-facebook-f"></i></a>
-                                <a href="{{ route('welcome') }}#"><i class="fab fa-twitter"></i></a>
-                                <a href="{{ route('welcome') }}#"><i class="fab fa-linkedin-in"></i></a>
-                                <a href="{{ route('welcome') }}#"><i class="fab fa-instagram"></i></a>
+                                <a href="https://twitter.com/HilltopParadise"><i class="fab fa-twitter"></i></a>
+                                <a href="http://www.tiktok.com/@paradisehilltop.a"><i class="fab fa-tiktok"></i></a>
+                                <a href="https://instagram.com/paradisehilltopacademy"><i class="fab fa-instagram"></i></a>
                             </div>
                         </li>
                     </ul>
