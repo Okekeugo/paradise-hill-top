@@ -27,7 +27,7 @@
     <link rel="icon" type="image/png" sizes="96x96" href="/assets/img/favicons/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicons/favicon-16x16.png"> --}}
 
-    <link rel="icon" type="image/png" sizes="16x16" src="/assets/logo/logo_white_no_bg_32x32.ico"> 
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/logo/logo_white_no_bg_32x32.ico"> 
 
     
 
