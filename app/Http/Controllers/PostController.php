@@ -85,7 +85,8 @@ class PostController extends Controller
     public function show(string $post_id)
     {
         $post = DB::table('posts')->find($post_id);
-        return view('pages.blog_details', compact('post'));
+        $all_posts = DB::table('posts')->get();
+        return view('pages.blog_details', compact('post', 'all_posts'));
     }
 
     /**

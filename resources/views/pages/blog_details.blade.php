@@ -2,8 +2,8 @@
 
 @section('main_content')
     <!--==============================
-                                                                                Blog Area
-                                                                            ==============================-->
+                                                                                                            Blog Area
+                                                                                                        ==============================-->
     <section class="as-blog-wrapper blog-details space-extra2-top space-bottom">
         <div class="container">
             <div class="row">
@@ -14,9 +14,9 @@
                         </div>
                         <div class="blog-content">
                             <div class="blog-meta">
-                                <a href="blog.html"><i class="fa-regular fa-user"></i>By Thomas</a>
-                                <a href="blog.html"><i class="fa-light fa-calendar-days"></i>June 21, 2023</a>
-                                <a href="blog.html"><i class="fa-regular fa-tags"></i>Kids, Education, Knowledge</a>
+                                <a href="javascript:void(0)"><i class="fa-regular fa-user"></i>By Thomas</a>
+                                <a href="javascript:void(0)"><i class="fa-light fa-calendar-days"></i>June 21, 2023</a>
+                                <a href="javascript:void(0)"><i class="fa-regular fa-tags"></i>Kids, Education, Knowledge</a>
                                 <a href="blog-details.html"><i class="fa-regular fa-comments"></i>Comments(3)</a>
                             </div>
                             <h2 class="blog-title">Education Knowledge Always Grow
@@ -69,9 +69,9 @@
                                 <div class="col-sm-auto">
                                     <span class="share-links-title">Related Tags:</span>
                                     <div class="tagcloud">
-                                        <a href="blog.html">Business</a>
-                                        <a href="blog.html">Growth</a>
-                                        <a href="blog.html">Focus</a>
+                                        <a href="javascript:void(0)">Business</a>
+                                        <a href="javascript:void(0)">Growth</a>
+                                        <a href="javascript:void(0)">Focus</a>
                                     </div>
                                 </div>
                                 <div class="col-sm-auto text-md-end">
@@ -104,14 +104,15 @@
 
                     <div class="as-blog blog-single">
                         <div class="blog-img">
-                            <img src="{{ $post->default_img }}" alt="Blog Image">
+                            <img src="{{ $post->default_img }}" alt="Blog Image" class="w-full">
                         </div>
                         <div class="blog-content">
                             <div class="blog-meta">
-                                <a href="blog.html"><i class="fa-regular fa-user"></i>By Admin</a>
-                                <a href="blog.html"><i class="fa-light fa-calendar-days"></i>{{ $post->created_at }}</a>
-                                <a href="blog.html"><i class="fa-regular fa-tags"></i>{{ $post->tags }} </a>
-                                {{-- <a href="blog-details.html"><i class="fa-regular fa-comments"></i>Comments(3)</a> --}}
+                                <a href="javascript:void(0)"><i class="fa-regular fa-user"></i>By Admin</a>
+                                <a href="javascript:void(0)"><i
+                                        class="fa-light fa-calendar-days"></i>{{ $post->created_at }}</a>
+                                <a href="javascript:void(0)"><i class="fa-regular fa-tags"></i>{{ $post->tags }} </a>
+                                {{-- <a href="javascript:void(0)"><i class="fa-regular fa-comments"></i>Comments(3)</a> --}}
                             </div>
                             <h2 class="blog-title">{{ $post->title }}</h2>
                             <p>{{ $post->pg1 }}</p>
@@ -123,7 +124,7 @@
                                     @if ($post->img1 && !$post->img2 or !$post->img1 && $post->img2)
                                         <div class="col-lg-12">
                                             <div class="blog-img">
-                                                <img src="{{ $post->img1 ?? $post->img2 }}" alt="Blog Image">
+                                                <img src="{{ $post->img1 ?? $post->img2 }}" alt="Blog Image" class="w-full">
                                             </div>
                                         </div>
                                     @else
@@ -146,7 +147,7 @@
                                 <div class="row mt-30">
                                     <div class="col-lg-12">
                                         <div class="blog-img">
-                                            <img src="{{ $post->img3 }}" alt="Blog Image">
+                                            <img src="{{ $post->img3 }}" alt="Blog Image" class="w-full">
                                         </div>
                                     </div>
                                 </div>
@@ -167,11 +168,11 @@
                                 <div class="col-sm-auto">
                                     <span class="share-links-title">Related Tags:</span>
                                     <div class="tagcloud">
-                                        {{-- <a href="blog.html">Business</a>
-                                        <a href="blog.html">Growth</a>
-                                        <a href="blog.html">Focus</a> --}}
+                                        {{-- <a href="javascript:void(0)">Business</a>
+                                        <a href="javascript:void(0)">Growth</a>
+                                        <a href="javascript:void(0)">Focus</a> --}}
                                         @foreach (explode(',', $post->tags) as $tag)
-                                            <a href="blog.html">{{ $tag }}</a>
+                                            <a href="javascript:void(0)">{{ $tag }}</a>
                                         @endforeach
                                     </div>
                                 </div>
@@ -308,26 +309,26 @@
                             </form>
                         </div> --}}
 
-                        {{-- <div class="widget widget_categories  ">
+                        {{-- <div class="widget widget_categories">
                             <h3 class="widget_title">Categories</h3>
                             <ul>
                                 <li>
-                                    <a href="blog.html"><i class="fa-regular fa-circle-chevron-right"></i>Day Care
+                                    <a href="javascript:void(0)"><i class="fa-regular fa-circle-chevron-right"></i>Day Care
                                         Kids</a>
                                     <span>10</span>
                                 </li>
                                 <li>
-                                    <a href="blog.html"><i class="fa-regular fa-circle-chevron-right"></i>Online
+                                    <a href="javascript:void(0)"><i class="fa-regular fa-circle-chevron-right"></i>Online
                                         Education</a>
                                     <span>07</span>
                                 </li>
                                 <li>
-                                    <a href="blog.html"><i class="fa-regular fa-circle-chevron-right"></i>Pre School
+                                    <a href="javascript:void(0)"><i class="fa-regular fa-circle-chevron-right"></i>Pre School
                                         Works</a>
                                     <span>05</span>
                                 </li>
                                 <li>
-                                    <a href="blog.html"><i class="fa-regular fa-circle-chevron-right"></i>Outdoor
+                                    <a href="javascript:void(0)"><i class="fa-regular fa-circle-chevron-right"></i>Outdoor
                                         Playing</a>
                                     <span>02</span>
                                 </li>
@@ -337,64 +338,36 @@
                         <div class="widget  ">
                             <h3 class="widget_title">Popular Posts</h3>
                             <div class="recent-post-wrap">
-                                <div class="recent-post">
-                                    <div class="media-img">
-                                        <a href="blog-details.html"><img src="/assets/img/blog/recent-post-1-1.png"
-                                                alt="Blog Image"></a>
-                                    </div>
-                                    <div class="media-body">
-                                        <div class="recent-post-meta">
-                                            <a href="blog.html"><i class="fal fa-calendar-days"></i>21 June, 2023</a>
+                                @foreach ($all_posts as $post)
+                                    <div class="recent-post">
+                                        <div class="media-img">
+                                            <a href="{{ route('blog.show', $post->id) }}">
+                                                <img src="{{ $post->default_img }}" alt="Blog Image">
+                                            </a>
                                         </div>
-                                        <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Extend
-                                                market really
-                                                driven exam results</a></h4>
+                                        <div class="media-body">
+                                            <div class="recent-post-meta">
+                                                <a href="javascript:void(0)"><i class="fal fa-calendar-days"></i>
+                                                    {{ $post->created_at }}
+                                                </a>
+                                            </div>
+                                            <h4 class="post-title">
+                                                <a class="text-inherit" href="{{ route('blog.show', $post->id) }}">
+                                                    {{ $post->title }}
+                                                </a>
+                                            </h4>
 
-                                    </div>
-                                </div>
-                                <div class="recent-post">
-                                    <div class="media-img">
-                                        <a href="blog-details.html"><img src="/assets/img/blog/recent-post-1-2.png"
-                                                alt="Blog Image"></a>
-                                    </div>
-                                    <div class="media-body">
-                                        <div class="recent-post-meta">
-                                            <a href="blog.html"><i class="fal fa-calendar-days"></i>22 June, 2023</a>
                                         </div>
-                                        <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Happy
-                                                halloween style you may Follow guide</a></h4>
                                     </div>
-                                </div>
-                                <div class="recent-post">
-                                    <div class="media-img">
-                                        <a href="blog-details.html"><img src="/assets/img/blog/recent-post-1-3.png"
-                                                alt="Blog Image"></a>
-                                    </div>
-                                    <div class="media-body">
-                                        <div class="recent-post-meta">
-                                            <a href="blog.html"><i class="fal fa-calendar-days"></i>23 June, 2023</a>
-                                        </div>
-                                        <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Super
-                                                Monday Kids Club for Study & Entertain</a></h4>
-                                    </div>
-                                </div>
+                                @endforeach
                             </div>
                         </div>
 
                         <div class="widget widget_tag_cloud   ">
                             <h3 class="widget_title">Tags</h3>
                             <div class="tagcloud">
-                                {{-- <a href="blog.html">UI/UX</a>
-                                <a href="blog.html">Services</a>
-                                <a href="blog.html">Tools</a>
-                                <a href="blog.html">Product</a>
-                                <a href="blog.html">Solution</a>
-                                <a href="blog.html">Combo</a>
-                                <a href="blog.html">Car</a>
-                                <a href="blog.html">Repair</a>
-                                <a href="blog.html">Tools</a> --}}
                                 @foreach (explode(',', $post->tags) as $tag)
-                                    <a href="blog.html">{{ $tag }}</a>
+                                    <a href="javascript:void(0)">{{ $tag }}</a>
                                 @endforeach
                             </div>
                         </div>

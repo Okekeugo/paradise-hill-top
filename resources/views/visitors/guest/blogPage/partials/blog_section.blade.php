@@ -6,20 +6,20 @@
                 @foreach ($all_posts as $post)
                     <div class="as-blog blog-single has-post-thumbnail">
                         <div class="blog-img">
-                            <a href="{{ route('blog.show', 'blog_id') }}">
-                                <img src="{{ $post->default_img }}" alt="Blog Image">
+                            <a href="{{ route('blog.show', $post->id) }}">
+                                <img src="{{ $post->default_img }}" alt="Blog Image" class="w-full">
                             </a>
                         </div>
                         <div class="blog-content">
                             <div class="blog-meta">
-                                <a href="blog.html"><i class="fa-regular fa-user"></i>By Admin</a>
-                                <a href="blog.html"><i class="fa-light fa-calendar-days"></i>{{ $post->created_at }}</a>
-                                <a href="blog.html"><i class="fa-regular fa-tags"></i>{{ $post->tags }} </a>
-                                {{-- <a href="blog-details.html"><i class="fa-regular fa-comments"></i>Comments(3)</a> --}}
+                                <a href="javascript:void(0)"><i class="fa-regular fa-user"></i>By Admin</a>
+                                <a href="javascript:void(0)"><i class="fa-light fa-calendar-days"></i>{{ $post->created_at }}</a>
+                                <a href="javascript:void(0)"><i class="fa-regular fa-tags"></i>{{ $post->tags }} </a>
+                                {{-- <a href="javascript:void(0)"><i class="fa-regular fa-comments"></i>Comments(3)</a> --}}
                             </div>
-                            <h2 class="blog-title"><a href="{{ route('blog.show', 'blog_id') }}">{{ $post->title }}</a>
+                            <h2 class="blog-title"><a href="{{ route('blog.show', $post->id) }}">{{ $post->title }}</a>
                             </h2>
-                            <p class="blog-text">{{ $post->pg1 }}</p>
+                            <p class="blog-text">{{ ucfirst($post->pg1) }}</p>
                             <a href="{{ route('blog.show', $post->id) }}" class="read-more-btn">Read More <i
                                     class="fa fa-long-arrow-right"></i></a>
                         </div>
@@ -137,18 +137,22 @@
                             @foreach ($all_posts as $post)
                                 <div class="recent-post">
                                     <div class="media-img">
-                                        <a href="{{ route('blog.show', 'blog_id') }}"><img
-                                                src="/assets/img/blog/recent-post-1-1.png" alt="Blog Image"></a>
+                                        <a href="{{ route('blog.show', $post->id) }}">
+                                            <img src="{{ $post->default_img }}" alt="Post Image" />
+                                        </a>
                                     </div>
                                     <div class="media-body">
                                         <div class="recent-post-meta">
-                                            <a href="{{ route('blog') }}"><i class="fal fa-calendar-days"></i>21 June,
-                                                2023</a>
+                                            <a href="{{ route('blog') }}">
+                                                <i class="fal fa-calendar-days"></i>
+                                                {{ $post->created_at }}
+                                            </a>
                                         </div>
-                                        <h4 class="post-title"><a class="text-inherit"
-                                                href="{{ route('blog.show', 'blog_id') }}">Extend
-                                                market really
-                                                driven exam results</a></h4>
+                                        <h4 class="post-title">
+                                            <a class="text-inherit" href="{{ route('blog.show', $post->id) }}">
+                                                {{ $post->title }}    
+                                            </a>
+                                        </h4>
                                     </div>
                                 </div>
                             @endforeach

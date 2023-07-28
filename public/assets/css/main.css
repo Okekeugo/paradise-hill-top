@@ -82,3 +82,11 @@ Version: 1.0.0
 .cursor-pointer{
   cursor: pointer;
 }
+
+.w-full{
+  width: 100%;
+}
+
+.half-height{
+  height: 50%;
+}

@@ -1,6 +1,16 @@
 Pending Github pushes
 
-modified:  
-resources/views/visitors/guest/general_partials/navigation_header.blade.php
+modified:  resources/views/visitors/guest/general_partials/navigation_header.blade.php
 stauts: done
+==========================
+
+	modified:   .gitignore
+	modified:   app/Http/Controllers/PostController.php
+	modified:   public/assets/css/main.css
+	modified:   resources/views/pages/blog_details.blade.php
+	modified:   resources/views/visitors/guest/blogPage/partials/blog_section.blade.php
+
+	Untracked: 	blog.txt
+
+status: pending
 ==========================
