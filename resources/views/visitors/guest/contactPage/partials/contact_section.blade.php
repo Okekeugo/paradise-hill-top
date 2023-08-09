@@ -27,7 +27,7 @@
                             <div class="media-body">
                                 <h4 class="contact-info_title h5">Our Email</h4>
                                 <span class="contact-info_text">
-                                    <a href="mailto:info.example@gmail.com">info@paradisehilltop.com</a>
+                                    <a href="mailto:info.example@gmail.com">info@paradisehilltop.com.ng</a>
                                 </span>
                             </div>
                         </div>

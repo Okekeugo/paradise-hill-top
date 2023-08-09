@@ -23,7 +23,7 @@
                         </li>
                         <li>
                             <div class="header-social">
-                                {{-- <a href="{{ route('welcome') }}#"><i class="fab fa-facebook-f"></i></a> --}}
+                                <a href="https://www.facebook.com/profile.php?id=100095346637329&mibextid=LQQJ4d"><i class="fab fa-facebook-f"></i></a>
                                 <a href="https://twitter.com/HilltopParadise"><i class="fab fa-twitter"></i></a>
                                 <a href="http://www.tiktok.com/@paradisehilltop.a"><i class="fab fa-tiktok"></i></a>
                                 <a href="https://instagram.com/paradisehilltopacademy"><i class="fab fa-instagram"></i></a>

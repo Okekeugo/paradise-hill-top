@@ -29,7 +29,7 @@
                             <p class="title">Send us a Message</p>
                             <p class="info">
                                 <span class="text-sm">
-                                    <a href="mailto:info@paradisehilltop.com">info@paradisehilltop.com</a>
+                                    <a href="mailto:info@paradisehilltop.com">info@paradisehilltop.com.ng</a>
                                 </span>
 
                             </p>
