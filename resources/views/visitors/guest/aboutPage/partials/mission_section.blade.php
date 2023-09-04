@@ -14,9 +14,9 @@
 
                         <p class="sec-text">
                         <blockquote class="text-xl fw-300 px-3 text-white">
-                            " To catch them young and provide a strong foundation for physical and intellectual growth
-                            through balanced activities, child friendly relationship and qualitative interactive
-                            learning "
+                            " Our mission is to catch them young and provide a strong foundation for physical and
+                            intellectual growth through balanced activities, child-friendly relationships and
+                            qualitative interactive learning "
                         </blockquote>
                         </p>
 

@@ -16,8 +16,8 @@
 
                         <p class="sec-text ">
                         <blockquote class="text-xl fw-300 px-3 text-white">
-                            " To Provide adequate care with tender love for infants, toddlers and preschoolers in a safe
-                            learning and nuturing environment "
+                            " To Provide adequate care with tender love for infants, toddlers and pre-schoolers in a
+                            safe learning and nurturing environment "
 
                         </blockquote>
 
